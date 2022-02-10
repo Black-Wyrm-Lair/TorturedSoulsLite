@@ -1,0 +1,138 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	InParty("vpsime")
+	Global("Kachiko_Saved","GLOBAL",2)
+THEN
+	RESPONSE #100
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		StartCutScene("TTcutEn1")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	InParty("vpsime")
+	Global("Kachiko_Saved","GLOBAL",3)
+THEN
+	RESPONSE #100
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		StartCutScene("TTcutEn2")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	Global("Kachiko_Saved","GLOBAL",2)
+	!InParty("vpsime")
+	Global("ThiefGroup","GLOBAL",1)
+THEN
+	RESPONSE #100
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		StartCutScene("TTcutEn3")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	Global("Kachiko_Saved","GLOBAL",3)
+	!InParty("vpsime")
+	Global("ThiefGroup","GLOBAL",1)
+THEN
+	RESPONSE #100
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		StartCutScene("TTcutEn4")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	Global("Kachiko_Saved","GLOBAL",2)
+	Global("ThiefGroup","GLOBAL",2)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		FadeFromColor([20.0],0)
+		StartCutScene("TTcutEn5")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	Global("Kachiko_Saved","GLOBAL",3)
+	Global("ThiefGroup","GLOBAL",2)
+THEN
+	RESPONSE #100
+		FadeToColor([20.0],0)
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+		FadeFromColor([20.0],0)
+		StartCutScene("TTcutEn6")
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!PartyHasItem("vpwardex")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@253)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,12)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

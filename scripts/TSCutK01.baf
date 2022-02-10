@@ -1,0 +1,14 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("vpmasaki")
+		ReallyForceSpell("vpkachi",WIZARD_POWER_WORD_STUN)
+		ActionOverride("vpkachi",SetLeavePartyDialogFile())
+		ActionOverride("vpkachi",ChangeAIScript("",DEFAULT))
+		ActionOverride("vpkachi",LeaveParty())
+		ActionOverride("vpkachi",MoveGlobal("AR0086",Myself,[100.100]))
+		Wait(1)
+		ForceSpell(Myself,DRYAD_TELEPORT)
+		EndCutSceneMode()
+END

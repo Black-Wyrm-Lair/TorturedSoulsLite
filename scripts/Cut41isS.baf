@@ -1,0 +1,31 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		SetGlobal("VP_OnIsland","GLOBAL",1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		DayNight(DUSK_START)
+		ActionOverride("ppsaem",DestroySelf())
+		ActionOverride("ppsime",DestroySelf())
+		ActionOverride("pparan2",DestroySelf())
+		LeaveAreaLUAPanic("TT0100","",[972.1669],6)
+		LeaveAreaLUA("TT0100","",[972.1669],6)
+		ActionOverride(Player2,LeaveAreaLUA("TT0100","",[846.1443],6))
+		ActionOverride(Player3,LeaveAreaLUA("TT0100","",[774.1459],6))
+		ActionOverride(Player4,LeaveAreaLUA("TT0100","",[825.1509],6))
+		ActionOverride(Player5,LeaveAreaLUA("TT0100","",[862.1543],6))
+		ActionOverride(Player6,LeaveAreaLUA("TT0100","",[1003.1600],6))
+		MultiPlayerSync()
+		Wait(1)
+		TextScreen("vpstart")
+		CreateCreature("ppsaem",[1020.1700],0) // Saemon Havarian
+		MoveGlobal("TT0100","vpsime",[1030.1750])
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(2)
+		ActionOverride("ppsaem",StartDialogueNoSet(Player1))
+END
+
+

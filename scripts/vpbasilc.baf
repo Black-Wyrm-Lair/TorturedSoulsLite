@@ -1,0 +1,55 @@
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+	Delay(3)
+	!StateCheck(NearestEnemyOf(Myself),STATE_STONE_DEATH)
+THEN
+	RESPONSE #100
+		SelectWeaponAbility(SLOT_WEAPON,0)
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	Delay(3)
+	!StateCheck(NearestEnemyOf(Myself),STATE_STONE_DEATH)
+THEN
+	RESPONSE #50
+		SelectWeaponAbility(SLOT_WEAPON,0)
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+	RESPONSE #20
+		SelectWeaponAbility(SLOT_WEAPON1,0)
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+	RESPONSE #30
+		SelectWeaponAbility(SLOT_WEAPON2,0)
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	Range(NearestEnemyOf(Myself),5)
+	Delay(3)
+	StateCheck(NearestEnemyOf(Myself),STATE_STONE_DEATH)
+THEN
+	RESPONSE #100
+		SelectWeaponAbility(SLOT_WEAPON,0)
+		AttackReevaluate(SecondNearestEnemyOf(Myself),15)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),5)
+	Delay(3)
+	StateCheck(NearestEnemyOf(Myself),STATE_STONE_DEATH)
+THEN
+	RESPONSE #50
+		SelectWeaponAbility(SLOT_WEAPON,0)
+		AttackReevaluate(SecondNearestEnemyOf(Myself),15)
+	RESPONSE #20
+		SelectWeaponAbility(SLOT_WEAPON1,0)
+		AttackReevaluate(SecondNearestEnemyOf(Myself),15)
+	RESPONSE #30
+		SelectWeaponAbility(SLOT_WEAPON2,0)
+		AttackReevaluate(SecondNearestEnemyOf(Myself),15)
+END

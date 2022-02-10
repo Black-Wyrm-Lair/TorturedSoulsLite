@@ -1,0 +1,85 @@
+IF
+	IsOverMe(Player1)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+IF
+	IsOverMe(Player2)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+IF
+	IsOverMe(Player3)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+IF
+	IsOverMe(Player4)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+IF
+	IsOverMe(Player5)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+IF
+	IsOverMe(Player6)
+	Global("Katana_Warning","GLOBAL",0)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		SetGlobal("Katana_Warning","GLOBAL",1)
+		DisplayStringHead(Player1,@251)
+END
+
+

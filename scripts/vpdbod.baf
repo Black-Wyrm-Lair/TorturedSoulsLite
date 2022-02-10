@@ -1,0 +1,10 @@
+IF
+	IsOverMe([PC])
+	Global("Dead_Bodies","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Dead_Bodies","GLOBAL",1)
+		ActionOverride("Yoshimo",StartDialogueNoSet(Player1))
+END
+
+

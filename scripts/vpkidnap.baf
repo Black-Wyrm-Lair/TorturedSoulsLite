@@ -1,0 +1,13 @@
+IF
+	IsOverMe("vpkachi")
+	Global("Masaki_Meet","GLOBAL",1)
+	Global("Hashimoto_Visited","GLOBAL",1)
+	Global("Kachiko_Kidnapped","GLOBAL",0)
+	Global("Masaki_Appears","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Masaki_Appears","GLOBAL",1)
+		CreateCreatureObjectOffScreen("vpmasaki",Player1,0,0,0)
+		ActionOverride("vpmasaki",MoveToObjectNoInterrupt("vpkachi"))
+		ActionOverride("vpmasaki",StartDialogueNoSetInterrupt([PC]))
+END

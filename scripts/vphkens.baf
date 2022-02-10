@@ -1,0 +1,35 @@
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("MyHome_Attacked","GLOBAL",0)
+	Global("Hashimoto_Attacked","LOCALS",0)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("MyHome_Attacked","GLOBAL",1)
+		SetGlobal("Hashimoto_Attacked","LOCALS",1)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("MyHome_Attacked","GLOBAL",0)
+	Global("Hashimoto_Attacked","LOCALS",0)
+	AttackedBy([PC],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("MyHome_Attacked","GLOBAL",1)
+		SetGlobal("Hashimoto_Attacked","LOCALS",1)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("Hashimoto_Attacked","LOCALS",0)
+	Global("MyHome_Attacked","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Hashimoto_Attacked","LOCALS",1)
+		Enemy()
+END
+
+

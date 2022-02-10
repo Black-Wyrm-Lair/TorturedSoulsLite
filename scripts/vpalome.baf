@@ -1,0 +1,10 @@
+IF
+	!StateCheck(Player1,STATE_SLEEPING)
+	CombatCounter(0)
+	NumTimesTalkedTo(0)
+	Global("Alome_Meet","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Alome_Meet","GLOBAL",2)
+		Dialogue("Yoshimo")
+END

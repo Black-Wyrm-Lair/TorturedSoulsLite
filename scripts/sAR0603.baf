@@ -1,0 +1,7 @@
+IF
+	Global("VP_CreateKachiko","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_CreateKachiko","GLOBAL",1)
+		CreateCreature("vpkachi",[3351.1753],0)
+END

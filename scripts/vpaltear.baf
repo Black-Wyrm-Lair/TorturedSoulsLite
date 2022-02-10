@@ -1,0 +1,41 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("vpkeycop")
+	Global("VP_EarthAltar","GLOBAL",0)
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@242)
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("vpkeycop")
+	Global("VP_EarthAltar","GLOBAL",0)
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_EarthAltar","GLOBAL",1)
+		DestroyItem("vpkeycop")
+		TakePartyItem("vpkeycop")
+		GiveItemCreate("vppot4b",Player1,0,0,0)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,9)
+	Global("VP_EarthAltar","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@243)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

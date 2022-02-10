@@ -1,0 +1,13 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Yoshimo")
+		FadeToColor([20.0],0)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ForceSpell(Myself,TRANSFORMATION_DEATH)
+END
+
+

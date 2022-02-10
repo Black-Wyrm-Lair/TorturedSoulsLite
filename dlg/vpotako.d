@@ -1,0 +1,17 @@
+BEGIN VPOTAKO
+
+CHAIN IF ~NumberOfTimesTalkedTo(0)~ THEN VPOTAKO 0
+@0
+== YOSHJ @1
+== VPOTAKO @2
+== YOSHJ @3
+== VPOTAKO @4
+== YOSHJ @5
+== VPOTAKO @6 DO ~EscapeArea()~
+== VPKACHIJ @7
+== YOSHJ @8
+END
+  IF ~~ THEN REPLY @9 EXIT
+  IF ~~ THEN REPLY @10 EXIT
+  IF ~~ THEN REPLY @11 EXIT
+  

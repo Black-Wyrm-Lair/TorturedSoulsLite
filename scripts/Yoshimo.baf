@@ -1,0 +1,138 @@
+IF
+  Global("VP_Yoshimo_Kachiko","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Yoshimo_Kachiko","GLOBAL",0)
+    MoveGlobal("AR0406",Myself,[1368.1922])
+END
+
+IF
+  Global("VP_Kachiko_Yoshimo","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Yoshimo","GLOBAL",0)
+    ChangeAIScript("",DEFAULT)
+		SetLeavePartyDialogueFile()
+		SetGlobal("Kicked_Out","LOCALS",1)
+		LeaveParty()
+    MoveGlobal("AR0313",Myself,[723.319])
+END
+
+IF
+  Global("VP_Kachiko_Yoshimo","GLOBAL",4)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Yoshimo","GLOBAL",0)
+    ChangeAIScript("",DEFAULT)
+		SetLeavePartyDialogueFile()
+		SetGlobal("Kicked_Out","LOCALS",1)
+		LeaveParty()
+    MoveGlobal("TT0102",Myself,[225.683])
+END
+
+IF
+  InParty("vpkachi")  // Kachiko
+  !InParty(Myself)
+  Global("VP_JoinYoshimo","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_JoinYoshimo","GLOBAL",0)
+    SetGlobal("Kicked_Out","LOCALS",0)
+    JoinParty()
+END
+
+IF
+  !InParty(Myself)
+  InParty("vpkachi")  // Kachiko
+  See("vpkachi")  // Kachiko
+  GlobalGT("VP_YoshimoSearch","GLOBAL",0)
+  GlobalLT("VP_YoshimoSearch","GLOBAL",4)
+  Global("VP_YoshimoIsFound","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_YoshimoIsFound","GLOBAL",1)
+    StartDialogNoSet([PC])
+END
+
+// Kachiko is wounded or dead
+
+IF
+  InParty(Myself)
+  InParty("vpkachi")  // Kachiko
+  HPPercentLT("vpkachi",20)  // Kachiko
+  !Dead("vpkachi")  // Kachiko
+  !CombatCounter(0)
+  Exists(LastAttackerOf("vpkachi"))  // Kachiko
+  Allegiance(LastAttackerOf("vpkachi"),ENEMY)  // Kachiko
+  Global("VP_Kachiko_Dies","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Dies","GLOBAL",1)
+    EquipMostDamagingMelee()
+    DisplayStringHead(Myself,@240)  // @240
+    MoveToObjectNoInterrupt(LastAttackerOf("vpkachi"))
+    AttackReevaluate(LastAttackerOf("vpkachi"),75)
+    Continue()
+END
+
+IF
+  InParty(Myself)
+  Dead("vpkachi")  // Kachiko
+  CombatCounter(0)
+  Global("VP_Kachiko_Is_Dead","GLOBAL",0)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Is_Dead","GLOBAL",1)
+    SetGlobal("VP_Kachiko_Dies","GLOBAL",2)
+END
+
+IF
+  InParty(Myself)
+  CombatCounter(0)
+  See(Player1)
+  !StateCheck(Player1,STATE_SLEEPING)
+  Global("VP_Kachiko_Dies","GLOBAL",2)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Dies","GLOBAL",3)
+    StartDialogueNoSet([PC])
+END
+
+IF
+  InParty(Myself)
+  InParty("vpkachi")  // Kachiko
+  !Dead("vpkachi")  // Kachiko
+  Global("VP_Kachiko_Dies","GLOBAL",1)
+  CombatCounter(0)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_Kachiko_Dies","GLOBAL",0)
+END
+
+IF
+  InParty("vpkachi")  // Kachiko
+  !InParty(Myself)
+  Global("VP_JoinYoshimo","GLOBAL",1)
+THEN
+  RESPONSE #100
+    SetGlobal("VP_JoinYoshimo","GLOBAL",0)
+    SetGlobal("Kicked_Out","LOCALS",0)
+    JoinParty()
+END
+
+IF
+  Global("MyHome_Attacked","GLOBAL",1)
+  Global("Hashimoto_Attacked","LOCALS",0)
+THEN
+  RESPONSE #100
+    SetGlobal("Hashimoto_Attacked","LOCALS",1)
+    LeaveParty()
+    Enemy()
+END
+
+IF
+  Global("Kachiko_Kidnapped","GLOBAL",1)
+THEN
+  RESPONSE #100
+    StartDialogNoSet([PC])
+END

@@ -1,0 +1,32 @@
+IF
+	SpellCastOnMe([PC],CLERIC_RAISE_DEAD)
+	Global("Kachiko_Saved","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Kachiko_Saved","GLOBAL",2)
+		SetGlobal("Kachiko_Reborn","GLOBAL",1)
+		Wait(2)
+		StartCutSceneMode()
+		FadeToColor([20.0],0)
+		Wait(1)
+		MoveGlobal("TT0307","vpkachi",[1392.736])
+		ActionOverride("vpkachi",SetName(@135))
+		DestroySelf()
+		AddXPObject("vpkachi",200000)
+		ReallyForceSpell("vpkachi",HELL_GAIN_WIS)
+		ReallyForceSpell("vpkachi",HELL_GAIN_WIS)
+		ReallyForceSpell("vpkachi",HELL_GAIN_WIS)
+		ReallyForceSpell("vpkachi",HELL_GAIN_WIS)
+		ReallyForceSpell("vpkachi",HELL_GAIN_WIS)
+		FadeFromColor([20.0],0)
+		ActionOverride("vpkachi",StartDialogueNoSet([PC]))
+		EndCutSceneMode()
+END
+
+IF
+	SpellCastOnMe([PC],CLERIC_RAISE_DEAD)
+	Global("Kachiko_Saved","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END

@@ -1,0 +1,31 @@
+IF
+	OnCreation()
+	Global("VP_Reveal_TT0100","MYAREA",0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Reveal_TT0100","MYAREA",1)
+		Explore()
+END
+
+IF
+	RealGlobalTimerExpired("NKensais_Spawn","GLOBAL")
+	Global("Kachiko_Kidnapped","GLOBAL",2)
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffScreen("vpnkens",Player1,0,0,0)
+		CreateCreatureObjectOffScreen("vpnkens",Player1,0,0,0)
+		CreateCreatureObjectOffScreen("vpnkens",Player1,0,0,0)
+		SetGlobal("Kachiko_Kidnapped","GLOBAL",3)
+END
+
+IF
+	InParty("Yoshimo")
+	Global("Alome_Meet","GLOBAL",0)
+	GlobalGT("SPRITE_IS_DEADvpnkens","GLOBAL",2)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("Alome_Meet","GLOBAL",1)
+		CreateCreatureObjectOffScreen("vpalome","Yoshimo",0,0,0)
+		ActionOverride("vpalome",Dialogue("Yoshimo"))
+END

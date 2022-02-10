@@ -1,0 +1,19 @@
+// ToB Lovetalks
+
+IF
+	See("Yoshimo")
+	!Dead("Yoshimo")
+	CombatCounter(0)
+	!StateCheck(Myself,CD_STATE_NOTVALID)
+	!StateCheck("Yoshimo",CD_STATE_NOTVALID)
+	GlobalTimerExpired("VP_KachikoRomance","GLOBAL")
+	OR(2)
+		Global("ExpLoveTalk","LOCALS",1)
+		Global("ExpLoveTalk","LOCALS",3)
+THEN
+	RESPONSE #100
+		IncrementGlobal("ExpLoveTalk","LOCALS",1)
+		PlaySong(0)
+		PlaySound("vpkachls")
+		Interact("Yoshimo")
+END

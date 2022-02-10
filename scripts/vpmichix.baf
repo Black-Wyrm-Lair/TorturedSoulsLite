@@ -1,0 +1,64 @@
+IF
+	!Allegiance(Myself,NEUTRAL)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(MONK_QUIVERING_PALM)  // SPCL820.SPL (Quivering Palm)
+	RandomNum(2,2)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,72936)  // Hyo-o-cha!
+		ForceSpell(Myself,MONK_QUIVERING_PALM)  // SPCL820.SPL (Quivering Palm)
+		Continue()
+END
+
+IF
+	!Allegiance(Myself,NEUTRAL)
+	See(NearestEnemyOf(Myself))
+	HaveSpell(MONK_STUNNING_BLOW)  // SPCL811.SPL (Stunning Blow)
+	RandomNum(2,1)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,72937)  // Kyai-ya!
+		ForceSpell(Myself,MONK_STUNNING_BLOW)  // SPCL811.SPL (Stunning Blow)
+		Continue()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!HPPercentLT(Myself,20)
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+	!HPPercentLT(Myself,20)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	HPPercentLT(Myself,50)
+	!Range(NearestEnemyOf(Myself),5)
+	HaveSpell(MONK_LAY_ON_HANDS)  // SPCL815.SPL (Lay On Hands)
+THEN
+	RESPONSE #100
+		DisplayStringHead(Myself,73944)  // Second wind!
+		Spell(Myself,MONK_LAY_ON_HANDS)  // SPCL815.SPL (Lay On Hands)
+END
+
+IF
+	!See(NearestEnemyOf(Myself))
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Global("Player_Against_Michio","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+		SetGlobal("Player_Against_Michio","GLOBAL",2)
+		FadeToColor([20.0],0)
+		MoveBetweenAreas("TT0307",[451.1939],12)
+		Calm(Myself)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		FadeFromColor([20.0],0)
+END

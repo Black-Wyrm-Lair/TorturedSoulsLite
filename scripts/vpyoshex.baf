@@ -1,0 +1,16 @@
+IF
+	IsOverMe(Player1)
+	Global("VP_YoshimoExcuse","GLOBAL",0)
+	Global("Kachiko_Saved","GLOBAL",2)
+	InParty("Yoshimo")
+	!Dead("Yoshimo")
+	InParty("vpkachi")
+	!Dead("vpkachi")
+	!StateCheck(Player1,STATE_SLEEPING)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_YoshimoExcuse","GLOBAL",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("TSCutK08")
+END

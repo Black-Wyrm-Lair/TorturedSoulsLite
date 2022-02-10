@@ -1,0 +1,10 @@
+IF
+	IsOverMe(Player1)
+	Global("SelfTalk","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("SelfTalk","GLOBAL",1)
+		ClearAllActions()
+		StartCutSceneMode()
+		StartCutScene("TSCutK09")
+END

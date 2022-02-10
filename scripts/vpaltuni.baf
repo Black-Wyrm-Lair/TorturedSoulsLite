@@ -1,0 +1,68 @@
+IF
+	Clicked([ANYONE])
+	!PartyHasItem("vpkeypla")
+	Global("VP_UnivAltar","GLOBAL",0)
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@242)
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("vpkeypla")
+	Global("VP_UnivAltar","GLOBAL",0)
+	Range(LastTrigger,9)
+	OR(4)
+		!PartyHasItem("vppot1a")
+		!PartyHasItem("vppot3c")
+		!PartyHasItem("vppot4b")
+		!PartyHasItem("vppot5b")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@244) 
+END
+
+IF
+	Clicked([ANYONE])
+	PartyHasItem("vpkeypla")
+	PartyHasItem("vppot1a")
+	PartyHasItem("vppot3c")
+	PartyHasItem("vppot4b")
+	PartyHasItem("vppot5b")
+	Global("VP_UnivAltar","GLOBAL",0)
+	Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_UnivAltar","GLOBAL",1)
+		DestroyItem("vpkeypla")
+		DestroyItem("vppot1A")
+		DestroyItem("vppot3C")
+		DestroyItem("vppot4B")
+		DestroyItem("vppot5B")
+		TakePartyItem("vpkeypla")
+		TakePartyItem("vppot1a")
+		TakePartyItem("vppot3c")
+		TakePartyItem("vppot4b")
+		TakePartyItem("vppot5b")
+		GiveItemCreate("vppot4c",Player1,0,0,0)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,9)
+	Global("VP_UnivAltar","GLOBAL",1)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@243) 
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,9)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

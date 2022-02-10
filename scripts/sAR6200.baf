@@ -1,0 +1,13 @@
+IF
+	Global("StartEndBios","AR6200",1)
+	OR(2)
+		InParty("vpkachi")
+		InParty("Yoshimo")
+	Global("YoshimoBio","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("YoshimoBio","GLOBAL",1)
+		TextScreen("vpyoshnd")
+		SmallWait(1)
+		Continue()
+END

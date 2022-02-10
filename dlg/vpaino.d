@@ -1,0 +1,59 @@
+BEGIN VPAINO
+
+CHAIN IF ~NumberOfTimesTalkedTo(0) GlobalLT("Kachiko_Saved","GLOBAL",2)~ THEN VPAINO 0
+@0
+== YOSHJ @1
+== VPAINO @2
+== VPKACHIJ @3
+== VPAINO @4
+= @5
+= @6
+== YOSHJ @7
+== VPAINO @8
+== YOSHJ @9
+END
+  IF ~~ THEN REPLY @10 EXTERN VPKACHIJ N29
+  IF ~~ THEN REPLY @11 EXTERN VPAINO 6
+  IF ~~ THEN REPLY @12 EXTERN YOSHJ TS181
+
+CHAIN VPAINO 6
+@13
+END
+  IF ~~ THEN REPLY @14 EXTERN ~VPKACHIJ~ N29
+  IF ~~ THEN REPLY @15 EXTERN ~YOSHJ~ TS181
+  IF ~~ THEN REPLY @16 EXIT
+  
+CHAIN IF ~NumTimesTalkedToGT(0) GlobalLT("Kachiko_Saved","GLOBAL",2)~ THEN VPAINO 8
+@17 EXIT
+
+CHAIN VPKACHIJ N29
+@18
+END
+  IF ~~ THEN REPLY @11 EXTERN ~AINO~ 6
+  IF ~~ THEN REPLY @19 EXTERN ~YOSHJ~ TS181
+  IF ~~ THEN REPLY @20 EXTERN ~YOSHJ~ TS181
+
+CHAIN YOSHJ TS181
+@21
+== VPKACHIJ @22 DO ~SetGlobal("Kachiko_Hostile","GLOBAL",1)~
+== YOSHJ @23
+== VPAINO @24
+DO ~SetGlobal("MyHome_Attacked","GLOBAL",1)
+SetGlobal("Hashimoto_Attacked","LOCALS",1)
+SetGlobal("TT_Evil_Path","GLOBAL",1)
+Enemy()~ EXIT
+
+CHAIN IF ~OR(2)
+Global("Kachiko_Saved","GLOBAL",3)
+Global("TT_Evil_Path","GLOBAL",2)~ THEN VPAINO 11
+@25 DO ~GiveItem("vpwartti",Player1)~
+== YOSHJ @26
+== VPAINO @27 DO ~SetGlobal("End_Island","GLOBAL",1)~
+== YOSHJ @28
+END
+  IF ~~ THEN REPLY @29 EXTERN YOSHJ TS204
+
+CHAIN YOSHJ TS204
+@30 DO ~SetGlobal("TT_Evil_Path","GLOBAL",3)
+ChangeAlignment(Myself,CHAOTIC_EVIL)
+StartCutScene("TTcutFi2")~ EXIT

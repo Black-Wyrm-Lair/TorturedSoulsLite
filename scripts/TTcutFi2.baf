@@ -1,0 +1,9 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Yoshimo")
+		SetGlobal("End_Island","GLOBAL",1)
+		ActionOverride("vpainoa",ForceSpell(Myself,DRYAD_TELEPORT))
+		EndCutSceneMode()
+END

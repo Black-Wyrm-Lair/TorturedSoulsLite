@@ -1,0 +1,122 @@
+//Yoshimo Wounded
+
+IF
+	InParty(Myself)
+	InParty("Yoshimo")
+	HPPercentLT("Yoshimo",20)
+	!Dead("Yoshimo")
+	!CombatCounter(0)
+	Exists(LastAttackerOf("Yoshimo"))
+	Allegiance(LastAttackerOf("Yoshimo"),ENEMY)
+	Global("VP_Yoshimo_Dies","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Yoshimo_Dies","GLOBAL",1)
+		EquipMostDamagingMelee()
+		DisplayStringHead(Myself,@247)
+		MoveToObjectNoInterrupt(LastAttackerOf("Yoshimo"))
+		AttackReevaluate(LastAttackerOf("Yoshimo"),75)
+		Continue()
+END
+
+IF
+	InParty(Myself)
+	Dead("Yoshimo")
+	CombatCounter(0)
+	Global("VP_Yoshimo_Is_Dead","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Yoshimo_Is_Dead","GLOBAL",1)
+		SetGlobal("VP_Yoshimo_Dies","GLOBAL",2)
+END
+
+IF
+	InParty(Myself)
+	CombatCounter(0)
+	See(Player1)
+	!StateCheck(Player1,STATE_SLEEPING)
+	Global("VP_Yoshimo_Dies","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Yoshimo_Dies","GLOBAL",3)
+		StartDialogueNoSet([PC])
+END
+
+IF
+	InParty(Myself)
+	InParty("Yoshimo")
+	!Dead("Yoshimo")
+	Global("VP_Yoshimo_Dies","GLOBAL",1)
+	CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Yoshimo_Dies","GLOBAL",0)
+END
+
+// ToB Romance
+
+IF
+	Global("ExpLoveTalk","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",1)
+		SetGlobalTimer("VP_KachikoRomance","GLOBAL",ONE_DAY)
+END
+
+IF
+	InParty(Myself)
+	GlobalTimerExpired("VP_KachikoRomance","GLOBAL")
+	AreaType(OUTDOOR)
+	See("Yoshimo")
+	!Dead("Yoshimo")
+	!StateCheck("Yoshimo",STATE_SLEEPING)
+	CombatCounter(0)
+	!See([ENEMY])
+	Global("ExpLoveTalk","LOCALS",5)
+THEN
+	RESPONSE #100
+		SetGlobal("ExpLoveTalk","LOCALS",6)
+		PlaySong(0)
+		PlaySound("vpkachls")
+		Interact("Yoshimo")
+END
+
+// Fight Blocks
+
+IF
+	Allegiance(Myself,ENEMY)
+	!InParty(Myself)
+	Global("NPCFight","LOCALS",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NPCFight","LOCALS",1)
+		ChangeAIScript("",DEFAULT)
+		ChangeAIScript("useitem",GENERAL)
+		ChangeAIScript("vpkachix",SPECIFICS)
+		SetDialog("")
+		Continue()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	AttackedBy([GOODCUTOFF],DEFAULT)
+THEN
+	RESPONSE #100
+		ChangeAIScript("vpkachix",SPECIFICS)
+		ChangeAIScript("useitem",GENERAL)
+		ChangeAIScript("",DEFAULT)
+		Enemy()
+		Continue()
+END
+
+IF
+	!Allegiance(Myself,ENEMY)
+	!InParty(Myself)
+	Global("NPCFight","LOCALS",1)
+THEN
+	RESPONSE #100
+		SetGlobal("NPCFight","LOCALS",0)
+		ChangeAIScript("",GENERAL)
+		ChangeAIScript("",SPECIFICS)
+		Continue()
+END

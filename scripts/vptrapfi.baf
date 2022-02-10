@@ -1,0 +1,9 @@
+IF
+	Opened([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffScreen("ELFIRG01",Player1,0,0,0) // Greater Fire Elemental
+		CreateCreatureObjectOffScreen("ELFIR01",Player2,0,0,0) // Fire Elemental
+		CreateCreatureObjectOffScreen("ELFIR01",Player3,0,0,0) // Fire Elemental
+		CreateCreatureObjectOffScreen("ELFIR01",Player4,0,0,0) // Fire Elemental
+END

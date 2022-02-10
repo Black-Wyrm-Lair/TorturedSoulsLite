@@ -1,0 +1,25 @@
+IF
+	Global("YoshimoTeleport","GLOBAL",1)
+	!Dead("Yoshimo")
+	Global("YoshJump","AR1516",0)
+	OR(2)
+		Global("Kachiko_Saved","GLOBAL",3)
+		Global("TT_Evil_Path","GLOBAL",3)
+THEN
+	RESPONSE #100
+		SetGlobal("YoshJump","AR1516",1)
+		CreateVisualEffect("SPDIMNDR",[980.1287])
+		Wait(2)
+		ActionOverride("Yoshimo",JumpToPoint([980.1287]))
+END
+
+IF
+	Global("YoshimoTeleport","GLOBAL",1)
+	!Dead("Yoshimo")
+	Global("VP_YoshimoExcuse","GLOBAL",2)
+	Global("Kachiko_Saved","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_YoshimoExcuse","GLOBAL",3)
+		CreateCreatureObjectDoor("vphsiang","Yoshimo",0,0,0)
+END

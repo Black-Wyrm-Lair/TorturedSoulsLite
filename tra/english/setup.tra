@@ -1,0 +1,799 @@
+
+@3    = ~NEW CHAPTER
+
+After Saemon Havarian had finished his incantations you stood for a few minutes in expectation. The ship, ready to sail was still in Athkatla's docks... You were about to sigh and pronounce your thanks that at least it was not frog-turning, and request refund from the sly sailor. Suddenly the crew became agitated, everyone pointing to the east. You turned and saw a gray cloud speeding across the sky straight for the "Gallante". A few of the crewmen leaped overboard. Someone behind your back whispered: "that's how the fate looks?" and spat heartily on the deck. Then the world became one great gray fog and all you could sense is the movement of tremendous speed... But you could not distinguish the direction or count the time... Slowly you had lost your consciousness... and regained it in what seemed a short instant. The ship is riding shallow waters in a sheltered bay by a stony beach. Captain Havarian approaches you hesitantly...~ [vptheme1]
+@4    = ~CHAPTER FOUR
+
+After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+
+Bodhi was as good as her word. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
+@5    = ~CHAPTER FOUR
+
+After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+
+Aran Linvail and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
+@6    = ~Kachiko and Yoshimo traveled throughout Faerun for years after leaving company of <CHARNAME>. The couple were loved everywhere they went for their indomitable spirit and readiness to help anyone in need. They lived out of their backpacks and a few bags of holding for many years. Rumor has it that Yoshimo and Kachiko were agents in the service of the Harpers. Others say that they served nobody. 
+
+The Hashimoto family first doubled then tripled and all of their children grew up during the endless family journey. The eldest child was called <CHARNAME> in memory of their old friend. Yoshimo and Kachiko never returned to Kozakura, the demise of their families weighed heavily on them. Eventually, they retired to Athkatla. Yoshimo now owns the "Adventurer's Mart" and the Hashimoto's small home in the Bridge district is full of grandchildren and all sorts of wanderers.~
+@7    = ~Fighting Pit~
+@8    = ~This statue is a representation of the Goddess Waukeen. It depicts a beautiful young woman with an outstretched palm.~
+@9    = ~These shelves are crammed with books dealing with trade and commerce in Kara-Tur.~
+@10   = ~This staircase is blocked.~
+@11   = ~This passage is magically sealed. You cannot enter the fighting arena without special permission.~
+@12   = ~Charged Battle Axe +3~
+@13   = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+
+STATISTICS:
+
+Combat abilities:
+– 25% chance of each hit stunning the target for 4 rounds
+– 50% chance of an extra 1d3 electrical damage to hit target
+
+THAC0: +3
+Damage: 1d8+3 (slashing)
+Speed Factor: 7
+Proficiency Type: Axe
+Type: One-handed
+Requires:
+ 10 Strength
+
+Weight: 7~
+@14   = ~Girdle of Stromnos~
+@15   = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry. He named the broad belt after a hill giant who had almost killed him when he was looking for spell components. Dendes died defending Presdon from rival mages near Ordulin.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: 20
+
+Weight: 2~
+@16   = ~The Love of Black Bess~
+@17   = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba. Her name was Redani, and she was known both for her powers as an enchanter and a seductress. The Love of Black Bess was always given to her favored consort at any particular time. Unknown to her lovers, she would place a Ring of Readiness on the morning star, saving the matching ring for a special time. When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour. The new lover would simply call upon the ring and the morning star would fly to his hand. 
+
+Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover. Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road. Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+
+STATISTICS:
+
+Combat Abilities:
+– 10% of all hits cause the target to lose 4 points of luck and run in panic for 16 rounds
+
+THAC0: +4
+Damage: 2d6+5 (crushing)
+Speed Factor: 4
+Proficiency Type: Morningstar
+Type: One-handed
+Requires:
+ 11 Strength
+
+Weight: 10~
+@18   = ~Chess Piece~
+@19   = ~White Bishop~
+@20   = ~Chess is one of the "four universal games" (draughts, dice, and talis cards being the others). Many believe chess to be the most challenging and intriguing of the four games. Chess pieces and boards are often made from a wide variety of materials. Marble, wood, and ivory are the most common materials used for the construction of chess pieces.~
+@21   = ~This chess piece is a white bishop, crafted from soapstone. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+
+STATISTICS:
+
+Charge abilities:
+– Summon 10th-level priest-like ally once per day
+  Duration: 1 turn
+
+Weight: 1~
+@22   = ~Blade Of The Night~
+@23   = ~This was the weapon used by the most famous assassin in Kara Tur, but none knew her name apart from the emperor. She was the greatest thief the world had ever seen. She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade. It was made by the emperors best weapon smiths, and then tempered in the bloods of red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: +1
+– Dexterity: +1
+– Constitution: -1
+– Immunity to backstab
+– Immunity to poison
+– Negative Plane Protection
+
+Combat Abilities:
+– 10% chance of each hit to level drain the target (Save vs. Spell negates)
+
+THAC0 +4
+Damage: 1d10+4 (slashing)
+Speed Factor: 4
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 6 Strength
+
+Weight: 6~
+@24   = ~The Black Bow~
+@25   = ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun. A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart. Through all of his years in the military, he remained true to his love and saved his earnings. He and his new wife moved west in the hopes that they would find frontier land to settle. In the lands north of Baldur's Gate and east of the Trollbark Forest, Jonan built his home and farm. Within five years, there were raiders in the area, and farms were being destroyed all around Jonan's. Eventually, the raiders targeted Jonan's home, killing his wife and child and leaving him for dead. His farm was burned to the ground. Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood. He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with. Sages debate how the bow became enchanted, but most believe that, after Jonan's death, it was blessed by a god. Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal. Theories tend to revolve around whether the speaker believes Jonan's actions were just, vengeful, or murderous.
+
+STATISTICS:
+
+Combat abilities:
+– 1 extra attack per round
+
+THACO: +4
+Damage: +3 (missile)
+Speed Factor: 4
+Proficiency Type: Bow
+Type: Two-handed
+Requires:
+ 12 Strength
+
+Weight: 3~
+@26   = ~Boots of the Forgotten Ones~
+@27   = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw tribe. The power hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors. Algrash was killed when he provoked a fight with a gang of ogres. His boots were left at the scene of the battle.
+
+STATISTICS:
+
+Equipped abilities:
+– The wearer can memorize 2 extra 1st-level spells, 2 extra 2nd-level spells, and 1 extra 3rd-level spell
+– Doubles movement rate
+
+Weight: 4~
+@28   = ~Edventar's Gift~
+@29   = ~Composite Long Bow +4: Defender~
+@30   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
+
+STATISTICS:
+
+Combat abilities:
+– 3 extra attacks per round
+
+THAC0: +4
+Damage: +4 (missile)
+Speed Factor: 7
+Proficiency Type: Bow
+Type: Two-handed
+Requires:
+ 17 Strength
+ 17 Dexterity
+
+Weight: 8~
+@31   = ~Katana +3: Air Element~
+@32   = ~Katana +3 Air Element
+
+One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: -2
+– Dexterity: +1
+– Intelligence: +1
+– Immunity to acid
+– Immunity to poison
+– Immunity to any electricity and lighting effects, including wing buffet
+
+ Combat abilities:
+ – Air elementals must save vs. Spell or be utterly destroyed
+
+THAC0: +3
+Damage: 1d10+3, +1d10 electrical damage
+Damage Type: Slashing
+Speed: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 16 Dexterity
+
+Weight: 2~
+@33   = ~Katana +3: Earth Element~
+@34   = ~Katana +3 Earth Element
+
+One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1
+– Dexterity: -2
+– Constitution: +1
+– Immunity to pertrification, polymorph, panic and disease
+– Immunity to crushing weapons and backstab
+
+Combat Abilities:
+– 10% chance of each hit to petrify the target (Save vs. Petrify/Polymorph negates)
+– Earth elementals must save vs. Spell or be utterly destroyed
+
+THAC0: +3
+Damage: 1d10+3, +1d10 crushing damage
+Damage Type: Slashing
+Speed: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 16 Constitution
+
+Weight: 2~
+@35   = ~Katana +3: Fire Element~
+@36   = ~Katana +3 Fire Element
+
+One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
+
+STATISTICS:
+
+Equipped abilities:
+– Strength: +1
+– Dexterity: +1
+– Wisdom: -2
+– Immunity to charm, control, confusion and sleep
+– Immunity to hold, haste, slow and stun
+– Fire Resistance: 100%
+– Magic Fire Resistance: 100%
+
+Combat Abilities:
+– Fire elementals must save vs. Spell or be utterly destroyed
+
+THAC0: +3
+Damage: 1d10+3, +1d10 fire damage
+Damage Type: Slashing
+Speed: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 17 Strength
+ 17 Dexterity
+
+Weight: 2~
+@37   = ~Katana +3: Water Element~
+@38   = ~Katana +3 Water Element
+
+One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+
+STATISTICS:
+
+Equipped abilities:
+– Constitution: -2
+– Wisdom: +1
+– Charisma: +1
+– Immunity to blindness and silence
+– Immunity to wild magic
+– Cold Resistance: 100%
+– Magic Cold Resistance: 100%
+
+Combat Abilities:
+– Vampiric creatures must save vs. Spell or be utterly destroyed
+
+THAC0: +3
+Damage: 1d10+3, +1d10 cold damage
+Damage Type: Slashing
+Speed: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 16 Wisdom
+ 16 Charisma
+
+Weight: 2~
+@39   = ~Nakanishi Wardstone~
+@40   = ~Upon closer examination this wardstone appears to be a gem of mediocre value, with several symbols carved upon the outer edge.
+
+STATISTICS:
+
+Weight: 5~
+@41   = ~Ring of Holiness II~
+@42   = ~Ring of Holiness II: God Blessing
+
+Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
+
+STATISTICS:
+
+Equipped abilities:
+– Can memorize one extra divine spell of each level from 5th to 7th
+
+Weight: 0~
+@43   = ~Kachiko's Wakizashi +3~
+@44   = ~Kachiko's Wakizashi +3
+
+This special sword was granted to Kachiko by her father upon her ascension to adulthood.
+
+STATISTICS:
+
+Combat abilities:
+– Drains 2 points of target's Wisdom for 2 rounds on each hit (Save vs. Death to negate)
+
+THAC0: +3
+Damage: 1d8+3 (piercing)
+Speed Factor: 0
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Type: One-handed
+Requires:
+ 5 Strength
+
+Weight: 2~
+@45   = ~Bamboo Spirit Wakizashi +4~
+@46   = ~Bamboo Spirit Wakizashi +4
+
+This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
+
+STATISTICS:
+
+Equipped Abilities:
+– Regenerate 1 Hit Point per round
+
+THACO: +4
+Damage: 1d8+4 (slashing)
+Proficiency type: Wakizashi
+Speed Factor: 1
+Type: One-handed
+Requires:
+ 8 Strength
+
+Weight: 4~
+@47   = ~Silver Bracers of Kedl~
+@48   = ~This mage, who made his home in Phlan, was known as "Kedl of the Three Rings," for it was said that he perfected a technique whereby he could wear three magical rings simultaneously. An enchanter of items, he was well known for his discriminating taste in clothing, jewelry, and other accessories. His polished silver bracers were a constant part of his wardrobe. Kedl eventually sold his bracers when he needed the money for some powerful rings. Unfortunately, Kedl died in an orc attack on Phlan several years later.
+
+STATISTICS:
+
+Equipped abilities:
+– Armor Class: 2
+
+Weight: 2~
+@49   = ~Bronze Key~
+@50   = ~An ornate key crafted in bronze.
+
+STATISTICS:
+
+Weight: 0~
+@51   = ~Copper Key~
+@52   = ~An ornate key crafted in copper.
+
+STATISTICS:
+
+Weight: 0~
+@53   = ~Iron Key~
+@54   = ~A complex looking key made from cold iron.
+
+STATISTICS:
+
+Weight: 0~
+@55   = ~Electrum Key~
+@56   = ~An ornate key crafted in electrum.
+
+STATISTICS:
+
+Weight: 0~
+@57   = ~Gold Key~
+@58   = ~An ornate key crafted in gold.
+
+STATISTICS:
+
+Weight: 0~
+@59   = ~Platinum Key~
+@60   = ~An ornate key crafted in platinum.
+
+STATISTICS:
+
+Weight: 0~
+@61   = ~Silver Key~
+@62   = ~An ornate key crafted in silver.
+	
+STATISTICS:
+
+Weight: 0~
+@63   = ~Black Knight~
+@64   = ~This chess piece is a black knight, crafted from ebony. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+
+STATISTICS:
+
+Charge abilities:
+– Summon 9th-level warrior-like ally once per day.
+  Duration: 1 turn
+
+Weight: 1~
+@65   = ~Hojo War Ring of Nakanishi~
+@66   = ~Hojo War Ring of Nakanishi
+
+Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, its powers may not be used by anyone else.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Off-hand THAC0: +2
+– Magic Resistance: +10%
+– Immunity to disease and poison
+– Improves casting speed by 4
+– Can memorize two extra arcane spells of each level from 6th to 9th
+
+Weight: 0~
+@67   = ~Hojo War Ring of Hashimoto~
+@68   = ~Hojo War Ring of Hashimoto
+
+Sanai Hashimoto was a famous samurai of Hashimoto clan and loyal supporter of the Emperor Tokugawa during the final days of the Hojo War. The Emperor granted this ring to him in a recogntion of his deeds and loyalty. After Sanai's death, the ring has been inherited by his son Aino who later granted this ring to his eldest son Yoshimo upon his ascension to adulthood. Bonded to his blood as it is, its powers may not be used by anyone else but Yoshimo.
+
+Equipped Abilities:
+– Armor Class: +2
+– Saving Throws: +2
+– Off-hand THAC0: +2
+– Magic Resistance: +10%
+– Regenerate 1 Hit Point per round
+ 
+Weight: 0~
+@69   = ~Crescent Moon Medallion~
+@70   = ~A miniature crescent moon on a chain.
+
+STATISTICS:
+	
+Weight: 0~
+@71   = ~A miniature crescent moon on a chain.
+
+STATISTICS:
+
+Weight: 0~
+@72   = ~Magical Rope~
+@73   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.
+	
+STATISTICS:
+	
+Weight: 5~
+@74   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.	
+
+STATISTICS:
+
+Weight: 5~
+@75   = ~This weapon appears to be a huge staff with a ferrule causes the staff to assume the attributes of a mace. However, only the strongest of the people can wield it in one hand.
+
+STATISTICS:
+
+THACO: +2
+Damage: 2d4+2 (crushing)
+Speed Factor: 2
+Proficiency Type: Quarterstaff
+Type: One-handed
+Requires: 19 Strength
+
+Weight: 4~
+@76   = ~Edion's Ring of Wizardry~
+@77   = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring. He crafted the ring himself for his private use. In his later years, he became so accustomed to wearing it that he almost never removed it. He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +1
+– THAC0: +2
+– Magic Resistance: +10%
+– Can memorize two extra arcane spells of each level from 4th to 9th
+
+Charge abilities:
+– Adamantine Skin twice per day
+– Blue Fire Shield twice per day
+– Summon Fire Golem twice per day
+
+Weight: 0~
+@78   = ~Robe of Armory~
+@79   = ~There are a small number of these valuable gold and crimson robes floating around the Realms, and all of them are the creation of an abjurer named Delgam of the Many Hands - so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well known legacy.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: 1
+– Slashing Resistance: +10%
+– Crushing Resistance: +10%
+– Piercing Resistance: +10%
+– Missile Resistance: +10%
+
+Weight: 5~
+@80   = ~Hat~
+@81   = ~Rogue's Cowl~
+@82   = ~Magical hats may actually be almost any type of headgear. They shrink or expand to fit any size head. Contemporary fashion and profession often dictate the shape and style of magical hats.~
+@83   = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood. It was crafted by the gnomish thief and illusionist Brein Chestnut. Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down. He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +2
+– Stealth: +10%
+
+Charge abilities:
+– Blindness once per day
+– Color Spray once per day
+
+Weight: 2~
+@84   = ~Scarab of Goodwill~
+@85   = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand. This particular scarab was crafted by a priest of Nepthys named Ani Haloua. She used it in negotiations with local businesses and the general populace. Similar scarabs are believed to be circulating in the Realms. Priests of Waukeen are particularly fond of them.
+
+STATISTICS:
+
+Equipped Abilities:
+– Dexterity: +2
+– Charisma: +2
+
+Charge abilities:
+– Friends once per day
+– Charm once per day
+
+
+Weight: 2~
+@86   = ~Temporal Wardstone~
+@87   = ~Ring of Wizardry II~
+@88   = ~Ring of Wizardry II: Reaching Ring
+
+This is the enchanted version of the famous Ring of Wizardry.
+
+STATISTICS:
+
+Equipped Abilities:
+– Can memorize two extra 5th level, two extra 6th level, one extra 7th level and one extra 8th level arcane spells
+
+Weight: 0~
+@89   = ~Potion of Action Transference~
+@90   = ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.
+
+STATISTICS:
+
+Weight: 1~
+@91   = ~Potion of Strength Transference~
+@92   = ~Potion of Life Transference~
+@93   = ~Potion of Aura Enhancement~
+@94   = ~When wholly consumed, this oddly murky potion would appear to increase your intelligence and wisdom for one point, and grant you 10% magic resistance. The effect is instantaneous and the potion is destroyed in the process.
+
+STATISTICS:
+
+Weight: 1~
+@95   = ~Potion of Holy Transference~
+@96   = ~Katana +4~
+@97   = ~Katana +4: Wu Haltai
+
+The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one's luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +3
+– Regenerate 1 Hit Point per round
+
+Combat abilities:
+– Each hit lowers target's Magic Resistance by 10%
+
+THAC0: +4
+Damage: 1d10+4 (slashing)
+Speed factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 17 Strength
+ 17 Dexterity
+ 12 Intelligence
+ 
+Weight: 2~
+@98   = ~Katana +3: Wu Jen
+
+This katana is a defending counterpart of the Wu Haltai katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
+
+STATISTICS:
+
+Equipped Abilities:
+– Constitution: +3
+– Death Ward (Immunity to all forms of death magic)
+
+Charge Abilities:
+– Greater Restoration once per day
+– Heal once per day
+
+THAC0: +3
+Damage: 1d10+3 (slashing)
+Speed factor: 1
+Proficiency Type: Katana
+Type: One-handed
+Requires:
+ 15 Dexterity
+ 15 Intelligence
+
+Weight: 2~
+@99   = ~Ogi-Luc's Great Robe~
+@100  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on this robe, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robe as a prize. It were later stolen and sold by a daring rogue.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: -1
+– Strength: 23
+– Constitution: 23
+– Fire Resistance: +50%
+– Acid Resistance: +50%
+– Magic Resistance: +15%
+– Immunity to backstab
+– Immunity to normal weapons
+
+Weight: 5~
+@101  = ~Kensai Gloves~
+@102  = ~These special leather gloves are enchanted so as to any kensai can wear them, as well as any one else.
+	
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +2
+– Hit Points: +15
+– Magic Resistance: +10%
+– THAC0: +2
+– Off-hand THAC0: +2
+– Damage: +2
+– Immunity to +1 magical weapons
+
+Combat abilities:
+– 1 extra attack per round
+
+Weight: 1~
+@103  = ~Mourner's Armor~
+@104  = ~This unique suit of armor is of foreign design, created for a Kara-Turian samurai from the Baika Clan. The armor, crafted from thin, stiff leather, is dyed black, but features the insignia of the plum blossom, the mon of the Baika Clan. It was only worn into battle once, when Baika Himuro fought a hopeless battle against the enemy samurai that flooded into his ancestral estate. It is believed that the enemy clan captured the armor and later traded it for siege equipment.
+
+STATISTICS:
+
+Equipped Abilities:
+– Dexterity: -1
+– Hit Points: +15
+– Fire Resistance: +25%
+– Cold Resistance: +25%
+– Missile Resistance: +75%
+– Immunity to backstab
+– Immunity to normal weapons
+– Regenerate 1 Hit Point per round
+– May only be removed with a Remove Curse spell
+
+Armor Class: 0
+	
+Weight: 20~
+@105  = ~Yoshimo's Katana +4~
+@106  = ~Yoshimo's Katana +4
+
+This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+
+STATISTICS:
+
+Equipped Abilities:
+– Armor Class: +2
+– Magice Resistance: +10%
+
+Combat abilities:
+– 1 extra attack per round
+
+THAC0: +4 bonus
+Damage: 1d10+4 (slashing)
+Speed Factor: 3
+Proficiency Type: Katana
+Type: One-handed
+
+Weight: 5~
+@107  = ~Heal~
+@108  = ~Blindness~
+@109  = ~Color Spray~
+@110  = ~Friends~
+@111  = ~Charm~
+@112  = ~Greater Restoration~
+@113  = ~Imroved Invisibility~
+@114  = ~Improved Haste~
+@115  = ~Protective Mode~
+@116  = ~Adamantine Skin~
+@117  = ~Blue Fire Shield~
+@118  = ~Hasuno~
+@119  = ~Aino Hashimoto~
+@120  = ~Aino~
+@121  = ~Alome Nakanishi~
+@122  = ~Alome~
+@123  = ~Basilisk~
+@124  = ~Bishop~
+@125  = ~Berserk Warrior~
+@126  = ~Ethereal Voice~
+@127  = ~Chromatic Dragon~
+@128  = ~Greater Water Elemental~
+@129  = ~Greater Zombie~
+@130  = ~Hitomi Nakanishi~
+@131  = ~Hitomi~
+@132  = ~Hashimoto Guard~
+@133  = ~Ronin~
+@134  = ~Ronin Wakashu~
+@135  = ~Kachiko~
+@136  = ~King~
+@137  = ~Kiotsi~
+@138  = ~Knight~
+@139  = ~Lulu Hashimoto~
+@140  = ~Lulu~
+@141  = ~Masaki Hayashi~
+@142  = ~Masaki~
+@143  = ~Michio Nakanishi~
+@144  = ~Michio~
+@145  = ~Momoko Nakanishi~
+@146  = ~Momoko~
+@147  = ~Najoki Nakanishi~
+@148  = ~Najoki~
+@149  = ~Nanny~
+@150  = ~Nakanishi Guard~
+@151  = ~Undead Samurai~
+@152  = ~Nakanishi Acolyte~
+@153  = ~Ogi Hashimoto~
+@154  = ~Ogi~
+@155  = ~Otako Hashimoto~
+@156  = ~Otako~
+@157  = ~Pawn~
+@158  = ~Queen~
+@159  = ~Rook~
+@160  = ~Sasaki Hashimoto~
+@161  = ~Sasaki~
+@162  = ~Fledgling Vampire~
+@163  = ~Priest of Selune~
+@164  = ~Hsiang~
+@165  = ~Kuku~
+@166  = ~Choose a portrait for Sime:~
+@167  = ~Please choose one of the following:
+[1] Default Portrait
+[2] Alternate Portrait 1
+[3] Alternate Portrait 2~
+@168  = ~Installing Portrait: Default Portrait~
+@169  = ~Installing Portrait: Alternate Portrait 1~
+@170  = ~Installing Portrait: Alternate Portrait 2~
+@171  = ~Choose a Soundset for Kachiko:~
+@172  = ~Please choose one of the following:
+[1] Default Soundset
+[2] Legacy Soundset~
+@173  = ~Installing Soundset: Default Soundset~
+@174  = ~Uhm, I have to go now...~ [KACHIMO]
+@175  = ~I will try to fill this role as well as I can.~ [KACHIMC]
+@176  = ~My aim shall be true!~ [KACHIBC1]
+@177  = ~Onward, to glorious battle!~ [KACHIBC2]
+@178  = ~Into the fray!~ [KACHIBC3]
+@179  = ~Time to test my metal!~ [KACHIBC4]
+@180  = ~Taking it to them!~ [KACHIBC5]
+@181  = ~Let me find some place to set camp.~ [KACHITI]
+@182  = ~Am I to stay here all day long?~ [KACHIBO]
+@185  = ~Help me... I am in peril!~ [KACHIWO]
+@190  = ~I am prepared... I hope.~ [KACHISE1]
+@191  = ~Yes?~ [KACHISE2]
+@192  = ~Let me know what you want.~ [KACHISE3]
+@193  = ~I await your orders.~ [KACHISE4]
+@194  = ~Go ahead.~ [KACHISE5]
+@195  = ~Your command?~ [KACHIAC6]
+@196  = ~I'm on it.~ [KACHIAC1]
+@197  = ~Understood.~ [KACHIAC2]
+@198  = ~That sounds reasonable.~ [KACHIAC3]
+@199  = ~Yes.~ [KACHIAC4]
+@200  = ~Agreed.~ [KACHIAC5]
+@201  = ~My duty is clear.~ [KACHIAC6]
+@202  = ~Acknowledged.~ [KACHIAC7]
+@203  = ~Yeah, yeah... Tell me what you want.~ [KACHIRA1]
+@204  = ~What exactly are you trying to accomplish?~ [KACHIRA2]
+@205  = ~No! You will not have died in vain!~ [KACHIRD]
+@211  = ~Kachiko's dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
+@212  = ~Installing Soundset: Legacy Soundset~
+@213  = ~Well, we're not out of the woods yet... Oh, wait, we are! *laughs*~ [KACHIMC]
+@214  = ~I'll make you sorry you attacked me... Right before you die!~ [KACHIBC]
+@215  = ~Don't you mess with me!~ [KACHIHA]
+@217  = ~It's time for some action!~ [KACHIAT]
+@218  = ~I won't survive any more wounds...~ [KACHIWO]
+@219  = ~I hate closed spaces.~ [KACHIDU]
+@220  = ~The air is so fresh.~ [KACHIOU]
+@221  = ~Oh, what a lovely day!~ [KACHIDA]
+@222  = ~Look at all the stars!~ [KACHINI]
+@223  = ~M-hm.~ [KACHISE1]
+@224  = ~What can I do?~ [KACHISE2]
+@225  = ~Yes?~ [KACHISE3]
+@226  = ~You wanted me?~ [KACHISE4]
+@227  = ~I'm here.~ [KACHISE5]
+@228  = ~That's an idea.~ [KACHIAC6]
+@229  = ~Sure.~ [KACHIAC1]
+@230  = ~Sounds good.~ [KACHIAC2]
+@231  = ~Okay.~ [KACHIAC3]
+@232  = ~I'd love to!~ [KACHIAC4]
+@233  = ~Oh, I got it!~ [KACHIAC5]
+@234  = ~Wow, good strike!~ [KACHICR]
+@235  = ~Couldn't hurt.~ [KACHIIM]
+@236  = ~I can't hurt it!~ [KACHIBA]
+@237  = ~Oops! I'm carrying too much.~ [KACHICA]
+@238  = ~Oh, fiddlesticks!~ [KACHIFA]
+@239  = ~Kachiko Legacy Voiceover~
+@240  = ~Kachiko, don't give up, I will help you!~
+@241  = ~Kachiko! Nooooo!!!~
+@242  = ~This altar requires a key of some sort.~
+@243  = ~There is nothing else to do with this altar.~
+@244  = ~Upon thorough investigation of the altar, you find the ancient carvings, which form the words: "BRING ME YOUR ACTION, STRENGTH, LIFE AND HOLY WATER"~
+@245  = ~Doors to Nakanishi underground compound are sealed. An invisible wall prevents your advancement into thier territory. Nakanishi are all hostile.~
+@246  = ~You cannot move back to the caves. Doors to the underground compound have been sealed forever.~
+@247  = ~Yoshimo! Nooooo!!!~
+@248  = ~I'll find this bastard Yoshimo! I promise I'll find him!~
+@249  = ~Bring me Yoshimo!~
+
+@251  = ~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~
+@252  = ~You have no method for which to climb down into the pit.  Perhaps some sort of rope would help.~
+@253  = ~This exit is magically sealed. You have no means to unseal it.~
+@254  = ~These stairs have collapsed. You will have to find another route.~

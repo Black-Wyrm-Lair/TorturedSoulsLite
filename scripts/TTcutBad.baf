@@ -1,0 +1,19 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("vpkachi",Enemy())
+		CreateCreature("vpmichio",[1435.793],14)
+		CreateCreature("vpmomoko",[1576.824],1)
+		CreateCreature("vpmasaki",[1515.801],0)
+		Wait(1)
+		FadeFromColor([20.0],0)
+		ActionOverride("vpkachi",Enemy())
+		ActionOverride("vpmichio",Enemy())
+		ActionOverride("vpmomoko",Enemy())
+		ActionOverride("vpmasaki",Enemy())
+		EndCutSceneMode()
+END

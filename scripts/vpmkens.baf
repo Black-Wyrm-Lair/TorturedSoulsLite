@@ -1,0 +1,52 @@
+IF
+	Global("Kachiko_Kidnapped","GLOBAL",6)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	OR(2)
+		AttackedBy([GOODCUTOFF],DEFAULT)
+		AttackedBy([PC],DEFAULT)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Masaki_Attacked","MYAREA",1)
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,NEUTRAL)
+	Global("VP_Masaki_Attacked","MYAREA",1)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(KENSAI_KIA)
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		Spell(Myself,KENSAI_KIA)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+

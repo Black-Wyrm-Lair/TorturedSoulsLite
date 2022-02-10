@@ -1,0 +1,9 @@
+IF
+	Opened([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffScreen("ELAIRG01",Player1,0,0,0) // Greater Air Elemental
+		CreateCreatureObjectOffScreen("ELAIR01",Player2,0,0,0) // Air Elemental
+		CreateCreatureObjectOffScreen("ELAIR01",Player3,0,0,0) // Air Elemental
+		CreateCreatureObjectOffScreen("ELAIR01",Player4,0,0,0) // Air Elemental
+END

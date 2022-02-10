@@ -1,0 +1,54 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	!Global("ThiefGroup","GLOBAL",2)
+THEN
+	RESPONSE #100
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vpwardex")
+	Global("ThiefGroup","GLOBAL",2)
+THEN
+	RESPONSE #100
+		DayNight(MIDNIGHT)
+		SmallWait(1)
+		LeaveAreaLUAPanic("TT0102","",[410.413],1)
+		ActionOverride(Player1,LeaveAreaLUA("TT0102","",[410.413],1))
+		ActionOverride(Player2,LeaveAreaLUA("TT0102","",[345.414],1))
+		ActionOverride(Player3,LeaveAreaLUA("TT0102","",[422.374],1))
+		ActionOverride(Player4,LeaveAreaLUA("TT0102","",[358.365],1))
+		ActionOverride(Player5,LeaveAreaLUA("TT0102","",[423.338],1))
+		ActionOverride(Player6,LeaveAreaLUA("TT0102","",[379.321],1))
+		MultiPlayerSync()
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!PartyHasItem("vpwardex")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@253)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,12)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END
+
+

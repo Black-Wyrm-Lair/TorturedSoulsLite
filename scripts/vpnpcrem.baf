@@ -1,0 +1,22 @@
+IF
+	IsOverMe("Jaheira")
+	IsValidForPartyDialog("Jaheira")
+	Global("NPCRemark","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NPCRemark","GLOBAL",1)
+		ActionOverride("Jaheira",StartDialogueNoSet(Player1))
+END
+
+IF
+	IsOverMe("Minsc")
+	!IsValidForPartyDialog("Jaheira")
+	IsValidForPartyDialog("Minsc")
+	Global("NPCRemark","GLOBAL",0)
+THEN
+	RESPONSE #100
+		SetGlobal("NPCRemark","GLOBAL",1)
+		ActionOverride("Minsc",StartDialogueNoSet(Player1))
+END
+
+

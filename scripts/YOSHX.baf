@@ -1,0 +1,29 @@
+IF
+	InParty(Myself)
+	InParty("vpkachi")
+	HPPercentLT("vpkachi",50)
+	!HP("vpkachi",1)
+	Exists(LastAttackerOf("vpkachi"))
+	Global("VP_Kachiko_Dies","GLOBAL",0)
+	Exists(LastAttackerOf("vpkachi"))
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Kachiko_Dies","GLOBAL",1)
+		EquipMostDamagingMelee()
+		DisplayStringHead(Myself,@240)
+		MoveToObjectNoInterrupt(LastAttackerOf("vpkachi"))
+		AttackReevaluate(LastAttackerOf("vpkachi"),75)
+		Continue()
+END
+
+IF
+	InParty(Myself)
+	Dead("vpkachi")
+	Global("VP_Kachiko_Dies","GLOBAL",1)
+	Exists(LastAttackerOf("vpkachi"))
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Kachiko_Dies","GLOBAL",2)
+		DisplayStringHead(Myself,@241)
+		Attack(LastAttackerOf("vpkachi"))
+END

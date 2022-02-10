@@ -1,0 +1,77 @@
+IF
+	InParty(Myself)
+	Dead("Yoshimo")
+	Global("VP_Yoshimo_Dies","GLOBAL",0)
+	Exists(LastAttackerOf("Yoshimo"))
+THEN
+	RESPONSE #100
+		SetGlobal("VP_Yoshimo_Dies","GLOBAL",1)
+		DisplayStringHead(Myself,@247)
+		AttackReevaluate(LastAttackerOf("Yoshimo"),75)
+END
+
+IF
+	AttackedBy([PC],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	Allegiance(Myself,ENEMY)
+THEN
+	RESPONSE #100
+		AttackReevaluate([GOODCUTOFF],15)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),15)
+END
+
+IF
+	HasItem("POTN08",Myself) // Potion of Healing
+	HPPercentLT(Myself,80)
+THEN
+	RESPONSE #100
+		UseItem("POTN08",Myself) // Potion of Healing
+END
+
+IF
+	HasItem("POTN52",Myself) // Potion of Extra Healing
+	HPPercentLT(Myself,50)
+THEN
+	RESPONSE #100
+		UseItem("POTN52",Myself) // Potion of Extra Healing
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		EquipMostDamagingMelee()
+		AttackReevaluate(LastAttackerOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	!Range(NearestEnemyOf(Myself),10)
+THEN
+	RESPONSE #100
+		EquipRanged()
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	!Detect(NearestEnemyOf(Myself))
+	Allegiance(Myself,ENEMY)
+	!Range(NearestEnemyOf(Myself),50)
+THEN
+	RESPONSE #100
+		EscapeArea()
+END
+
+

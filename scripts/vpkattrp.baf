@@ -1,0 +1,323 @@
+IF
+	IsOverMe(Player1)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player1)
+END
+
+IF
+	IsOverMe(Player2)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player2)
+END
+
+IF
+	IsOverMe(Player3)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player3)
+END
+
+IF
+	IsOverMe(Player4)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player4)
+END
+
+IF
+	IsOverMe(Player5)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player5)
+END
+
+IF
+	IsOverMe(Player6)
+	OR(4)
+		PartyHasItem("vpkatair")
+		PartyHasItem("vpkatear")
+		PartyHasItem("vpkatfir")
+		PartyHasItem("vpkatwat")
+THEN
+	RESPONSE #100
+		Kill(Player6)
+END
+
+IF
+	IsOverMe(Player1)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player2)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player3)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player4)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player5)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player6)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player1)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player2)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player3)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player4)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player5)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player6)
+	Global("Player_Against_Momoko","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmomoko")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Momoko","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player1)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player2)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player3)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player4)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player5)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player6)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	!Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Hitomi_Attacked","GLOBAL",1)
+END
+
+IF
+	IsOverMe(Player1)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player2)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player3)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player4)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player5)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END
+
+IF
+	IsOverMe(Player6)
+	Global("Player_Against_Michio","GLOBAL",1)
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Dead("vpmichio")
+THEN
+	RESPONSE #100
+		SetGlobal("Player_Against_Michio","GLOBAL",3)
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+END

@@ -1,0 +1,9 @@
+IF
+	Opened([ANYONE])
+THEN
+	RESPONSE #100
+		CreateCreatureObjectOffScreen("ELEARG01",Player1,0,0,0) // Greater Earth Elemental
+		CreateCreatureObjectOffScreen("ELEAR01",Player2,0,0,0) // Earth Elemental
+		CreateCreatureObjectOffScreen("ELEAR01",Player3,0,0,0) // Earth Elemental
+		CreateCreatureObjectOffScreen("ELEAR01",Player4,0,0,0) // Earth Elemental
+END

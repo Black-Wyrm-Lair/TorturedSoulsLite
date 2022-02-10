@@ -1,0 +1,18 @@
+IF
+	NumTimesTalkedTo(0)
+	Detect("vpkachi")
+THEN
+	RESPONSE #100
+		StartDialogueNoSetInterrupt("vpkachi")
+END
+
+IF
+	NumTimesTalkedTo(0)
+	GlobalGT("Kachiko_Kidnapped","GLOBAL",2)
+	GlobalLT("Kachiko_Kidnapped","GLOBAL",6)
+	Global("Alome_Meet","GLOBAL",1)
+	See([PC])
+THEN
+	RESPONSE #100
+		StartDialogueNoSetInterrupt([PC])
+END

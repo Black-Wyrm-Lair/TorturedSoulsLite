@@ -1,0 +1,10 @@
+IF
+	IsOverMe([PC])
+	Global("Dead_Bodies","GLOBAL",2)
+THEN
+	RESPONSE #100
+		SetGlobal("Dead_Bodies","GLOBAL",3)
+		ActionOverride("vpkachi",StartDialogueNoSet(Player1))
+END
+
+

@@ -1,0 +1,48 @@
+IF
+	AttackedBy([GOODCUTOFF],DEFAULT)
+	Allegiance(Myself,NEUTRAL)
+THEN
+	RESPONSE #100
+		Enemy()
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+	HaveSpell(KENSAI_KIA)
+	Range(NearestEnemyOf(Myself),5)
+THEN
+	RESPONSE #100
+		Spell(Myself,KENSAI_KIA)
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	See(NearestEnemyOf(Myself))
+THEN
+	RESPONSE #100
+		AttackReevaluate(NearestEnemyOf(Myself),30)
+END
+
+IF
+	AttackedBy([ANYONE],DEFAULT)
+THEN
+	RESPONSE #100
+		Attack(LastAttackerOf(Myself))
+END
+
+IF
+	!See(NearestEnemyOf(Myself))
+	Global("Nakanishi_Duel","GLOBAL",1)
+	Global("Player_Against_Momoko","GLOBAL",1)
+THEN
+	RESPONSE #100
+		SetGlobal("Nakanishi_Duel","GLOBAL",0)
+		SetGlobal("Player_Against_Momoko","GLOBAL",2)
+		FadeToColor([20.0],0)
+		Calm(Myself)
+		MoveBetweenAreas("TT0307",[599.1864],10)
+		ChangeEnemyAlly(Myself,NEUTRAL)
+		FadeFromColor([20.0],0)
+END
+
+

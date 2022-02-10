@@ -1,0 +1,40 @@
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	PartyHasItem("vptsrope")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,57046) // You use your magical rope to climb down into the depths of the pit.
+		TakePartyItem("vptsrope")
+		CutSceneId(Player1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		LeaveAreaLUAPanic("TT0101","",[446.726],6)
+		ActionOverride(Player1,LeaveAreaLUA("TT0101","",[446.726],6))
+		ActionOverride(Player2,LeaveAreaLUA("TT0101","",[505.762],6))
+		ActionOverride(Player3,LeaveAreaLUA("TT0101","",[388.682],6))
+		ActionOverride(Player4,LeaveAreaLUA("TT0101","",[560.803],6))
+		ActionOverride(Player5,LeaveAreaLUA("TT0101","",[332.643],6))
+		ActionOverride(Player6,LeaveAreaLUA("TT0101","",[616.840],6))
+		MultiPlayerSync()
+		Wait(1)
+		FadeFromColor([20.0],0)
+		Wait(1)
+END
+
+IF
+	Clicked([ANYONE])
+	Range(LastTrigger,12)
+	!PartyHasItem("vptsrope")
+THEN
+	RESPONSE #100
+		DisplayString(Myself,@252)
+END
+
+IF
+	Clicked([ANYONE])
+	!Range(LastTrigger,12)
+THEN
+	RESPONSE #100
+		DisplayString(Myself,14702) // You are too far away to use that.
+END

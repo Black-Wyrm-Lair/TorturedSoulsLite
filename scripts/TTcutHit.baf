@@ -1,0 +1,23 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("vphitomi")
+		SetGlobal("Kachiko_Saved","GLOBAL",1)
+		FadeToColor([20.0],0)
+		Wait(1)
+		ActionOverride("vpkachid",DestroySelf())
+		CreateCreature("vpkachis",[1392.736],8)
+		FadeFromColor([20.0],0)
+		EndCutSceneMode()
+		ForceSpell(Myself,TRANSFORMATION_DEATH)
+END
+
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Yoshimo")
+		Wait(3)
+		StartDialogueNoSet(Player1)
+END

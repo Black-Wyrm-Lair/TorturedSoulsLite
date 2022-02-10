@@ -1,0 +1,11 @@
+IF
+	True()
+THEN
+	RESPONSE #100
+		CutSceneId("Yoshimo")
+		Wait(2)
+		ForceSpell(Myself,TRANSFORMATION_DEATH)
+		EndCutSceneMode()
+END
+
+

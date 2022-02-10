@@ -1,0 +1,21 @@
+IF
+	IsOverMe([PC])
+	Global("Nakanishi_Hostile","GLOBAL",0)
+	!PartyHasItem("vpwardex")
+THEN
+	RESPONSE #100
+		SetGlobal("Nakanishi_Hostile","GLOBAL",1)
+		DisplayStringHead([PC],@245)
+END
+
+IF
+	IsOverMe([PC])
+	Global("Nakanishi_Hostile","GLOBAL",1)
+	PartyHasItem("vpwardex")
+THEN
+	RESPONSE #100
+		SetGlobal("Nakanishi_Hostile","GLOBAL",2)
+		DisplayStringHead([PC],@246)
+END
+
+
