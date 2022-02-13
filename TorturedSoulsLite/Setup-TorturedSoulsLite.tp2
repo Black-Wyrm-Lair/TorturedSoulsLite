@@ -208,7 +208,6 @@ COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 COMPILE EVAL ~TorturedSoulsLite/scripts/vpkachi.baf~
 COMPILE EVAL ~TorturedSoulsLite/scripts/vpkachid.baf~
 
-EXTEND_TOP ~AR0603.BCS~ ~TorturedSoulsLite/scripts/ar0603.baf~
 EXTEND_TOP ~AR1516.BCS~ ~TorturedSoulsLite/scripts/ar1516.baf~
 EXTEND_BOTTOM ~AR6200.BCS~ ~TorturedSoulsLite/scripts/ar6200.baf~
 EXTEND_TOP ~YOSHIMO.BCS~ ~TorturedSoulsLite/scripts/yoshimo.baf~
@@ -776,6 +775,28 @@ STR_VAR
  sox_path = ~TorturedSoulsLite/audio~
 END
 
+//Kachiko Spawn Point
+
+PRINT ~Kachiko Spawn Point~
+PRINT ~Please choose one of the following:
+[1] Kachiko appears in Irenicus Dungeon (Original)
+[2] Kachiko appears after talking with Renal~
+
+ACTION_READLN ~portrait~
+OUTER_WHILE (!(IS_AN_INT ~portrait~) OR (~%spawn%~ > 2) OR (~%spawn%~ < 1)) BEGIN
+ PRINT ~Please choose one of the following:
+[1] Kachiko appears in Irenicus Dungeon (Original)
+[2] Kachiko appears after talking with Renal~ // repeat prompt until valid answer
+ ACTION_READLN ~portrait~
+END
+
+ACTION_IF (~%spawn%~ = 1) THEN BEGIN
+ PRINT ~Kachiko appears in Irenicus Dungeon~
+  EXTEND_TOP EVAL ~AR0603.BCS~ ~TorturedSoulsLite/scripts/ar0603.baf~
+END ELSE ACTION_IF (~%spawn%~ = 2) THEN BEGIN
+ PRINT ~Kachiko appears after talking with Renal~
+  EXTEND_TOP ~AR0300.BCS~ ~TorturedSoulsLite/scripts/ar0300.baf~
+END
 
 ///////////////////////////////
 //Portraits

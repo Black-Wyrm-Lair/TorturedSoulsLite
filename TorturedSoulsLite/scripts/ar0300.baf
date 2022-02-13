@@ -1,0 +1,15 @@
+IF
+	Global("VP_CreateKachiko","GLOBAL",0)
+    Global("TalkedToRenal","GLOBAL",1)
+    GlobalLT("Chapter","GLOBAL",%bg2_chapter_4%)
+    CombatCounter(0)
+THEN
+	RESPONSE #100
+		SetGlobal("VP_CreateKachiko","GLOBAL",1)
+		CreateCreatureObject("bdoffscr",Myself,0,0,0)  // No such index
+		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
+		SmallWait(1)
+		CreateCreatureObject("vpkachi","bdoffscr",0,0,0)
+		SetInterrupt(TRUE)
+		ActionOverride("vpkachi",Dialog([PC]))
+END
