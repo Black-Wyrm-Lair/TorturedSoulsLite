@@ -1,28 +1,3 @@
-//IF
-//	Global("VP_Kachiko_Yoshimo","GLOBAL",1)
-//THEN
-//	RESPONSE #100
-//		SetGlobal("VP_Kachiko_Yoshimo","GLOBAL",2)
-//		MoveGlobal("AR0313",Myself,[784.333])
-//END
-
-//IF
-//	Global("VP_Kachiko_Yoshimo","GLOBAL",3)
-//THEN
-//	RESPONSE #100
-//		SetGlobal("VP_Kachiko_Yoshimo","GLOBAL",4)
-//		MoveGlobal("TT0102",Myself,[165.727])
-//END
-
-//IF
-//	OR(2)
-//		Global("VP_Kachiko_Joins1","GLOBAL",1)
-//		Global("VP_Kachiko_Joins2","GLOBAL",1)
-//THEN
-//	RESPONSE #100
-//		StartDialogueNoSet([PC])
-//END
-
 //Experience
 
 IF
@@ -260,18 +235,6 @@ THEN
 		SetGlobal("VP_YoshimoSearch","GLOBAL",4)
 		StartDialogueNoSet(Player1)
 END
-
-//IF
-//  InParty(Myself)
-//  !InParty("Yoshimo")
-//  See("Yoshimo")
-// GlobalGT("VP_YoshimoSearch","GLOBAL",0)
-//  GlobalLT("VP_YoshimoSearch","GLOBAL",4)
-//THEN
-//  RESPONSE #100
-//    SetGlobal("VP_YoshimoSearch","GLOBAL",5)
-//    Dialogue("Yoshimo")
-//END
 
 //Yoshimo is Found
 

@@ -23,7 +23,7 @@ IF
 	OnCreation()
 	Global("Kachiko_Saved","GLOBAL",2)
 	!InParty("vpsime")
-	Global("ThiefGroup","GLOBAL",1)
+	!Global("ThiefGroup","GLOBAL",2)
 THEN
 	RESPONSE #100
 		CreateCreatureDoor("vpainoa",[326.495],8)
@@ -36,7 +36,7 @@ IF
 	OnCreation()
 	Global("Kachiko_Saved","GLOBAL",3)
 	!InParty("vpsime")
-	Global("ThiefGroup","GLOBAL",1)
+	!Global("ThiefGroup","GLOBAL",2)
 THEN
 	RESPONSE #100
 		CreateCreatureDoor("vpainoa",[326.495],8)
@@ -47,7 +47,7 @@ END
 IF
 	OnCreation()
 	Global("Kachiko_Saved","GLOBAL",2)
-	!Global("ThiefGroup","GLOBAL",1)
+	Global("ThiefGroup","GLOBAL",2)
 THEN
 	RESPONSE #100
 		CreateCreatureDoor("vpainoa",[326.495],8)
@@ -58,7 +58,7 @@ END
 IF
 	OnCreation()
 	Global("Kachiko_Saved","GLOBAL",3)
-	!Global("ThiefGroup","GLOBAL",1)
+	Global("ThiefGroup","GLOBAL",2)
 THEN
 	RESPONSE #100
 		CreateCreatureDoor("vpainoa",[326.495],8)

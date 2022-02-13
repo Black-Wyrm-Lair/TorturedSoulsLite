@@ -1,0 +1,61 @@
+//YOSHIMO.DLG
+@0    = ~Heya, <CHARNAME>. How are you?~
+@1    = ~I am well, thank you. Did you manage to find a ship?~
+@2    = ~Actually things have been pretty rough. Yoshimo, do you have time to help me out?~
+@3    = ~No, not yet. Kachiko's ship has already left, and it may take few months till we find another one.~
+@4    = ~Since you have nothing much to do, but wait, may be you can help me out?~
+@5    = ~Oh, well, that's life. Have patience, my friend.~
+@6    = ~Kachiko, what do you think?~
+
+//YOSHJ.DLG
+@100    = ~<CHARNAME>, it's my fault. I couldn't save Kachiko... And she was my only reason to live in this damned world... No, I have no rights to continue this miserable existance... I am very sorry, <CHARNAME>... (*Suddenly, the blick of Yoshimo's katana, and...*) ~
+@101    = ~Dead bodies? Here? Must be another group stranded on this piece of land. We must step carefully.~
+@102    = ~Yoshimo, does not this... man looks a bit familiar to you? It is strange but he reminds me Otako Hashimoto.~ [KACHIQ03]
+@103    = ~Kachiko, I can see the resemblance, but that cannot be. Otako was wearing a pendant in a shape of a crescent moon... just like this one... Oh, no! I must be dreaming! Otako...~
+@104    = ~What? What are you both talking about? The dead man is one of your family, Yoshimo? Are you sure we are not in Kara Tur?~
+@105    = ~I am afraid he is... he was my nephew, yes. But I have no idea how he came to this place and got killed; neither do I know where this place is...~
+@106    = ~My guess is that the spell might have worked and we are somehow moving towards solving our family feud. But why are we on an island, and not at home?~
+@107    = ~The spell... Harpel must have done something that works for once. Let's go on, and we will have better chance to find some answers. Yoshimo, I am mourn your loss.~
+@108    = ~Thank you, <CHARNAME>.~
+@109    = ~No! Kachiko... No! I will kill them all! If they harm her in any way, I swear I will kill them all!~
+@110   = ~<CHARNAME>, please, cast the scroll. I cannot see her dead...~
+@111   = ~N-No, Master Irenicus...~
+@112   = ~I... I am not cursed anymore.~
+@113   = ~There are circumstances that you are not aware of...~
+@114   = ~Our deal is closed, Irenicus. The war is over, and my family is saved.~
+@115   = ~(*Tears appear in his eyes.*) W-What? Y-you k-knew that? You knew that... and you arranged our meeting to persuade me to sell my soul to you! You devil!~
+@116   = ~Yoshimo... the man whom you helped to rescue his family from a bitter vendetta and to find his true love. Yet he is also a man who was once hired by Irenicus to facilitate your demise.~
+@117   = ~Yoshimo... Your life just started anew. If you do not want to face Irenicus again, you do not have to. ~
+@118   = ~Listen, Yoshimo. I trust you and everything, but I need to hear that you are on my side in the upcoming battle.~
+@119   = ~Irenicus is a mighty foe, Yoshimo. I do not know if all of us shall survive this battle. I would understand if you do not want to come with me.~
+@120   = ~Irenicus is my sworn enemy. I am eager to fight him.~
+@121   = ~I side with the one, whose wise council brought Kachiko back to life and granted my family eternal peace. Do not fear, <CHARNAME> my blade will not backstab you.~
+@122   = ~Say the word you think is proper. But be you god or be you mortal, always remember that Yoshimo is your friend.~
+
+//YOSHP.DLG
+@200    = ~I do not wish to end our pairing before our tasks are done, but perhaps a rest is in order. Are you sure you want to go seperate paths?~ [YOSHIM65]
+@201    = ~We don't need your services right now. Sorry Yoshimo.~
+@202    = ~No, I don't want you to leave just yet, Yoshimo.~
+@203    = ~Where do you want to meet if we are to adventure again together?~
+@204    = ~Go to the Copper Coronet. If we need to find you, we'll meet you there.~
+@205    = ~Wait here. If we need your services we'll be back.~
+@206    = ~Perhaps at a major inn or tavern? Somewhere we are sure to go.~
+@207    = ~Heya, <CHARNAME>. How are you?~
+@208    = ~I am well, thank you. Did you manage to find a ship?~
+@209    = ~Actually things have been pretty rough. Yoshimo, do you have time to help me out?~
+@210   = ~No, not yet. Kachiko's ship has already left, and it may take few months till we find another one.~
+@211   = ~Since you have nothing much to do, but wait, may be you can help me out?~
+@212   = ~Oh, well, that's life. Have patience, my friend.~
+@213   = ~Kachiko, what do you think?~
+@214   = ~<CHARNAME>, are you serious? You want to leave me when I really need your help?~
+@215   = ~Yes, Yoshimo. I am tired of all these complications with your crazy families. Look for somebody else to help you. I need to save Imoen.~
+@216   = ~Sorry, Yoshimo. I've just pressed the wrong button.~
+@217   = ~Oh, well that's okay, then.~
+@218   = ~Yoshimo, wait. I am leaving with you. Alone you will only get into more troubles. Sorry <CHARNAME>, but I told you from the very start that I would follow whenever he goes... and I shall do so now.~ [KACHIL26]
+@219   = ~Then return when you can. I will wait if you are sure to return.~
+@220   = ~Yoshimo, I am staying with you. Alone you will only get into more troubles. Sorry <CHARNAME>, but I told you from the very start that I wouldn't allow him to escape... and I shan't do so now.~
+@221   = ~Oh, well... I suppose we'll meet soon anyway.~
+@222   = ~<CHARNAME>, how are you? I see you didn't leave the island yet. So, could I beg your assisstance once again? Kachiko is dying... Please, join me to save her.~
+@223   = ~Of course.~
+@224   = ~No, not just yet.~
+@225   = ~Thank you.~
