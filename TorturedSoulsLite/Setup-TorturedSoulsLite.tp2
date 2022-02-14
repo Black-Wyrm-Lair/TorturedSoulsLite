@@ -25,6 +25,7 @@ LANGUAGE ~English~
 ~TorturedSoulsLite/tra/english/setup.tra~
 
 BEGIN ~Tortured Souls Lite~
+DESIGNATED 0 LABEL ~TSL_MainComponent~
 
 /* -------------------------------------------------------------------------------------------------- *
 * Adds CamDawg's custom IsValidForPartyDialogue state used throughout yeslicknpc. Thanks Cam! *
@@ -143,8 +144,6 @@ COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 ~TorturedSoulsLite/scripts/vp41disp.baf~
 ~TorturedSoulsLite/scripts/vp41dism.baf~
 ~TorturedSoulsLite/scripts/vp41disc.baf~
-~TorturedSoulsLite/scripts/vp41g.baf~
-~TorturedSoulsLite/scripts/vp41j.baf~
 ~TorturedSoulsLite/scripts/vpaino.baf~
 ~TorturedSoulsLite/scripts/vpainox.baf~
 ~TorturedSoulsLite/scripts/vpalome.baf~
@@ -246,26 +245,18 @@ COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsp.bcs~
     REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
 END
   BUT_ONLY_IF_IT_CHANGES
-/*
-COPY_EXISTING ~cut41g.bcs~ ~override/vp41g.bcs~
+
+  COPY_EXISTING ~cut41g.bcs~ ~override/vp41g.bcs~
   DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",ReallyForceSpell("Yoshimo",NOHOLD_PARTY))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",MakeUnselectable(1))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",JumpToPoint([748.1064]))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",LeaveParty())~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",ChangeAIScript("",DEFAULT))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",SetDialog("yoshimox"))~ ~~
+  REPLACE_TEXTUALLY ~\(ActionOverride("Yoshimo",[^!])\)~ ~~
 END
   BUT_ONLY_IF_IT_CHANGES
 
 COPY_EXISTING ~cut41j.bcs~ ~override/vp41j.bcs~
   DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",ChangeAIScript("yoshimox",OVERRIDE))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",JumpToPoint([1275.652]))~ ~~
-	REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("Yoshimo",SetDialog("yoshimox"))~ ~~
+  REPLACE_TEXTUALLY ~\(ActionOverride("Yoshimo",[^!])\)~ ~~
 END
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 //////////////////////////////
 //Areas
@@ -777,114 +768,104 @@ END
 
 //Kachiko Spawn Point
 
-PRINT ~Kachiko Spawn Point~
-PRINT ~Please choose one of the following:
-[1] Kachiko appears in Irenicus Dungeon (Original)
-[2] Kachiko appears after talking with Renal~
+BEGIN ~Kachiko appears in Irenicus Dungeon (Original)~
+DESIGNATED 10 LABEL ~TSL_KachikoSpawn_Dungeon~
+SUBCOMPONENT ~Kachiko Spawn Point~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
-ACTION_READLN ~portrait~
-OUTER_WHILE (!(IS_AN_INT ~portrait~) OR (~%spawn%~ > 2) OR (~%spawn%~ < 1)) BEGIN
- PRINT ~Please choose one of the following:
-[1] Kachiko appears in Irenicus Dungeon (Original)
-[2] Kachiko appears after talking with Renal~ // repeat prompt until valid answer
- ACTION_READLN ~portrait~
-END
+EXTEND_TOP ~AR0603.BCS~ ~TorturedSoulsLite/scripts/ar0603.baf~
 
-ACTION_IF (~%spawn%~ = 1) THEN BEGIN
- PRINT ~Kachiko appears in Irenicus Dungeon~
-  EXTEND_TOP EVAL ~AR0603.BCS~ ~TorturedSoulsLite/scripts/ar0603.baf~
-END ELSE ACTION_IF (~%spawn%~ = 2) THEN BEGIN
- PRINT ~Kachiko appears after talking with Renal~
-  EXTEND_TOP ~AR0300.BCS~ ~TorturedSoulsLite/scripts/ar0300.baf~
-END
+BEGIN ~Kachiko appears after talking with Renal~
+DESIGNATED 11 LABEL ~TSL_KachikoSpawn_Docks~
+SUBCOMPONENT ~Kachiko Spawn Point~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
+
+EXTEND_TOP ~AR0300.BCS~ ~TorturedSoulsLite/scripts/ar0300.baf~
+
+
 
 ///////////////////////////////
 //Portraits
 //////////////////////////////
 
-PRINT @166
-PRINT @167
+BEGIN ~Kachiko Original Portrait (poemmaker2)~
+DESIGNATED 20 LABEL ~TSL_KachikoPortrait_Original~
+SUBCOMPONENT ~Kachiko Portrait~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
-ACTION_READLN ~portrait~
-OUTER_WHILE (!(IS_AN_INT ~portrait~) OR (~%portrait%~ > 3) OR (~%portrait%~ < 1)) BEGIN
- PRINT @167 // repeat prompt until valid answer
- ACTION_READLN ~portrait~
-END
+COPY ~TorturedSoulsLite/portraits/vpkachi1L.bmp~ ~override/vpkachiL.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi1M.bmp~ ~override/vpkachiM.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi1S.bmp~ ~override/vpkachiS.bmp~
 
-ACTION_IF (~%portrait%~ = 1) THEN BEGIN
- PRINT @168
-  COPY ~TorturedSoulsLite/portraits/vpkachi1L.bmp~ ~override/vpkachiL.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi1M.bmp~ ~override/vpkachiM.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi1S.bmp~ ~override/vpkachiS.bmp~
-END ELSE ACTION_IF (~%portrait%~ = 2) THEN BEGIN
- PRINT @169
-  COPY ~TorturedSoulsLite/portraits/vpkachi2L.bmp~ ~override/vpkachiL.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi2M.bmp~ ~override/vpkachiM.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi2S.bmp~ ~override/vpkachiS.bmp~
-END ELSE ACTION_IF (~%portrait%~ = 3) THEN BEGIN
- PRINT @170
-  COPY ~TorturedSoulsLite/portraits/vpkachi3L.bmp~ ~override/vpkachiL.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi3M.bmp~ ~override/vpkachiM.bmp~
-  COPY ~TorturedSoulsLite/portraits/vpkachi3S.bmp~ ~override/vpkachiS.bmp~
-END
+BEGIN ~Kachiko Alternate Portrait 1 (Enkida)~
+DESIGNATED 21 LABEL ~TSL_KachikoPortrait_Alt1~
+SUBCOMPONENT ~Kachiko Portrait~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
+
+COPY ~TorturedSoulsLite/portraits/vpkachi2L.bmp~ ~override/vpkachiL.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi2M.bmp~ ~override/vpkachiM.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi2S.bmp~ ~override/vpkachiS.bmp~
+
+BEGIN ~Kachiko Alternate Portrait 2~
+DESIGNATED 22 LABEL ~TSL_KachikoPortrait_Alt2~
+SUBCOMPONENT ~Kachiko Portrait~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
+
+COPY ~TorturedSoulsLite/portraits/vpkachi3L.bmp~ ~override/vpkachiL.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi3M.bmp~ ~override/vpkachiM.bmp~
+COPY ~TorturedSoulsLite/portraits/vpkachi3S.bmp~ ~override/vpkachiS.bmp~
 
 ///////////////////////////////
 //Soundsets
 //////////////////////////////
 
-PRINT @171
-PRINT @172
+BEGIN ~Kachiko Default Soundset~
+DESIGNATED 30 LABEL ~TSL_KachikoSoundset_New~
+SUBCOMPONENT ~Kachiko Soundset~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
-ACTION_READLN ~soundset~
-OUTER_WHILE (!(IS_AN_INT ~soundset~) OR (~%soundset%~ > 2) OR (~%soundset%~ < 1)) BEGIN
- PRINT @172 // repeat prompt until valid answer
- ACTION_READLN ~soundset~
-END
-
-ACTION_IF (~%soundset%~ = 1) THEN BEGIN
-PRINT @173
 COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
- SAY NAME1 @135
- SAY NAME2 @135
- SAY MORALE @174
- SAY LEADER @175
- SAY BATTLE_CRY1 @176
- SAY BATTLE_CRY2 @177
- SAY BATTLE_CRY3 @178
- SAY BATTLE_CRY4 @179
- SAY BATTLE_CRY5 @180
- SAY TIRED @181
- SAY BORED @182
- SAY DAMAGE ~~ [KACHIST]
- SAY DYING ~~ [KACHIDI]
- SAY HURT @185
- SAY AREA_DUNGEON ~~ [KACHIDU]
- SAY AREA_FOREST ~~ [KACHIOU]
- SAY AREA_DAY ~~ [KACHIDA]
- SAY AREA_NIGHT ~~ [KACHINI]
- SAY SELECT_COMMON1 @190
- SAY SELECT_COMMON2 @191
- SAY SELECT_COMMON3 @192
- SAY SELECT_COMMON4 @193
- SAY SELECT_COMMON5 @194
- SAY SELECT_COMMON6 @195
- SAY SELECT_ACTION1 @196
- SAY SELECT_ACTION2 @197
- SAY SELECT_ACTION3 @198
- SAY SELECT_ACTION4 @199
- SAY SELECT_ACTION5 @200
- SAY SELECT_ACTION6 @201
- SAY SELECT_ACTION7 @202
- SAY SELECT_RARE1 @203
- SAY SELECT_RARE1 @204
- SAY REACT_TO_DIE_GENERAL @205
- SAY CRITICAL_HIT ~~ [KACHICR]
- SAY CRITICAL_MISS ~~ [KACHIMI]
- SAY TARGET_IMMUNE ~~ [KACHIIM]
- SAY INVENTORY_FULL ~~ [KACHICA]
- SAY SPELL_DISRUPTED ~~ [KACHIFA]
- SAY BIO @211
-
+  SAY NAME1 @135
+  SAY NAME2 @135
+  SAY MORALE @174
+  SAY LEADER @175
+  SAY BATTLE_CRY1 @176
+  SAY BATTLE_CRY2 @177
+  SAY BATTLE_CRY3 @178
+  SAY BATTLE_CRY4 @179
+  SAY BATTLE_CRY5 @180
+  SAY TIRED @181
+  SAY BORED @182
+  SAY DAMAGE ~~ [KACHIST]
+  SAY DYING ~~ [KACHIDI]
+  SAY HURT @185
+  SAY AREA_DUNGEON ~~ [KACHIDU]
+  SAY AREA_FOREST ~~ [KACHIOU]
+  SAY AREA_DAY ~~ [KACHIDA]
+  SAY AREA_NIGHT ~~ [KACHINI]
+  SAY SELECT_COMMON1 @190
+  SAY SELECT_COMMON2 @191
+  SAY SELECT_COMMON3 @192
+  SAY SELECT_COMMON4 @193
+  SAY SELECT_COMMON5 @194
+  SAY SELECT_COMMON6 @195
+  SAY SELECT_ACTION1 @196
+  SAY SELECT_ACTION2 @197
+  SAY SELECT_ACTION3 @198
+  SAY SELECT_ACTION4 @199
+  SAY SELECT_ACTION5 @200
+  SAY SELECT_ACTION6 @201
+  SAY SELECT_ACTION7 @202
+  SAY SELECT_RARE1 @203
+  SAY SELECT_RARE1 @204
+  SAY REACT_TO_DIE_GENERAL @205
+  SAY CRITICAL_HIT ~~ [KACHICR]
+  SAY CRITICAL_MISS ~~ [KACHIMI]
+  SAY TARGET_IMMUNE ~~ [KACHIIM]
+  SAY INVENTORY_FULL ~~ [KACHICA]
+  SAY SPELL_DISRUPTED ~~ [KACHIFA]
+  SAY BIO @211
+  
 LAF HANDLE_AUDIO
  STR_VAR
  audio_path = ~TorturedSoulsLite/audio/ss_new~
@@ -892,48 +873,50 @@ LAF HANDLE_AUDIO
  sox_path = ~TorturedSoulsLite/audio~
 END
 
-END ELSE ACTION_IF (~%soundset%~ = 2) THEN BEGIN
-PRINT @212
-COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
- SAY NAME1 @135
- SAY NAME2 @135
- SAY LEADER @213
- SAY BATTLE_CRY1 @214
- SAY BATTLE_CRY2 @215
- SAY TIRED ~~ [KACHITI]
- SAY 0xdc @217
- SAY DAMAGE ~~ [KACHIST]
- SAY DYING ~~ [KACHIDI]
- SAY HURT @218
- SAY AREA_DUNGEON @219
- SAY AREA_FOREST @220
- SAY AREA_DAY @221
- SAY AREA_NIGHT @222
- SAY SELECT_COMMON1 @223
- SAY SELECT_COMMON2 @224
- SAY SELECT_COMMON3 @225
- SAY SELECT_COMMON4 @226
- SAY SELECT_COMMON5 @227
- SAY SELECT_COMMON6 @228
- SAY SELECT_ACTION1 @229
- SAY SELECT_ACTION2 @230
- SAY SELECT_ACTION3 @231
- SAY SELECT_ACTION4 @232
- SAY SELECT_ACTION5 @233
- SAY SELECT_ACTION6 @228
- SAY CRITICAL_HIT @234
- SAY CRITICAL_MISS @235
- SAY TARGET_IMMUNE @236
- SAY INVENTORY_FULL @237
- SAY SPELL_DISRUPTED @238
- SAY BIO @211
+BEGIN ~Kachiko Legacy Soundset~
+DESIGNATED 31 LABEL ~TSL_KachikoSoundset_Old~
+SUBCOMPONENT ~Kachiko Soundset~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
+COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
+  SAY NAME1 @135
+  SAY NAME2 @135
+  SAY LEADER @213
+  SAY BATTLE_CRY1 @214
+  SAY BATTLE_CRY2 @215
+  SAY TIRED ~~ [KACHITI]
+  SAY 0xdc @217
+  SAY DAMAGE ~~ [KACHIST]
+  SAY DYING ~~ [KACHIDI]
+  SAY HURT @218
+  SAY AREA_DUNGEON @219
+  SAY AREA_FOREST @220
+  SAY AREA_DAY @221
+  SAY AREA_NIGHT @222
+  SAY SELECT_COMMON1 @223
+  SAY SELECT_COMMON2 @224
+  SAY SELECT_COMMON3 @225
+  SAY SELECT_COMMON4 @226
+  SAY SELECT_COMMON5 @227
+  SAY SELECT_COMMON6 @228
+  SAY SELECT_ACTION1 @229
+  SAY SELECT_ACTION2 @230
+  SAY SELECT_ACTION3 @231
+  SAY SELECT_ACTION4 @232
+  SAY SELECT_ACTION5 @233
+  SAY SELECT_ACTION6 @228
+  SAY CRITICAL_HIT @234
+  SAY CRITICAL_MISS @235
+  SAY TARGET_IMMUNE @236
+  SAY INVENTORY_FULL @237
+  SAY SPELL_DISRUPTED @238
+  SAY BIO @211
+  
 LAF HANDLE_AUDIO
  STR_VAR
- audio_path = ~TorturedSoulsLite/audio/ss_old~
- oggdec_path = ~TorturedSoulsLite/audio~
- sox_path = ~TorturedSoulsLite/audio~
-END
+  audio_path = ~TorturedSoulsLite/audio/ss_old~
+  oggdec_path = ~TorturedSoulsLite/audio~
+  sox_path = ~TorturedSoulsLite/audio~
 END
 
 ///////////////////////////////
@@ -941,6 +924,8 @@ END
 //////////////////////////////
 
 BEGIN @239
+DESIGNATED 40 LABEL ~TSL_KachikoVoicelines~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
 LAF HANDLE_AUDIO
  STR_VAR
@@ -954,6 +939,8 @@ END
 ////////////////
 
 BEGIN ~Add Portraits to Island NPCs?~
+DESIGNATED 50 LABEL ~TSL_MiscPortraits~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
 COPY ~TorturedSoulsLite/portraits/npc~ ~override~
 
@@ -962,8 +949,10 @@ COPY ~TorturedSoulsLite/portraits/npc~ ~override~
 ///////////////////////////
 
 BEGIN ~Crossmod Content~
-// Alternatives
+DESIGNATED 60 LABEL ~TSL_Crossmod~
+REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
+// Alternatives
 ACTION_IF FILE_EXISTS_IN_GAME ~b!aster2.dlg~ BEGIN
 	PRINT ~Alternatives Compatability...~
 
