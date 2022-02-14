@@ -36,10 +36,10 @@ THEN
 	RESPONSE #100
 		SetGlobal("VP_UnivAltar","GLOBAL",1)
 		DestroyItem("vpkeypla")
-		DestroyItem("vppot1A")
-		DestroyItem("vppot3C")
-		DestroyItem("vppot4B")
-		DestroyItem("vppot5B")
+		DestroyItem("vppot1a")
+		DestroyItem("vppot3c")
+		DestroyItem("vppot4b")
+		DestroyItem("vppot5b")
 		TakePartyItem("vpkeypla")
 		TakePartyItem("vppot1a")
 		TakePartyItem("vppot3c")
@@ -64,5 +64,3 @@ THEN
 	RESPONSE #100
 		DisplayString(Myself,14702) // You are too far away to use that.
 END
-
-

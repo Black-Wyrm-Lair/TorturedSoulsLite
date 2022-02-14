@@ -1,5 +1,5 @@
 IF
-	!StateCheck(Player1,STATE_SLEEPING)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
 	CombatCounter(0)
 	NumTimesTalkedTo(0)
 	Global("Alome_Meet","GLOBAL",1)

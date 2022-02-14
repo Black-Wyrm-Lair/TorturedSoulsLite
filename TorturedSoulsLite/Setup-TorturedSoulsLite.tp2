@@ -3,7 +3,7 @@
 
 BACKUP ~TorturedSoulsLite\backup~
 AUTHOR ~Vladislav Papper (vladp6@gmail.com)~
-VERSION ~0.1~
+VERSION ~0.3~
 
 ALWAYS
  ACTION_IF (GAME_IS ~eet~) BEGIN
@@ -24,6 +24,9 @@ LANGUAGE ~English~
 ~english~
 ~TorturedSoulsLite/tra/english/setup.tra~
 
+/////////////////////
+//Main Component
+/////////////////////
 BEGIN ~Tortured Souls Lite~
 DESIGNATED 0 LABEL ~TSL_MainComponent~
 
@@ -32,7 +35,7 @@ DESIGNATED 0 LABEL ~TSL_MainComponent~
 * -------------------------------------------------------------------------------------------------- */
 APPEND ~STATE.IDS~ ~0x80101FEF CD_STATE_NOTVALID~ UNLESS ~CD_STATE_NOTVALID~
 
-// Splash Screens
+//Splash Screens
 
 COPY ~TorturedSoulsLite/2da/vpstart.2da~ ~override/vpstart.2da~
 REPLACE ~scrtxt09~ @3
@@ -46,7 +49,7 @@ REPLACE ~scrtxt11~ @5
 COPY ~TorturedSoulsLite/2da/vpyoshnd.2da~ ~override~
 REPLACE ~yoshifin~ @6
 
-//Adding NPCs to 2DA
+//Adding Kachiko to 2DAs
 
 APPEND ~PDIALOG.2da~
 ~VPKACHI VPKACHIP VPKACHIJ VPKACHID VPKACHP2 VPKACHJ2 VPKACHD2 VPKACH25~
@@ -56,9 +59,6 @@ APPEND ~INTERDIA.2da~
 ~VPKACHI VPKACHIB VPKACHB2~
 UNLESS ~VPKACHI~
 
-///////////////////////////
-//Art & Sound
-///////////////////////////
 
 // Lizardman Animation
 ACTION_IF NOT FILE_EXISTS_IN_GAME ~MLI2A1.bam~ THEN BEGIN 
@@ -68,7 +68,7 @@ END
 // Icons
 COPY ~TorturedSoulsLite/bam~ ~override~
 
-//Music & Sound
+//Music & Ambient
 LAF HANDLE_AUDIO
 STR_VAR
  audio_path = ~TorturedSoulsLite/audio/sounds~
@@ -79,10 +79,7 @@ END
 //Epilogue Art
 COPY ~TorturedSoulsLite/portraits/vphashiL.bmp~ ~override~
 
-///////////////////////////
 //Dialogues
-///////////////////////////
-
 COMPILE ~TorturedSoulsLite/dlg/vpppbodh3.d~
 ~TorturedSoulsLite/dlg/vpppireni.d~
 ~TorturedSoulsLite/dlg/vpppsaem.d~
@@ -112,10 +109,7 @@ COMPILE ~TorturedSoulsLite/dlg/vpppbodh3.d~
 
 COMPILE EVAL ~TorturedSoulsLite/dlg/vpyoshimo.d~
 
-///////////////////////////
 //Scripts
-///////////////////////////
-
 COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 ~TorturedSoulsLite/scripts/TSCutK02.baf~
 ~TorturedSoulsLite/scripts/TSCutK03.baf~
@@ -214,7 +208,6 @@ EXTEND_TOP ~YOSHX.BCS~ ~TorturedSoulsLite/scripts/yoshx.baf~
 EXTEND_TOP ~PPSAEM2.BCS~ ~TorturedSoulsLite/scripts/ppsaem2.baf~
 
 // Modified Original Scripts
-
 COPY_EXISTING ~cut41c.bcs~ ~override/vp41cn.bcs~
   DECOMPILE_AND_PATCH BEGIN
     REPLACE_TEXTUALLY ~ActionOverride("ppsaem",DestroySelf())~ ~ActionOverride("ppsaem",DestroySelf()) ActionOverride("Yoshimo",LeaveParty()) ActionOverride("Yoshimo",EscapeArea()) ActionOverride("vpkachi",LeaveParty()) ActionOverride("vpkachi",EscapeArea())~
@@ -258,10 +251,7 @@ COPY_EXISTING ~cut41j.bcs~ ~override/vp41j.bcs~
 END
   BUT_ONLY_IF_IT_CHANGES
 
-//////////////////////////////
 //Areas
-//////////////////////////////
-
 COPY ~TorturedSoulsLite/are~ ~override~
 
 COPY_EXISTING ~TT0100.ARE~ ~override~
@@ -300,10 +290,7 @@ END ELSE BEGIN
  COPY ~TorturedSoulsLite/tis/Original~ ~override~
 END
 
-/////////////////////////////////////////////
 //Items
-/////////////////////////////////////////////
-
 COPY ~TorturedSoulsLite/eff~ ~override~
 
 COPY ~TorturedSoulsLite/itm/vpaxecha.itm~ ~override~
@@ -523,33 +510,43 @@ COPY ~TorturedSoulsLite/itm/vpdshld.itm~ ~override~
 COPY ~TorturedSoulsLite/itm/vpelhyd1.itm~ ~override~
 COPY ~TorturedSoulsLite/itm/vpmasitm.itm~ ~override~
 
+//2da Appends
+
+APPEND ~item_use.2da~
+~vpnring2 vpkachi 9382 2 99999
+vpkswor1 vpkachi 9382 2 99999
+vpkswor2 vpkachi 9382 2 99999
+vpyokat yoshimo 9382 2 99998
+vpyoring yoshimo 9382 2 99998~
+UNLESS ~vpsleat~
+
+COPY_EXISTING ~item_use.2da~ ~override~
+REPLACE ~99999~ @135
+REPLACE ~99998~ #9141
+
 APPEND ~TOOLTIP.2DA~
 ~vproghat 77777774 77777775 -1
 vpscarab 77777776 77777777 -1
 vpwujen 77777783 99998921 -1
 vpbkingh 77777783 99998921 -1
 vpnring2 99999921 99999922 99999923
-vprobear 99999922 77777753 -1
 vpringed 88888887 88888888 88888889~
 UNLESS ~vproghat~
 
 COPY_EXISTING ~TOOLTIP.2DA~ ~override~
-REPLACE ~99998921~ @107 
-REPLACE ~77777774~ @108 
-REPLACE ~77777775~ @109 
-REPLACE ~77777776~ @110 
-REPLACE ~77777777~ @111 
-REPLACE ~77777783~ @112
-REPLACE ~99999921~ @113
-REPLACE ~99999922~ @114
-REPLACE ~77777753~ @115
-REPLACE ~88888887~ @116
-REPLACE ~88888888~ @117
+REPLACE ~99998921~ #8786 //Heal
+REPLACE ~77777774~ #12015 //Blindness 
+REPLACE ~77777775~ #13016 //Color Spray
+REPLACE ~77777776~ #12046 //Friends
+REPLACE ~77777777~ #14033 //Charm
+REPLACE ~77777783~ #35603 //Greater Restoration
+REPLACE ~99999921~ #12021 //Improved Invisibility
+REPLACE ~99999922~ #25937 //Improved Haste
+REPLACE ~88888887~ #13070 //Fireshield (Blue)
+REPLACE ~88888888~ #13075 //Stoneskin
+REPLACE ~88888889~ #15211 //Conjure Fire Elemental
 
-/////////////////////////////////////
-//Stores 
-/////////////////////////////////////
-
+//Stores
 COPY ~TorturedSoulsLite/sto/vphasuno.sto~ ~override/vphasuno.sto~
 SAY NAME2 @118
 
@@ -757,6 +754,11 @@ COPY ~TorturedSoulsLite/cre/vpkuku.cre~ ~override~
 COPY ~TorturedSoulsLite/cre/vpliz06.cre~ ~override~
 COPY ~TorturedSoulsLite/cre/vpliz07.cre~ ~override~
 
+COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
+  SAY NAME1 @135
+  SAY NAME2 @135
+  SAY BIO @211
+
 //Adding Sound and Music
 
 LAF HANDLE_AUDIO
@@ -766,7 +768,9 @@ STR_VAR
  sox_path = ~TorturedSoulsLite/audio~
 END
 
+//////////////////////
 //Kachiko Spawn Point
+//////////////////////
 
 BEGIN ~Kachiko appears in Irenicus Dungeon (Original)~
 DESIGNATED 10 LABEL ~TSL_KachikoSpawn_Dungeon~
@@ -781,8 +785,6 @@ SUBCOMPONENT ~Kachiko Spawn Point~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
 EXTEND_TOP ~AR0300.BCS~ ~TorturedSoulsLite/scripts/ar0300.baf~
-
-
 
 ///////////////////////////////
 //Portraits
@@ -824,9 +826,7 @@ DESIGNATED 30 LABEL ~TSL_KachikoSoundset_New~
 SUBCOMPONENT ~Kachiko Soundset~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
-COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
-  SAY NAME1 @135
-  SAY NAME2 @135
+COPY_EXISTING ~vpkachi.cre~ ~override~
   SAY MORALE @174
   SAY LEADER @175
   SAY BATTLE_CRY1 @176
@@ -864,7 +864,6 @@ COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
   SAY TARGET_IMMUNE ~~ [KACHIIM]
   SAY INVENTORY_FULL ~~ [KACHICA]
   SAY SPELL_DISRUPTED ~~ [KACHIFA]
-  SAY BIO @211
   
 LAF HANDLE_AUDIO
  STR_VAR
@@ -878,9 +877,7 @@ DESIGNATED 31 LABEL ~TSL_KachikoSoundset_Old~
 SUBCOMPONENT ~Kachiko Soundset~
 REQUIRE_PREDICATE (MOD_IS_INSTALLED ~Setup-TorturedSoulsLite.tp2~ ~0~) ~Please, install Tortured Souls Main Component~
 
-COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
-  SAY NAME1 @135
-  SAY NAME2 @135
+COPY_EXISTING ~vpkachi.cre~ ~override~
   SAY LEADER @213
   SAY BATTLE_CRY1 @214
   SAY BATTLE_CRY2 @215
@@ -910,7 +907,6 @@ COPY ~TorturedSoulsLite/cre/vpkachi.cre~ ~override~
   SAY TARGET_IMMUNE @236
   SAY INVENTORY_FULL @237
   SAY SPELL_DISRUPTED @238
-  SAY BIO @211
   
 LAF HANDLE_AUDIO
  STR_VAR
@@ -983,16 +979,8 @@ ACTION_IF FILE_EXISTS_IN_GAME ~b!aster2.dlg~ BEGIN
   
   //From Island Splashes
   COPY ~TorturedSoulsLite/2da/vpfin.2da~ ~override/vpfinal.2da~
-    REPLACE ~scrtxt11~ ~CHAPTER FOUR
-
-    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
-    
-    Aster and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
+    REPLACE ~scrtxt11~ @300
     
   COPY ~TorturedSoulsLite/2da/vpfin.2da~ ~override/vpfinma.2da~
-    REPLACE ~scrtxt11~ ~CHAPTER FOUR
-
-    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Maztica... or so you thought.
-    
-    Malficus was following the orders of Bodhi, a powerful vampire, and you were found at the shore of Brynnlaw, betrayed. Like it or not, you are here now, and the only way to get back is to go forward. The island might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side, and both Irenicus and Imoen are here.~ [vptheme2]
+    REPLACE ~scrtxt11~ @301
 END

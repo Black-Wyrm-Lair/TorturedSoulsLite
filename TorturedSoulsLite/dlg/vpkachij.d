@@ -12,6 +12,18 @@ LeaveParty()
 EscapeArea()~
 EXIT
 
+CHAIN IF ~Global("VP_Yoshimo_Dies","GLOBAL",3)
+See(Player1)
+!StateCheck(Player1,CD_STATE_NOTVALID)~ THEN VPKACHIJ N40
+@0 DO ~SetGlobal("VP_Yoshimo_Dies","GLOBAL",4)
+DestroyItem("vpkswor1")
+DestroyItem("vpkswor2")
+DestroyItem("vpnring2")
+GivePartyAllEquipment()
+LeaveParty()
+EscapeArea()~
+EXIT
+
 CHAIN IF WEIGHT #-1 ~Global("VP_YoshimoSearch","GLOBAL",2)~ THEN VPKACHIJ remind_1
 @1
 END
@@ -239,18 +251,6 @@ END
 I_C_T PLAYER1 25 VPKachiHell 
 == VPKACHIJ IF ~InParty("vpsime") InMyArea("vpsime") !StateCheck("vpsime",CD_STATE_NOTVALID)~ @50
 END
-
-CHAIN IF ~Global("VP_Yoshimo_Dies","GLOBAL",3)
-See(Player1)
-!StateCheck(Player1,STATE_SLEEPING)~ THEN VPKACHIJ N40
-@0 DO ~SetGlobal("VP_Yoshimo_Dies","GLOBAL",4)
-DestroyItem("vpkswor1")
-DestroyItem("vpkswor2")
-DestroyItem("vpnring2")
-GivePartyAllEquipment()
-LeaveParty()
-EscapeArea()~
-EXIT
 
 // Imoen Join Script Append
 

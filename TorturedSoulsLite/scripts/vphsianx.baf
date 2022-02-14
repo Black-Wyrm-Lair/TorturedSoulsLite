@@ -66,5 +66,3 @@ THEN
 	RESPONSE #100
 		AttackReevaluate([ANYONE],30)
 END
-
-

@@ -17,5 +17,3 @@ THEN
 		SetGlobal("Nakanishi_Hostile","GLOBAL",2)
 		DisplayStringHead([PC],@246)
 END
-
-

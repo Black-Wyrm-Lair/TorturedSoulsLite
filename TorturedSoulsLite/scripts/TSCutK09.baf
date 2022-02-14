@@ -5,5 +5,3 @@ THEN
 		CutSceneId(Player1)
 		StartDialog("player1",Player1)
 END
-
-

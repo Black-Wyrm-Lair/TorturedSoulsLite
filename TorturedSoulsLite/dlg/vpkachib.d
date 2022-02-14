@@ -65,6 +65,8 @@ CHAIN VPKACHIB 18
 == BYOSHIM @24
 EXIT
 
+//No banters for Cernd :(
+
 // Edwin
 
 CHAIN

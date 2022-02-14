@@ -5,5 +5,3 @@ THEN
 	RESPONSE #100
 		SetGlobal("Hashimoto_Visited","GLOBAL",1)
 END
-
-

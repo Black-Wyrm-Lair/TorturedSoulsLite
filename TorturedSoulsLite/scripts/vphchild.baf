@@ -95,5 +95,3 @@ THEN
 		MoveToObject(LastHeardBy(Myself))
 		Continue()
 END
-
-

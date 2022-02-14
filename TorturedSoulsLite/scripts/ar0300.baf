@@ -5,11 +5,6 @@ IF
     CombatCounter(0)
 THEN
 	RESPONSE #100
-		SetGlobal("VP_CreateKachiko","GLOBAL",1)
-		CreateCreatureObject("bdoffscr",Myself,0,0,0)  // No such index
-		ApplySpellRES("bdoffscr","bdoffscr")  // No such index
-		SmallWait(1)
-		CreateCreatureObject("vpkachi","bdoffscr",0,0,0)
-		SetInterrupt(TRUE)
+		CreateCreatureObjectOffScreen("vpkachi",Player1,0,0,0)
 		ActionOverride("vpkachi",Dialog([PC]))
 END

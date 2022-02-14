@@ -75,5 +75,3 @@ THEN
 		FadeFromColor([20.0],0)
 		Enemy()
 END
-
-

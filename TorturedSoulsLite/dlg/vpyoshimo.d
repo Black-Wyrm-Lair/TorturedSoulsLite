@@ -41,7 +41,7 @@ END
 
 CHAIN IF WEIGHT #0 ~Global("VP_Kachiko_Dies","GLOBAL",3)
 See(Player1)
-!StateCheck(Player1,STATE_SLEEPING)~ THEN YOSHJ TS223
+!StateCheck(Player1,CD_STATE_NOTVALID)~ THEN YOSHJ TS223
 @100 DO ~SetGlobal("VP_Kachiko_Dies","GLOBAL",4)
 StartCutSceneMode()
 StartCutScene("TSCutK03")~ EXIT
@@ -103,10 +103,10 @@ END
 //Solar
 
 EXTEND_BOTTOM FINSOL01 27
-  IF ~InParty("Yoshimo")~ THEN EXTERN YOSHJ YoshimoChoice
+  IF ~InParty("Yoshimo")~ THEN EXTERN YOSHJ VPYoshimoChoice
 END
 
-CHAIN YOSHJ YoshimoChoice
+CHAIN YOSHJ VPYoshimoChoice
 @122
 END
 COPY_TRANS FINSOL01 27

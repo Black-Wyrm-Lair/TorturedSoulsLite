@@ -89,5 +89,3 @@ THEN
 		EquipRanged()
 		AttackReevaluate(NearestEnemyOf(Myself),15)
 END
-
-

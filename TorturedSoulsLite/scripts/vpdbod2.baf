@@ -6,5 +6,3 @@ THEN
 		SetGlobal("Dead_Bodies","GLOBAL",3)
 		ActionOverride("vpkachi",StartDialogueNoSet(Player1))
 END
-
-

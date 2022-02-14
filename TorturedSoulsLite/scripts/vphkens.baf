@@ -31,5 +31,3 @@ THEN
 		SetGlobal("Hashimoto_Attacked","LOCALS",1)
 		Enemy()
 END
-
-

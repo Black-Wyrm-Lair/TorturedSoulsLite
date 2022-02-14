@@ -457,9 +457,9 @@ Equipped Abilities:
 – Can memorize two extra arcane spells of each level from 4th to 9th
 
 Charge abilities:
-– Adamantine Skin twice per day
-– Blue Fire Shield twice per day
-– Summon Fire Golem twice per day
+– Stoneskin twice per day
+– Fireshield (Blue) twice per day
+– Conjure Fire Elemental twice per day
 
 Weight: 0~
 @78   = ~Robe of Armory~
@@ -656,17 +656,7 @@ Proficiency Type: Katana
 Type: One-handed
 
 Weight: 5~
-@107  = ~Heal~
-@108  = ~Blindness~
-@109  = ~Color Spray~
-@110  = ~Friends~
-@111  = ~Charm~
-@112  = ~Greater Restoration~
-@113  = ~Imroved Invisibility~
-@114  = ~Improved Haste~
-@115  = ~Protective Mode~
-@116  = ~Adamantine Skin~
-@117  = ~Blue Fire Shield~
+
 @118  = ~Hasuno~
 @119  = ~Aino Hashimoto~
 @120  = ~Aino~
@@ -715,19 +705,7 @@ Weight: 5~
 @163  = ~Priest of Selune~
 @164  = ~Hsiang~
 @165  = ~Kuku~
-@166  = ~Choose a portrait for Kachiko:~
-@167  = ~Please choose one of the following:
-[1] Default Portrait
-[2] Alternate Portrait 1
-[3] Alternate Portrait 2~
-@168  = ~Installing Portrait: Default Portrait~
-@169  = ~Installing Portrait: Alternate Portrait 1~
-@170  = ~Installing Portrait: Alternate Portrait 2~
-@171  = ~Choose a Soundset for Kachiko:~
-@172  = ~Please choose one of the following:
-[1] Default Soundset
-[2] Legacy Soundset~
-@173  = ~Installing Soundset: Default Soundset~
+
 @174  = ~Uhm, I have to go now...~ [KACHIMO]
 @175  = ~I will try to fill this role as well as I can.~ [KACHIMC]
 @176  = ~My aim shall be true!~ [KACHIBC1]
@@ -797,3 +775,16 @@ Weight: 5~
 @252  = ~You have no method for which to climb down into the pit.  Perhaps some sort of rope would help.~
 @253  = ~This exit is magically sealed. You have no means to unseal it.~
 @254  = ~These stairs have collapsed. You will have to find another route.~
+
+//Alternatives crossmod
+
+@300  = ~CHAPTER FOUR
+
+    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+    
+    Aster and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
+@301  = ~CHAPTER FOUR
+
+    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Maztica... or so you thought.
+    
+    Malficus was following the orders of Bodhi, a powerful vampire, and you were found at the shore of Brynnlaw, betrayed. Like it or not, you are here now, and the only way to get back is to go forward. The island might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side, and both Irenicus and Imoen are here.~ [vptheme2]

@@ -4,5 +4,5 @@ IF
 THEN
 	RESPONSE #100
 		SmallWait(2)
-		StartDialog("VPCHESS",[PC])
+		StartDialog("vpchess",[PC])
 END
