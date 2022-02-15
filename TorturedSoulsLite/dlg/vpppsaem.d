@@ -16,10 +16,7 @@ END
 
 IF ~~ THEN BEGIN TS5
   SAY @3
-  IF ~!InParty("vpsime")
-Global("ThiefGroup","GLOBAL",1)~ THEN REPLY @4 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPSIME~ TS0
-  IF ~InParty("vpsime")
-Global("ThiefGroup","GLOBAL",1)~ THEN REPLY @4 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN VPSIMEJ 4
+  IF ~!InParty("vpsime")~ THEN REPLY @4 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPSIME~ TS0
   IF ~Global("ThiefGroup","GLOBAL",2)~ THEN REPLY @5 DO ~SetGlobal("Island_War","GLOBAL",1)~ EXTERN ~PPBODHI3~ TS23
 END
 
@@ -43,6 +40,8 @@ IF ~~ THEN BEGIN TS30
   IF ~Global("ThiefGroup","GLOBAL",1) InParty("vpsime")~ THEN DO ~StartCutSceneMode() StartCutScene("vpthends")~ EXIT
   IF ~Global("ThiefGroup","GLOBAL",1) !InParty("vpsime")~ THEN DO ~StartCutSceneMode() StartCutScene("vpthend")~ EXIT
   IF ~Global("ThiefGroup","GLOBAL",2)~ THEN DO ~StartCutSceneMode() StartCutScene("vpvaend")~ EXIT
+  IF ~Global("B!Tourist","GLOBAL",10)~ THEN DO ~StartCutSceneMode() StartCutScene("vpmaend")~ EXIT
+  IF ~Global("B!Alternatives","GLOBAL",10)~ THEN DO ~StartCutSceneMode() StartCutScene("vpalend")~ EXIT
 END
 END
 
@@ -64,5 +63,22 @@ END
 IF ~~ THEN BEGIN TS1
   SAY @17
   IF ~~ THEN DO ~SetGlobal("VP_Sime_Is_Waiting","GLOBAL",3)~ EXIT
+END
+END
+
+REPLACE_STATE_TRIGGER PPBODHI3 0
+~NumTimesTalkedTo(0)
+Global("Start_Island","GLOBAL",0)~
+
+APPEND ~PPBODHI3~
+
+IF ~~ THEN BEGIN TS23
+  SAY @200
+  IF ~~ THEN REPLY @201 GOTO TS24
+END
+
+IF ~~ THEN BEGIN TS24
+  SAY @202
+  IF ~~ THEN DO ~EscapeArea()~ EXIT
 END
 END

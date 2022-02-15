@@ -9,7 +9,7 @@ ALTER_TRANS PPSAEM // file name
 BEGIN 52 END // state number (can be more than one)
 BEGIN 0 END // transition number (can be more than one)
 BEGIN // list of changes, see below for flags
-  "TRIGGER" ~!InParty("vpkachi")~
+  "TRIGGER" ~!InParty("vpkachi") Global("Sime_Meet","GLOBAL",0)~
 END
 
 EXTEND_TOP PPSAEM 13

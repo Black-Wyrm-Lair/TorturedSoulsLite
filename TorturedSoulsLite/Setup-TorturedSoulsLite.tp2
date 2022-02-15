@@ -80,8 +80,7 @@ END
 COPY ~TorturedSoulsLite/portraits/vphashiL.bmp~ ~override~
 
 //Dialogues
-COMPILE ~TorturedSoulsLite/dlg/vpppbodh3.d~
-~TorturedSoulsLite/dlg/vpppireni.d~
+COMPILE ~TorturedSoulsLite/dlg/vpppireni.d~
 ~TorturedSoulsLite/dlg/vpppsaem.d~
 ~TorturedSoulsLite/dlg/vpsailoff.d~
 ~TorturedSoulsLite/dlg/vpaino.d~
@@ -117,7 +116,6 @@ COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 ~TorturedSoulsLite/scripts/TSCutK09.baf~
 ~TorturedSoulsLite/scripts/TT0100.baf~
 ~TorturedSoulsLite/scripts/TT0102.baf~
-~TorturedSoulsLite/scripts/TT0303.baf~
 ~TorturedSoulsLite/scripts/TTcut01.baf~
 ~TorturedSoulsLite/scripts/TTcut02.baf~
 ~TorturedSoulsLite/scripts/TTcut03.baf~
@@ -135,8 +133,6 @@ COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 ~TorturedSoulsLite/scripts/TTcutFin.baf~
 ~TorturedSoulsLite/scripts/TTcutHit.baf~
 ~TorturedSoulsLite/scripts/vp41ci.baf~
-~TorturedSoulsLite/scripts/vp41disp.baf~
-~TorturedSoulsLite/scripts/vp41dism.baf~
 ~TorturedSoulsLite/scripts/vp41disc.baf~
 ~TorturedSoulsLite/scripts/vpaino.baf~
 ~TorturedSoulsLite/scripts/vpainox.baf~
@@ -220,26 +216,7 @@ COPY_EXISTING ~cut41d.bcs~ ~override/vp41dnsc.bcs~
 END
   BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~cut41e.bcs~ ~override/vp41e.bcs~
-  DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY ~\("ppsime"\)~ ~"vpsime"~
-END
-  BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsm.bcs~
-  DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~MoveGlobal("AR1600","vpsime",[821.2804])~
-END
-  BUT_ONLY_IF_IT_CHANGES
-
-COPY_EXISTING ~vp41dnsc.bcs~ ~override/vp41dnsp.bcs~
-  DECOMPILE_AND_PATCH BEGIN
-    REPLACE_TEXTUALLY EXACT_MATCH ~ActionOverride("ppsime",DestroySelf())~ ~~
-    REPLACE_TEXTUALLY EXACT_MATCH ~CreateCreature("ppsime",[821.2804],S)~ ~~
-END
-  BUT_ONLY_IF_IT_CHANGES
-
-  COPY_EXISTING ~cut41g.bcs~ ~override/vp41g.bcs~
+COPY_EXISTING ~cut41g.bcs~ ~override/vp41g.bcs~
   DECOMPILE_AND_PATCH BEGIN
   REPLACE_TEXTUALLY ~\(ActionOverride("Yoshimo",[^!])\)~ ~~
 END

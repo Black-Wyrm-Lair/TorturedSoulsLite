@@ -79,7 +79,7 @@ IF ~~ THEN EXTERN VPKACHIJ sailoff1_alt
 APPEND VPKACHIJ
 
 IF ~~ THEN BEGIN sailoff1_alt
-  SAY ~Wait a minute! The ship is ours to take anywhere, right? <CHARNAME>, can we go to Kara-Tur now?~
+  SAY ~Wait a minute! The ship is ours to take anywhere, am I right? <CHARNAME>, can we go to Kara-Tur now?~
   IF ~~ THEN REPLY ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~ EXTERN ~PPSAEM~ TS7_alt
 END
 

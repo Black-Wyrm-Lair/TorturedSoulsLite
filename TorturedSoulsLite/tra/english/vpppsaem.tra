@@ -1,6 +1,6 @@
 @0    = ~Ahem... dear <SIRMAAM> we had arrived it seems... ~
 @1    = ~Where? ~
-@2    = ~Uhm, that's not Brinnlaw, I am positive... Maybe it is some part of Kara-Tur. You have couple locals among your ranks they would know better than I.~
+@2    = ~Uhm, that's not our destination, I am positive... Maybe it is some part of Kara-Tur. You have couple locals among your ranks they would know better than I.~
 @3    = ~We'd have to wait for the night to fall, to be able to tell our position from the stars. Meanwhile, the crew will inspect the ship and repair what we can. The journey ahead of us might be long and harsh.~
 @4    = ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are. What about you, my trusty advisor?~
 @5    = ~Then I suggest we go ashore and see if we can find some provisions or any clues to where we are. What about you, Bodhi?~
@@ -10,9 +10,16 @@
 @9    = ~Well, I'd trade you my good news! I got a map, showing a magical portal, which can teleport our ship back to our lands, and a wardstone, which makes possible to restore our time-space continuum.~
 @10   = ~Magical portal? Time wardstone? Sounds just as good as the Fog of Fate spell... Let me see the sea charts you get...~
 @11   = ~Hmm, looks like it was made with skill. I have a feeling it's genuine.~
-@12   = ~I suggest that we go to Athkatla and then sail to Brinnlaw in a more traditional way, because the area miles around Brinnlaw is heavily warded against magical travels... Rig up, crew!~
-@13   = ~No, I had spent several years sailing around Kara-Tur. This place reminds nothing of what I have seen and with a bay like that it would be a lively port be it in Kara-Tur. The spell went astray, I suppose... I am very sorry <CHARNAME>.~
-@14   = ~We are neither at Spellhold, nor Kara-Tur. Damn you, Harkle Harpel and the whole mad family of yours! But we have to deal with our plight here now. I heard you are resourceful, Saemon. Any suggestions?~
+@12   = ~I suggest that we go to Athkatla and then sail further in a more traditional way, because the area miles around the city is heavily warded against magical travels... Rig up, crew!~
+@13   = ~No, I had spent several years sailing around Kara-Tur. This place reminds nothing of what I have seen and with a bay like that it would be a lively port be it in Kara-Tur. The spell went astray, I suppose... I am very sorry, <CHARNAME>.~
+@14   = ~So we are stuck in a middle of nowhere. Damn you, Harkle Harpel and the whole mad family of yours! But we have to deal with our plight here now. I heard you are resourceful, Saemon. Any suggestions?~
+
+//Sime Response 
 @15   = ~I'll stay around the ship and keep an eye on the shifty captain for you...~
 @16   = ~Great, stay with the ship then, I do not fully trust Saemon. It might easily be his own plot to get the cash and avoid a dangerous sailing to Spellhold. Stay right where you are and call if Havarian will be up to no good.~
 @17   = ~I will stay here for the time being and you can always count on my help.~
+
+//Bodhi Response
+@200    = ~I am not for walking in the blazing sun on a deserted beach... I will find some cool quiet place to rest on this accursed Island and then we shall see...~
+@201    = ~Great, stay with the ship then, I do not fully trust Saemon. It might easily be his own ploy to get the cash and avoid a dangerous sailing to Spellhold.~
+@202    = ~<CHARNAME>, I sense something very wrong with this island. Please, watch your steps. Perhaps, you will need my assistance yet.~

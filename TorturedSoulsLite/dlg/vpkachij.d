@@ -249,7 +249,7 @@ END
 //Hell
 
 I_C_T PLAYER1 25 VPKachiHell 
-== VPKACHIJ IF ~InParty("vpsime") InMyArea("vpsime") !StateCheck("vpsime",CD_STATE_NOTVALID)~ @50
+== VPKACHIJ IF ~InParty("vpkachi") InMyArea("vpkachi") !StateCheck("vpkachi",CD_STATE_NOTVALID)~ @50
 END
 
 // Imoen Join Script Append
