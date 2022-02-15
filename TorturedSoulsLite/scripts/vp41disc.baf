@@ -9,7 +9,7 @@ THEN
 		DayNight(DUSK_START)
 		ActionOverride("ppsaem",DestroySelf())
 		ActionOverride("ppsime",DestroySelf())
-		ActionOverride("pparan2",DestroySelf())
+		ActionOverride("aran",DestroySelf())
 		LeaveAreaLUAPanic("TT0100","",[972.1669],6)
 		LeaveAreaLUA("TT0100","",[972.1669],6)
 		ActionOverride(Player2,LeaveAreaLUA("TT0100","",[846.1443],6))
