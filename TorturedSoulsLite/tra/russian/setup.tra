@@ -2,25 +2,25 @@
 @3    = ~NEW CHAPTER
 
 After Saemon Havarian had finished his incantations you stood for a few minutes in expectation. The ship, ready to sail was still in Athkatla's docks... You were about to sigh and pronounce your thanks that at least it was not frog-turning, and request refund from the sly sailor. Suddenly the crew became agitated, everyone pointing to the east. You turned and saw a gray cloud speeding across the sky straight for the "Gallante". A few of the crewmen leaped overboard. Someone behind your back whispered: "that's how the fate looks?" and spat heartily on the deck. Then the world became one great gray fog and all you could sense is the movement of tremendous speed... But you could not distinguish the direction or count the time... Slowly you had lost your consciousness... and regained it in what seemed a short instant. The ship is riding shallow waters in a sheltered bay by a stony beach. Captain Havarian approaches you hesitantly...~ [vptheme1]
-@4    = ~CHAPTER FOUR
+@4    = ~ЧЕТВЕРТАЯ ГЛАВА
 
-After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+  После нескольких часов спокойного плавания вы увидели сияющий круг на горизонте. Это портал! Саймон замедлил "Галанту". Ваш наемный капитан немного нервничал, когда судно входило во временной портал. "Аткатла" быстро произнес он... и знакомый причал появился перед вами... Но вы не стали задерживаться в порту, а сразу же направились прямиком в Бринлоу.
 
-Bodhi was as good as her word. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
-@5    = ~CHAPTER FOUR
+  Бодхи сдержала слово. Путешествие прошло спокойно, если и появлялись корабли, идущие с вами одним курсом, то они держались от вас подальше. Вы хорошо провели время, и вскоре очертания острова появились на горизонте. Может, это было и приятное место, но мрачная тень покрывала его склоны. Лечебница, Спеллхолд, возвышалась на вершине утеса.~ [vptheme2]
+@5    = ~ЧЕТВЕРТАЯ ГЛАВА
 
-After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
+  После нескольких часов спокойного плавания вы увидели сияющий круг на горизонте. Это портал! Саймон замедлил "Галанту". Ваш наемный капитан немного нервничал, когда судно входило во временной портал. "Аткатла" быстро произнес он... и знакомый причал появился перед вами... Но вы не стали задерживаться в порту, а сразу же направились прямиком в Бринлоу.
 
-Aran Linvail and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
+  Аран Линвайл и Сайм сдержали слово. Путешествие прошло спокойно, если и появлялись корабли, идущие с вами одним курсом, то они держались от вас подальше. Вы хорошо провели время, и вскоре очертания острова появились на горизонте. Может, это было и приятное место, но мрачная тень покрывала его склоны. Лечебница, Спеллхолд, возвышалась на вершине утеса.~ [vptheme2]
 @6    = ~Kachiko and Yoshimo traveled throughout Faerun for years after leaving company of <CHARNAME>. The couple were loved everywhere they went for their indomitable spirit and readiness to help anyone in need. They lived out of their backpacks and a few bags of holding for many years. Rumor has it that Yoshimo and Kachiko were agents in the service of the Harpers. Others say that they served nobody. 
 
 The Hashimoto family first doubled then tripled and all of their children grew up during the endless family journey. The eldest child was called <CHARNAME> in memory of their old friend. Yoshimo and Kachiko never returned to Kozakura, the demise of their families weighed heavily on them. Eventually, they retired to Athkatla. Yoshimo now owns the "Adventurer's Mart" and the Hashimoto's small home in the Bridge district is full of grandchildren and all sorts of wanderers.~
-@7    = ~Fighting Pit~
-@8    = ~This statue is a representation of the Goddess Waukeen. It depicts a beautiful young woman with an outstretched palm.~
-@9    = ~These shelves are crammed with books dealing with trade and commerce in Kara-Tur.~
+@7    = ~Боевая арена~
+@8    = ~Этот постамент установлен в честь богини Вокин. Он изображает красивую молодую женщину с распростертыми ладонями.~
+@9    = ~Полки заполнены книгами по торговле и экономике Кара-Тура.~
 @10   = ~This staircase is blocked.~
 @11   = ~This passage is magically sealed. You cannot enter the fighting arena without special permission.~
-@12   = ~Charged Battle Axe +3~
+@12   = ~Боевой Топор Разрядов +3~
 @13   = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
 
 STATISTICS:
@@ -38,7 +38,7 @@ Requires:
  10 Strength
 
 Weight: 7~
-@14   = ~Girdle of Stromnos~
+@14   = ~Пояс Великанов~
 @15   = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry. He named the broad belt after a hill giant who had almost killed him when he was looking for spell components. Dendes died defending Presdon from rival mages near Ordulin.
 
 STATISTICS:
@@ -47,7 +47,7 @@ Equipped abilities:
 – Strength: 20
 
 Weight: 2~
-@16   = ~The Love of Black Bess~
+@16   = ~Любовь Черной Бесс~
 @17   = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba. Her name was Redani, and she was known both for her powers as an enchanter and a seductress. The Love of Black Bess was always given to her favored consort at any particular time. Unknown to her lovers, she would place a Ring of Readiness on the morning star, saving the matching ring for a special time. When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour. The new lover would simply call upon the ring and the morning star would fly to his hand. 
 
 Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover. Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road. Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
@@ -66,9 +66,9 @@ Requires:
  11 Strength
 
 Weight: 10~
-@18   = ~Chess Piece~
-@19   = ~White Bishop~
-@20   = ~Chess is one of the "four universal games" (draughts, dice, and talis cards being the others). Many believe chess to be the most challenging and intriguing of the four games. Chess pieces and boards are often made from a wide variety of materials. Marble, wood, and ivory are the most common materials used for the construction of chess pieces.~
+@18   = ~Шахматная фигурка~
+@19   = ~Белый Епископ~
+@20   = ~Шахматы - одна из "четырех универсальных игр" (помимо нард, костей и карт) всех времен и народов. Многие считают, что шахматы наиболее сложная и захватывающая игра из всех четырех. На протяжение веков шахматные фигурки и доски делали из самых разных и, порою, неожиданных материалов. Однако чаще всего для этой цели использовали мрамор, дерево или слоновую кость.~
 @21   = ~This chess piece is a white bishop, crafted from soapstone. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
 
 STATISTICS:
@@ -78,7 +78,7 @@ Charge abilities:
   Duration: 1 turn
 
 Weight: 1~
-@22   = ~Blade Of The Night~
+@22   = ~Лезвие Ночи~
 @23   = ~This was the weapon used by the most famous assassin in Kara Tur, but none knew her name apart from the emperor. She was the greatest thief the world had ever seen. She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade. It was made by the emperors best weapon smiths, and then tempered in the bloods of red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief.
 
 STATISTICS:
@@ -103,7 +103,7 @@ Requires:
  6 Strength
 
 Weight: 6~
-@24   = ~The Black Bow~
+@24   = ~Темный Лук~
 @25   = ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun. A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart. Through all of his years in the military, he remained true to his love and saved his earnings. He and his new wife moved west in the hopes that they would find frontier land to settle. In the lands north of Baldur's Gate and east of the Trollbark Forest, Jonan built his home and farm. Within five years, there were raiders in the area, and farms were being destroyed all around Jonan's. Eventually, the raiders targeted Jonan's home, killing his wife and child and leaving him for dead. His farm was burned to the ground. Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood. He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with. Sages debate how the bow became enchanted, but most believe that, after Jonan's death, it was blessed by a god. Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal. Theories tend to revolve around whether the speaker believes Jonan's actions were just, vengeful, or murderous.
 
 STATISTICS:
@@ -120,7 +120,7 @@ Requires:
  12 Strength
 
 Weight: 3~
-@26   = ~Boots of the Forgotten Ones~
+@26   = ~Сапоги Предыдущих~
 @27   = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw tribe. The power hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors. Algrash was killed when he provoked a fight with a gang of ogres. His boots were left at the scene of the battle.
 
 STATISTICS:
@@ -131,7 +131,7 @@ Equipped abilities:
 
 Weight: 4~
 @28   = ~Edventar's Gift~
-@29   = ~Composite Long Bow +4: Defender~
+@29   = ~Композитный Длинный Лук +4: Защитник~
 @30   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
 
 STATISTICS:
@@ -265,13 +265,13 @@ Requires:
  16 Charisma
 
 Weight: 2~
-@39   = ~Nakanishi Wardstone~
+@39   = ~Ключ-камень Наканиши~
 @40   = ~Upon closer examination this wardstone appears to be a gem of mediocre value, with several symbols carved upon the outer edge.
 
 STATISTICS:
 
 Weight: 5~
-@41   = ~Ring of Holiness II~
+@41   = ~Кольцо Святости II~
 @42   = ~Ring of Holiness II: God Blessing
 
 Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
@@ -301,7 +301,7 @@ Requires:
  5 Strength
 
 Weight: 2~
-@45   = ~Bamboo Spirit Wakizashi +4~
+@45   = ~Вакидзаши Духа Бамбу +4~
 @46   = ~Bamboo Spirit Wakizashi +4
 
 This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
@@ -320,7 +320,7 @@ Requires:
  8 Strength
 
 Weight: 4~
-@47   = ~Silver Bracers of Kedl~
+@47   = ~Серебряные наручи Кедла~
 @48   = ~This mage, who made his home in Phlan, was known as "Kedl of the Three Rings," for it was said that he perfected a technique whereby he could wear three magical rings simultaneously. An enchanter of items, he was well known for his discriminating taste in clothing, jewelry, and other accessories. His polished silver bracers were a constant part of his wardrobe. Kedl eventually sold his bracers when he needed the money for some powerful rings. Unfortunately, Kedl died in an orc attack on Phlan several years later.
 
 STATISTICS:
@@ -329,49 +329,49 @@ Equipped abilities:
 – Armor Class: 2
 
 Weight: 2~
-@49   = ~Bronze Key~
+@49   = ~Бронзовый Ключ~
 @50   = ~An ornate key crafted in bronze.
 
 STATISTICS:
 
 Weight: 0~
-@51   = ~Copper Key~
+@51   = ~Медный Ключ~
 @52   = ~An ornate key crafted in copper.
 
 STATISTICS:
 
 Weight: 0~
-@53   = ~Iron Key~
+@53   = ~Железный Ключ~
 @54   = ~A complex looking key made from cold iron.
 
 STATISTICS:
 
 Weight: 0~
-@55   = ~Electrum Key~
+@55   = ~Адамантиновый Ключ~
 @56   = ~An ornate key crafted in electrum.
 
 STATISTICS:
 
 Weight: 0~
-@57   = ~Gold Key~
+@57   = ~Золотой Ключ~
 @58   = ~An ornate key crafted in gold.
 
 STATISTICS:
 
 Weight: 0~
-@59   = ~Platinum Key~
+@59   = ~Платиновый Ключ~
 @60   = ~An ornate key crafted in platinum.
 
 STATISTICS:
 
 Weight: 0~
-@61   = ~Silver Key~
+@61   = ~Серебряный Ключ~
 @62   = ~An ornate key crafted in silver.
 	
 STATISTICS:
 
 Weight: 0~
-@63   = ~Black Knight~
+@63   = ~Черный Рыцарь~
 @64   = ~This chess piece is a black knight, crafted from ebony. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
 
 STATISTICS:
@@ -381,7 +381,7 @@ Charge abilities:
   Duration: 1 turn
 
 Weight: 1~
-@65   = ~Hojo War Ring of Nakanishi~
+@65   = ~Кольцо Ходжо, клана Наканиши~
 @66   = ~Hojo War Ring of Nakanishi
 
 Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, its powers may not be used by anyone else.
@@ -411,7 +411,7 @@ Equipped Abilities:
 – Regenerate 1 Hit Point per round
  
 Weight: 0~
-@69   = ~Crescent Moon Medallion~
+@69   = ~Медальон Лунного Полумесяца~
 @70   = ~A miniature crescent moon on a chain.
 
 STATISTICS:
@@ -422,7 +422,7 @@ Weight: 0~
 STATISTICS:
 
 Weight: 0~
-@72   = ~Magical Rope~
+@72   = ~Волшебная веревка~
 @73   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.
 	
 STATISTICS:
@@ -462,7 +462,7 @@ Charge abilities:
 – Conjure Fire Elemental twice per day
 
 Weight: 0~
-@78   = ~Robe of Armory~
+@78   = ~Защитный Плащ~
 @79   = ~There are a small number of these valuable gold and crimson robes floating around the Realms, and all of them are the creation of an abjurer named Delgam of the Many Hands - so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well known legacy.
 
 STATISTICS:
@@ -475,9 +475,9 @@ Equipped Abilities:
 – Missile Resistance: +10%
 
 Weight: 5~
-@80   = ~Hat~
+@80   = ~Шляпа~
 @81   = ~Rogue's Cowl~
-@82   = ~Magical hats may actually be almost any type of headgear. They shrink or expand to fit any size head. Contemporary fashion and profession often dictate the shape and style of magical hats.~
+@82   = ~Шляпы бываю самых разных фасонов и типов, порой весьма причудливые. Волшебные шляпы легко уменьшаются или увеличиваются, в зависимости от размера головы владельца. В наше время стили и фасоны шляп чаще всего зависят от моды и профессиональных требований владельцев.~
 @83   = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood. It was crafted by the gnomish thief and illusionist Brein Chestnut. Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down. He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
 
 STATISTICS:
@@ -491,7 +491,7 @@ Charge abilities:
 – Color Spray once per day
 
 Weight: 2~
-@84   = ~Scarab of Goodwill~
+@84   = ~Скарабей Доброй Воли~
 @85   = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand. This particular scarab was crafted by a priest of Nepthys named Ani Haloua. She used it in negotiations with local businesses and the general populace. Similar scarabs are believed to be circulating in the Realms. Priests of Waukeen are particularly fond of them.
 
 STATISTICS:
@@ -506,8 +506,8 @@ Charge abilities:
 
 
 Weight: 2~
-@86   = ~Temporal Wardstone~
-@87   = ~Ring of Wizardry II~
+@86   = ~Временной камень-ключ~
+@87   = ~Кольцо Колдовства II~
 @88   = ~Ring of Wizardry II: Reaching Ring
 
 This is the enchanted version of the famous Ring of Wizardry.
@@ -518,21 +518,21 @@ Equipped Abilities:
 – Can memorize two extra 5th level, two extra 6th level, one extra 7th level and one extra 8th level arcane spells
 
 Weight: 0~
-@89   = ~Potion of Action Transference~
+@89   = ~Зелье Действия~
 @90   = ~The liquid in the potion has a strange murky quality to it that you haven't noticed in other potions. It would appear to affect some of your stats but you are not sure which of them and how.
 
 STATISTICS:
 
 Weight: 1~
-@91   = ~Potion of Strength Transference~
-@92   = ~Potion of Life Transference~
-@93   = ~Potion of Aura Enhancement~
+@91   = ~Зелье Силы~
+@92   = ~Зелье Жизни~
+@93   = ~Зелье Ауры~
 @94   = ~When wholly consumed, this oddly murky potion would appear to increase your intelligence and wisdom for one point, and grant you 10% magic resistance. The effect is instantaneous and the potion is destroyed in the process.
 
 STATISTICS:
 
 Weight: 1~
-@95   = ~Potion of Holy Transference~
+@95   = ~Зелье Божественности~
 @96   = ~Katana +4~
 @97   = ~Katana +4: Wu Haltai
 
@@ -657,54 +657,54 @@ Type: One-handed
 
 Weight: 5~
 
-@118  = ~Hasuno~
-@119  = ~Aino Hashimoto~
-@120  = ~Aino~
-@121  = ~Alome Nakanishi~
-@122  = ~Alome~
-@123  = ~Basilisk~
-@124  = ~Bishop~
-@125  = ~Berserk Warrior~
-@126  = ~Ethereal Voice~
-@127  = ~Chromatic Dragon~
-@128  = ~Greater Water Elemental~
-@129  = ~Greater Zombie~
-@130  = ~Hitomi Nakanishi~
-@131  = ~Hitomi~
-@132  = ~Hashimoto Guard~
+@118  = ~Хасуно~
+@119  = ~Аино Хашимото~
+@120  = ~Аино~
+@121  = ~Аломе Наканиши~
+@122  = ~Аломе~
+@123  = ~Василиск~
+@124  = ~Епископ~
+@125  = ~Яростный Воин~
+@126  = ~Потусторонний голос~
+@127  = ~Хроматический Дракон~
+@128  = ~Векликий Водный Элементаль~
+@129  = ~Великий Зомби~
+@130  = ~Хитоми Наканиши~
+@131  = ~Хитоми~
+@132  = ~Охранник Хашимото~
 @133  = ~Ronin~
 @134  = ~Ronin Wakashu~
-@135  = ~Kachiko~
-@136  = ~King~
-@137  = ~Kiotsi~
-@138  = ~Knight~
-@139  = ~Lulu Hashimoto~
-@140  = ~Lulu~
-@141  = ~Masaki Hayashi~
-@142  = ~Masaki~
-@143  = ~Michio Nakanishi~
-@144  = ~Michio~
-@145  = ~Momoko Nakanishi~
-@146  = ~Momoko~
-@147  = ~Najoki Nakanishi~
-@148  = ~Najoki~
-@149  = ~Nanny~
-@150  = ~Nakanishi Guard~
-@151  = ~Undead Samurai~
-@152  = ~Nakanishi Acolyte~
-@153  = ~Ogi Hashimoto~
-@154  = ~Ogi~
-@155  = ~Otako Hashimoto~
-@156  = ~Otako~
-@157  = ~Pawn~
-@158  = ~Queen~
-@159  = ~Rook~
-@160  = ~Sasaki Hashimoto~
-@161  = ~Sasaki~
-@162  = ~Fledgling Vampire~
-@163  = ~Priest of Selune~
-@164  = ~Hsiang~
-@165  = ~Kuku~
+@135  = ~Качико~
+@136  = ~Король~
+@137  = ~Киотсу~
+@138  = ~Рыцарь~
+@139  = ~Лулу Хашимото~
+@140  = ~Лулу~
+@141  = ~Масаки Хайяши~
+@142  = ~Масаки~
+@143  = ~Мичио Наканиши~
+@144  = ~Мичио~
+@145  = ~Момоко Наканиши~
+@146  = ~Момоко~
+@147  = ~Найоки Наканиши~
+@148  = ~Найоки~
+@149  = ~Няня~
+@150  = ~Охранник Наканиши~
+@151  = ~Зомби-Самурай~
+@152  = ~Последователь Наканиши~
+@153  = ~Оги Хашимото~
+@154  = ~Оги~
+@155  = ~Отако Хашимото~
+@156  = ~Отако~
+@157  = ~Пешка~
+@158  = ~Королева~
+@159  = ~Ворон~
+@160  = ~Сасаки Хашимото~
+@161  = ~Сасаки~
+@162  = ~Молодой Вампир~
+@163  = ~Священник Селуны~
+@164  = ~Хсианг~
+@165  = ~Куку~
 
 @174  = ~Uhm, I have to go now...~ [KACHIMO]
 @175  = ~I will try to fill this role as well as I can.~ [KACHIMC]
@@ -717,7 +717,7 @@ Weight: 5~
 @182  = ~Am I to stay here all day long?~ [KACHIBO]
 @185  = ~Help me... I am in peril!~ [KACHIWO]
 @190  = ~I am prepared... I hope.~ [KACHISE1]
-@191  = ~Yes?~ [KACHISE2]
+@191  = ~Да?~ [KACHISE2]
 @192  = ~Let me know what you want.~ [KACHISE3]
 @193  = ~I await your orders.~ [KACHISE4]
 @194  = ~Go ahead.~ [KACHISE5]
@@ -725,7 +725,7 @@ Weight: 5~
 @196  = ~I'm on it.~ [KACHIAC1]
 @197  = ~Understood.~ [KACHIAC2]
 @198  = ~That sounds reasonable.~ [KACHIAC3]
-@199  = ~Yes.~ [KACHIAC4]
+@199  = ~Да.~ [KACHIAC4]
 @200  = ~Agreed.~ [KACHIAC5]
 @201  = ~My duty is clear.~ [KACHIAC6]
 @202  = ~Acknowledged.~ [KACHIAC7]
@@ -740,12 +740,12 @@ Weight: 5~
 @217  = ~It's time for some action!~ [KACHIAT]
 @218  = ~I won't survive any more wounds...~ [KACHIWO]
 @219  = ~I hate closed spaces.~ [KACHIDU]
-@220  = ~The air is so fresh.~ [KACHIOU]
+@220  = ~Какой свежий воздух.~ [KACHIOU]
 @221  = ~Oh, what a lovely day!~ [KACHIDA]
 @222  = ~Look at all the stars!~ [KACHINI]
 @223  = ~M-hm.~ [KACHISE1]
-@224  = ~What can I do?~ [KACHISE2]
-@225  = ~Yes?~ [KACHISE3]
+@224  = ~Что я могу сделать?~ [KACHISE2]
+@225  = ~Да?~ [KACHISE3]
 @226  = ~You wanted me?~ [KACHISE4]
 @227  = ~I'm here.~ [KACHISE5]
 @228  = ~That's an idea.~ [KACHIAC6]
@@ -760,21 +760,21 @@ Weight: 5~
 @237  = ~Oops! I'm carrying too much.~ [KACHICA]
 @238  = ~Oh, fiddlesticks!~ [KACHIFA]
 @239  = ~Kachiko Legacy Voiceover~
-@240  = ~Kachiko, don't give up, I will help you!~
-@241  = ~Kachiko! Nooooo!!!~
-@242  = ~This altar requires a key of some sort.~
-@243  = ~There is nothing else to do with this altar.~
-@244  = ~Upon thorough investigation of the altar, you find the ancient carvings, which form the words: "BRING ME YOUR ACTION, STRENGTH, LIFE AND HOLY WATER"~
-@245  = ~Doors to Nakanishi underground compound are sealed. An invisible wall prevents your advancement into thier territory. Nakanishi are all hostile.~
-@246  = ~You cannot move back to the caves. Doors to the underground compound have been sealed forever.~
-@247  = ~Yoshimo! Nooooo!!!~
+@240  = ~Качико, держись! Я помогу тебе!~
+@241  = ~Качико! Неееееет!!!~
+@242  = ~Для этого алтаря требуется определенный ключ.~
+@243  = ~С этим алтарем больше ничего нельзя сделать.~
+@244  = ~Тщательно исследовав алтарь, вы обнаруживаете древнюю надпись, которая гласит: "ПРИНЕСИ МНЕ ДЕЙСТВИЕ, СИЛУ, ЖИЗНЬ И СВЯТУЮ ВОДУ"~
+@245  = ~Двери в подземное укрытие Наканиши запечатаны. Невидимая стена не позволяет вам войти на их территорию. Все Наканиши настроены враждебно.~
+@246  = ~Вы не можете вернуться обратно в пещеры. Двери в подземное укрытие запечатаны навеки.~
+@247  = ~Йошимо! Неееееет!!!~
 @248  = ~I'll find this bastard Yoshimo! I promise I'll find him!~
 @249  = ~Bring me Yoshimo!~
 
-@251  = ~Be warned, these powerful katanas cannot be taken outside the fighting arena. Their power would surely destroy you.~
-@252  = ~You have no method for which to climb down into the pit.  Perhaps some sort of rope would help.~
-@253  = ~This exit is magically sealed. You have no means to unseal it.~
-@254  = ~These stairs have collapsed. You will have to find another route.~
+@251  = ~Имейте в виду, эти могущественные катаны нельзя выносить с бойцовой арены. Их мощь, без сомнения, уничтожит вас.~
+@252  = ~Вы понятия не имеете, каким образом можно спуститься в эту яму. Возможно, какая-нибудь веревка могла бы помочь.~
+@253  = ~Выход запечатан с помощью могучей магии. Вы не представляете, как можно снять эту печать.~
+@254  = ~Лестница разрушена. Вам придется найти другой путь.~
 
 //Alternatives crossmod
 
