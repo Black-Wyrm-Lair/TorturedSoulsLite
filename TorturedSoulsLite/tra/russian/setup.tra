@@ -130,7 +130,7 @@ Equipped abilities:
 – Doubles movement rate
 
 Weight: 4~
-@28   = ~Edventar's Gift~
+@28   = ~Дар Эдвентара~
 @29   = ~Композитный Длинный Лук +4: Защитник~
 @30   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
 
@@ -282,7 +282,7 @@ Equipped abilities:
 – Can memorize one extra divine spell of each level from 5th to 7th
 
 Weight: 0~
-@43   = ~Kachiko's Wakizashi +3~
+@43   = ~Вакидзаши Качико +3~
 @44   = ~Kachiko's Wakizashi +3
 
 This special sword was granted to Kachiko by her father upon her ascension to adulthood.
@@ -445,7 +445,7 @@ Type: One-handed
 Requires: 19 Strength
 
 Weight: 4~
-@76   = ~Edion's Ring of Wizardry~
+@76   = ~Кольцо магии Эдиона~
 @77   = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring. He crafted the ring himself for his private use. In his later years, he became so accustomed to wearing it that he almost never removed it. He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
 
 STATISTICS:
@@ -476,7 +476,7 @@ Equipped Abilities:
 
 Weight: 5~
 @80   = ~Шляпа~
-@81   = ~Rogue's Cowl~
+@81   = ~Капюшон Вора~
 @82   = ~Шляпы бываю самых разных фасонов и типов, порой весьма причудливые. Волшебные шляпы легко уменьшаются или увеличиваются, в зависимости от размера головы владельца. В наше время стили и фасоны шляп чаще всего зависят от моды и профессиональных требований владельцев.~
 @83   = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood. It was crafted by the gnomish thief and illusionist Brein Chestnut. Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down. He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
 
@@ -582,7 +582,7 @@ Requires:
  15 Intelligence
 
 Weight: 2~
-@99   = ~Ogi-Luc's Great Robe~
+@99   = ~Великая роба Оги-Люка~
 @100  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on this robe, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robe as a prize. It were later stolen and sold by a daring rogue.
 
 STATISTICS:
@@ -732,7 +732,7 @@ Weight: 5~
 @203  = ~Yeah, yeah... Tell me what you want.~ [KACHIRA1]
 @204  = ~What exactly are you trying to accomplish?~ [KACHIRA2]
 @205  = ~No! You will not have died in vain!~ [KACHIRD]
-@211  = ~Kachiko's dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
+@211  = ~Темные глаза Качико загадочно мерцают, когда вы спрашиваете ее о прошлом. "Я - Качико из рода Наканиши," говорит она мягким голосом и затем рассказывает о своей далекой родине. Она говорит о храмах, крыши которых как склоны гор, о садах, разбитых посреди камней, о храбрых воинах, которые подчиняются строгому кодексу чести, о жемчужинах, выловленных с глубин моря, об Императорах и их миллионах подданных, пока вы не прерываете ее вопросом: "А что насчет тебя, Качико?" Она улыбается и отвечает: "Я - Качико из рода Наканиши. Я та, кого ты видишь перед собой. Посмотри мне в глаза и ты увидишь мое прошлое, настоящее и будущее."~
 @212  = ~Installing Soundset: Legacy Soundset~
 @213  = ~Well, we're not out of the woods yet... Oh, wait, we are! *laughs*~ [KACHIMC]
 @214  = ~I'll make you sorry you attacked me... Right before you die!~ [KACHIBC]
