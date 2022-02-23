@@ -185,8 +185,8 @@ EXIT
 
 //Imoen Return Dialogue
 
-CHAIN IF ~Global("VP_YoshimoExcuse","GLOBAL",1)~ THEN VPKACHIJ N32
-@29
+INTERJECT IMOEN2 21 THEN VPKACHIJ N32
+== VPKACHIJ IF ~Global("VP_YoshimoExcuse","GLOBAL",1)~ @29 
 END
   IF ~~ THEN REPLY @30 EXTERN VPKACHIJ N33
   IF ~~ THEN REPLY @31 EXTERN VPKACHIJ N34
@@ -205,18 +205,19 @@ END
 
 CHAIN VPKACHIJ N35
 @38 DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",2)~
-== IMOEN2 @39 DO ~SetGlobal("VP_Imoen_Returns","GLOBAL",1)
-JoinParty()~ EXIT
+== IMOEN2 @39
+END
+COPY_TRANS IMOEN 21
 
 CHAIN YOSHJ TS218
 @40 DO ~SetGlobal("Kicked_Out","LOCALS",1)~
 == VPKACHIJ @41
-== IMOEN2 @42 DO ~SetGlobal("VP_Imoen_Returns","GLOBAL",1)
-ActionOverride("Yoshimo",LeaveParty())
+== IMOEN2 @42 DO ~ActionOverride("Yoshimo",LeaveParty())
 ActionOverride("Yoshimo",EscapeArea())
 ActionOverride("vpkachi",LeaveParty())
-ActionOverride("vpkachi",EscapeArea())
-JoinParty()~ EXIT
+ActionOverride("vpkachi",EscapeArea())~
+END
+COPY_TRANS IMOEN 21
 
 // Tree of Life
 
@@ -253,11 +254,11 @@ I_C_T PLAYER1 25 VPKachiHell
 END
 
 // Imoen Join Script Append
-
+/*
 EXTEND_BOTTOM IMOEN2 21
   IF ~Global("Kachiko_Saved","GLOBAL",2)
 InParty("Yoshimo")
 !Dead("Yoshimo")
 InParty("vpkachi")
 !Dead("vpkachi")~ THEN DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",1)~ EXTERN VPKACHIJ N32
-END
+END*/
