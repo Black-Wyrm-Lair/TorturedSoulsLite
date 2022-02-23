@@ -12,16 +12,16 @@
   После нескольких часов спокойного плавания вы увидели сияющий круг на горизонте. Это портал! Саймон замедлил "Галанту". Ваш наемный капитан немного нервничал, когда судно входило во временной портал. "Аткатла" быстро произнес он... и знакомый причал появился перед вами... Но вы не стали задерживаться в порту, а сразу же направились прямиком в Бринлоу.
 
   Аран Линвайл и Сайм сдержали слово. Путешествие прошло спокойно, если и появлялись корабли, идущие с вами одним курсом, то они держались от вас подальше. Вы хорошо провели время, и вскоре очертания острова появились на горизонте. Может, это было и приятное место, но мрачная тень покрывала его склоны. Лечебница, Спеллхолд, возвышалась на вершине утеса.~ [vptheme2]
-@6    = ~Покинув компанию своих друзей, Качико и Йошимо долгие годы путешествовали по Фаеруну. Их любили повсюду за задорный характер и готовность помочь в нужде кому бы то ни было. They lived out of their backpacks and a few bags of holding for many years. Ходили слухи, что Йошимо и Качико работали на арфистов, но многие утверждали, что они ни на кого не работают. 
+@6    = ~Покинув компанию своих друзей, Качико и Йошимо долгие годы путешествовали по Фаеруну. Их любили повсюду за задорный характер и готовность помочь в нужде кому бы то ни было. Они безбедно жили в течение многих лет за счет накопленных богатств. Также ходили слухи, что Йошимо и Качико работали на арфистов, но многие считали эти слухи безосновательными.
 
-Семья Хашимото быстро разрасталась во время их путешествия, и все их дети путешествовали вместе с ними. Старшего своего ребенка они назвали в честь своего старого товарища по путешествиям. Йошимо и Качико не вернулись в Козакур, смерть их семей так и осталась тяжелым грузом лежать на их сердцах. Со временем они осели в Аткатле. Сейчас Йошимо содержит "Лавку искателей приключений", а новый дом Хашимото в районе Моста полон внуков и детей.~
+Новая семья Хашимото быстро разрасталась во время их путешествия, и все их дети путешествовали вместе с ними. Имя старшего ребёнка было <CHARNAME>, в честь их старого товарища по путешествиям. Йошимо и Качико не вернулись в Козакур, смерть их семей так и осталась тяжелым грузом лежать на их сердцах. Со временем они осели в Аткатле. Сейчас Йошимо содержит "Лавку искателей приключений", а новый дом Хашимото в районе Моста полон внуков и детей.~
 @7    = ~Боевая арена~
 @8    = ~Этот постамент установлен в честь богини Вокин. Он изображает красивую молодую женщину с распростертыми ладонями.~
 @9    = ~Полки заполнены книгами по торговле и экономике Кара-Тура.~
-@10   = ~This staircase is blocked.~
-@11   = ~This passage is magically sealed. You cannot enter the fighting arena without special permission.~
+@10   = ~Эта лестница заблокирована.~
+@11   = ~Этот проход запечатан магией. Вы не можете войти на бойцовскую арену без специального разрешения.~
 @12   = ~Боевой Топор Разрядов +3~
-@13   = ~Besides its superb craftsmanship, tiny runes of power can be seen etched all along the surface. It's obvious a lot of time and effort went into its creation and although not apparent at first, a slight blue glow can be seen emanating from the runes.
+@13   = ~Помимо того, что сам топор выполнен просто превосходно, на его поверхности можно разглядеть вытравленные Руны Силы. Очевидно, на изготовление этого топора ушло немало сил и времени. И если внимательно приглядеться, можно заметить небольшое голубоватое свечение, исходящее от лезвия.
 
 STATISTICS:
 
@@ -39,7 +39,7 @@ Requires:
 
 Weight: 7~
 @14   = ~Пояс Великанов~
-@15   = ~The enchanter Presdon of the Vast created this girdle several hundred years ago for his bodyguard, Dendes the Wry. He named the broad belt after a hill giant who had almost killed him when he was looking for spell components. Dendes died defending Presdon from rival mages near Ordulin.
+@15   = ~Волшебник Престон из Вайля создал этот пояс несколько сот лет назад для своего телохранителя Дениса Райта. Свое название пояс получил после того, как Гигант Холмов чуть было не убил Престона, когда тот собирал травы для нового заклинания. Денис Райт погиб, защищая Престона от разбойников возле Ордулина.
 
 STATISTICS:
 
@@ -48,9 +48,9 @@ Equipped abilities:
 
 Weight: 2~
 @16   = ~Любовь Черной Бесс~
-@17   = ~This fell weapon was crafted by a beautiful and cruel wizardess who worshipped the lady of misfortune, Beshaba. Her name was Redani, and she was known both for her powers as an enchanter and a seductress. The Love of Black Bess was always given to her favored consort at any particular time. Unknown to her lovers, she would place a Ring of Readiness on the morning star, saving the matching ring for a special time. When she grew tired of her consorts, as she always did, she would give the matching ring to a new lover and send the young man out to kill her old paramour. The new lover would simply call upon the ring and the morning star would fly to his hand. 
+@17   = ~Это грозное оружие было создано прекрасной и жестокой колдуньей, которая поклонялась властительнице несчастий Бешабе. Ее звали Редани, и она была известна своим могуществом в деле колдовства и соблазнения. Любовь Черной Бесс вручалась ее нынешнему фавориту. Однако в тайне от него она закрепляла на этом оружии одно из пары магических колец. Когда она, как обычно, охладевала к своему любовнику, второе кольцо она отдавала своей новой пассии и посылала его убить своего старого возлюбленного. Послушная зову кольца, булава выскальзывала из рук прежнего владельца, чтобы попасть в руку обладателя второго кольца.  
 
-Unfortunately, Redani was done in when she trusted the wrong man to kill her old lover. Gural of Chessenta, a well-disguised priest of Hoar, took it upon himself to gain vengeance for a man whose skull he had picked up by the side of a road. Unluckily for Redani, priests of Hoar will go to any length to avenge the dead, even if it means animating all of her dead lovers to tear her limb from limb.
+К несчастью для Редани, все закончилось, когда она поручила не тому человеку убить своего прежнего возлюбленного. Гурал Чессентский, одевшийся так, что в нем крайне сложно было узнать священника Хора, решил отомстить за смерть человека, чей череп он подобрал на дороге. А священники Хора готовы пойти до конца, чтобы отомстить за убитых, даже если для этого понадобится оживить всех погибших любовников и отдать им Редани на растерзание.
 
 STATISTICS:
 
@@ -69,7 +69,7 @@ Weight: 10~
 @18   = ~Шахматная фигурка~
 @19   = ~Белый Епископ~
 @20   = ~Шахматы - одна из "четырех универсальных игр" (помимо нард, костей и карт) всех времен и народов. Многие считают, что шахматы наиболее сложная и захватывающая игра из всех четырех. На протяжение веков шахматные фигурки и доски делали из самых разных и, порою, неожиданных материалов. Однако чаще всего для этой цели использовали мрамор, дерево или слоновую кость.~
-@21   = ~This chess piece is a white bishop, crafted from soapstone. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+@21   = ~Эта шахматная фигурка белого епископа была создана из светлого мрамора много лет назад. По всей видимости, это часть шахматной коллекции знаменитого Нури Элада. Нури Элад был волшебником из Тетира, который очень любил играть в шахматы. В своих многочисленных путешествиях он всегда возил с собой шахматы и продвигал эту замечательную игру среди местных вельмож. Однажды ему пришла в голову мысль создать комплект шахматных фигур, которые подобно магическим големам могли бы при случае помочь своему хозяину отбиться от шайки разбойников. Так появилась знаменитая шахматная коллекция Нури Элада, состоящая из комплекта шахматных фигур обоих цветов. За годы путешествий большинство этих фигур были потеряны в стычках с налетчиками и бандитами. Фигурки терялись в густой траве, их засасывали ненасытные пески и поглощали беспощадные волны. Охотники за сокровищами до сих пор отчаянно ищут и готовы заплатить любые деньги даже за отдельные фигурки. Стоимость всего комплекта сравнима с ценой небольшого государства.
 
 STATISTICS:
 
@@ -79,7 +79,7 @@ Charge abilities:
 
 Weight: 1~
 @22   = ~Лезвие Ночи~
-@23   = ~This was the weapon used by the most famous assassin in Kara Tur, but none knew her name apart from the emperor. She was the greatest thief the world had ever seen. She received this powerful weapon after completing a series of succesful missions for the emperor, who decided she was worthy of the blade. It was made by the emperors best weapon smiths, and then tempered in the bloods of red, black, silver and blue dragons. The legend says this weapon would make anyone almost as good as thief as the original owner, but because of the strong enchantments, the katana requires much from its wielder, and it is only usable by a thief.
+@23   = ~Это оружие использовалось самой известной убийцей в Кара-Туре, но никто не знал ее ИМЯ, кроме императора. Она была величайшим вором, которого когда-либо знал мир. Она получила это мощное оружие после успешного завершения ряда заданий для императора, который решил, что она достойна этого лезвия. Оно было сделано лучшими оружейными кузнецами императора, и затем было закалено в крови красных, черных, серебряных и синих драконов. Легенда гласит, что это оружие сделало бы любого прекрасным вором, как и первоначальный владелец, но из-за того, что катана сильно зачарована, она требует многого от ее владельца, поэтому может быть использована только вором. Какой путь она проделала прежде, чем оказалось в ваших руках, можно только догадываться.
 
 STATISTICS:
 
@@ -104,7 +104,7 @@ Requires:
 
 Weight: 6~
 @24   = ~Темный Лук~
-@25   = ~A rough bow with a dusty appearance, the Black Bow was created as an instrument of vengeance by a Cormyrean settler in the Western Heartlands of Faerun. A former soldier named Jonan of Suzail, after years of campaigning in the name of the crown, finally returned home to marry his childhood sweetheart. Through all of his years in the military, he remained true to his love and saved his earnings. He and his new wife moved west in the hopes that they would find frontier land to settle. In the lands north of Baldur's Gate and east of the Trollbark Forest, Jonan built his home and farm. Within five years, there were raiders in the area, and farms were being destroyed all around Jonan's. Eventually, the raiders targeted Jonan's home, killing his wife and child and leaving him for dead. His farm was burned to the ground. Weeks later, Jonan crafted this bow and rubbed the ashes of his farm and family into the grain of the wood. He later went on a murderous rampage, slaying each of the bandits where he found them, and later killing anyone they associated with. Sages debate how the bow became enchanted, but most believe that, after Jonan's death, it was blessed by a god. Some say it was blessed by Tyr, some say by Hoar, and others say by Bhaal. Theories tend to revolve around whether the speaker believes Jonan's actions were just, vengeful, or murderous.
+@25   = ~Этот грубый лук, покрытый пылью, был создан в качестве орудия мести поселенцем из Кормира на западе Фаеруна. Старый солдат по имени Джонан Сузальский после долгих лет сражений во славу короны наконец-то вернулся домой, чтобы жениться на любимой девушке своего детства. За все годы, что он служил в армии, он оставался верен своей возлюбленной и ему удалось отложить небольшой капитал. Вместе со своей женой они отправились на запад, надеясь найти хорошие земли для поселения рядом с границей. В землях к северу от Балдурс Гейт и к востоку от Леса Троллей Джонан построил дом и ферму. Спустя пять лет в этом районе обьявились рейдеры, многие фермы были сожжены, и со временем рейдеры добрались и до фермы Джонана. Его жена и ребенок погибли, ферма была сожжена, а его оставили умирать на тлеющих углях в компании стервятников. Но он выжил. Спустя несколько месяцев Джонан сделал этот лук, втерев в его волокна золу своего потерянного дома и пепел своей погибшей семьи. И когда лук был готов, Джонан отправился мстить. Он убивал каждого бандита, попадавшегося ему на пути и даже тех, кто просто сотрудничал с ними, обеспечивая едой и скупая награбленное. Ученые люди до сих пор спорят, каким образом лук обрел магические свойства. Большинство склоняется к мысли, что после смерти Джонана лук получил божественное благословение. Некоторые говорят, что от Тира, другие, что от Хора, а третьи поговаривают о Баале. Впрочем, это зависит от того, считает ли спорящий, что его действия были справедливы, мстительны или бессмысленно жестоки.
 
 STATISTICS:
 
@@ -121,7 +121,7 @@ Requires:
 
 Weight: 3~
 @26   = ~Сапоги Предыдущих~
-@27   = ~These wrinkled, rough boots were made from the scalps of dead orc shamans from the Stinking Paw tribe. The power hungry religious leader of the tribe, Algrash Who-Watches-In-Darkness, ordered his underlings to make the boots by digging up the corpses of his predecessors. Algrash was killed when he provoked a fight with a gang of ogres. His boots were left at the scene of the battle.
+@27   = ~Эти грубые, сморщенные сапоги были изготовлены из скальпов орков-шаманов племени Зловонной Лапы. Вечно голодный верховный шаман племени, Алграш Кто-Наблюдает-В-Темноте, заказал сделать их из трупов своих предшественников. В бою с отрядом великанов-людоедав Алграш был убит, а его сапоги пропали на месте гибели своего хозяина.
 
 STATISTICS:
 
@@ -132,7 +132,7 @@ Equipped abilities:
 Weight: 4~
 @28   = ~Дар Эдвентара~
 @29   = ~Композитный Длинный Лук +4: Защитник~
-@30   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
+@30   = ~Композитные луки - это длинные луки, которые состоят из более чем одного вида материалов.  Это дает им большую гибкость и придает выпущенным из них стрелам большую убойную силу. На этот лук были наложены специальные чары, которые защищают владельца лука и позволяют его рукам двигаться с необычайной скоростью. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
 
 STATISTICS:
 
@@ -149,10 +149,8 @@ Requires:
  17 Dexterity
 
 Weight: 8~
-@31   = ~Katana +3: Air Element~
-@32   = ~Katana +3 Air Element
-
-One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@31   = ~Катана +3: Воздушный Элементаль~
+@32   = ~Одна из четырех Элементальных Катан, эта катана наделяет владельца мощью Воздуха. Владелец должен уважать обычаи и традиции Кара-Тура, и не может быть злым по своей природе. Только чистым сердцам позволено использовать Элементальные Катаны.
 
 STATISTICS:
 
@@ -177,10 +175,8 @@ Requires:
  16 Dexterity
 
 Weight: 2~
-@33   = ~Katana +3: Earth Element~
-@34   = ~Katana +3 Earth Element
-
-One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@33   = ~Катана +3: Земной Элементаль~ 
+@34   = ~Одна из четырех Элементальных Катан, эта катана наделяет владельца мощью Земли. Владелец должен уважать обычаи и традиции Кара-Тура, и не может быть злым по своей природе. Только чистым сердцам позволено использовать Элементальные Катаны.
 
 STATISTICS:
 
@@ -205,10 +201,8 @@ Requires:
  16 Constitution
 
 Weight: 2~
-@35   = ~Katana +3: Fire Element~
-@36   = ~Katana +3 Fire Element
-
-One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
+@35   = ~Катана +3: Огненный Элементаль~
+@36   = ~Одна из четырех Элементальных Катан, эта катана наделяет владельца мощью Огня. Владелец должен уважать обычаи и традиции Кара-Тура, и не может быть злым по своей природе. Эта катана, вероятно, самая мощная, но в то же время, и самая требовательная к своему владельцу. Кроме того, эта катана требует от своего владельца соблюдения естественного баланса.
 
 STATISTICS:
 
@@ -235,10 +229,8 @@ Requires:
  17 Dexterity
 
 Weight: 2~
-@37   = ~Katana +3: Water Element~
-@38   = ~Katana +3 Water Element
-
-One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@37   = ~Катана +3: Водный Элементаль~
+@38   = ~Одна из четырех Элементальных Катан, эта катана наделяет владельца мощью Воды. Владелец должен уважать обычаи и традиции Кара-Тура, и не может быть злым по своей природе. Только чистым сердцам позволено использовать Элементальные Катаны.
 
 STATISTICS:
 
@@ -266,15 +258,13 @@ Requires:
 
 Weight: 2~
 @39   = ~Ключ-камень Наканиши~
-@40   = ~Upon closer examination this wardstone appears to be a gem of mediocre value, with several symbols carved upon the outer edge.
+@40   = ~При ближайшем рассмотрении этот ключ-камень больше всего напоминает драгоценный камень средней величины, с различными магическими символами, вырезанными на его поверхности.
 
 STATISTICS:
 
 Weight: 5~
-@41   = ~Кольцо Святости II~
-@42   = ~Ring of Holiness II: God Blessing
-
-Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
+@41   = ~Кольцо Святости II: Благословение Богов~
+@42   = ~Кольца этого типа выдавались наиболее верным священникам Сун, которые всей своей жизнью демонстрировали поразительную Веру и Доброту. Многие так никогда и не заслужили этой высокой чести.
 
 STATISTICS:
 
@@ -283,9 +273,7 @@ Equipped abilities:
 
 Weight: 0~
 @43   = ~Вакидзаши Качико +3~
-@44   = ~Kachiko's Wakizashi +3
-
-This special sword was granted to Kachiko by her father upon her ascension to adulthood.
+@44   = ~Этот великолепный меч достался Качико в подарок от отца на день ее совершеннолетия.
 
 STATISTICS:
 
@@ -302,9 +290,7 @@ Requires:
 
 Weight: 2~
 @45   = ~Вакидзаши Духа Бамбу +4~
-@46   = ~Bamboo Spirit Wakizashi +4
-
-This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
+@46   = ~Этот прекрасный вакидзаши имеет довольно необычную конструкцию. Лезвие выковано из неизвестного светящегося металла, но края, кажется, сделаны из серебра. Мерцающие руны покрывают клинок по всей длине. При ближайшем рассмотрении, видно, что они живут своей собственной жизнью. Немногое известно о происхождении этого меча. Качико говорит, что этот клинок - ее любимое оружие, и он был подарен ей духом Бамбу из южных лесов Казакура.
 
 STATISTICS:
 
@@ -321,7 +307,7 @@ Requires:
 
 Weight: 4~
 @47   = ~Серебряные наручи Кедла~
-@48   = ~This mage, who made his home in Phlan, was known as "Kedl of the Three Rings," for it was said that he perfected a technique whereby he could wear three magical rings simultaneously. An enchanter of items, he was well known for his discriminating taste in clothing, jewelry, and other accessories. His polished silver bracers were a constant part of his wardrobe. Kedl eventually sold his bracers when he needed the money for some powerful rings. Unfortunately, Kedl died in an orc attack on Phlan several years later.
+@48   = ~Этот маг, поселившийся во Флане, был известен под именем "Кедл с тремя кольцами," поскольку слухи утверждали, что он развил особое мастерство, позволявшее ему носить три магических кольца одновременно. Будучи настоящим мастером по зачарованию вещей, он отличался привередливым вкусом в одежде, драгоценностях и других украшениях. Его тщательно отполированные серебряные наручи были постоянным атрибутом его облачения. В конце концов ему потребовались большие деньги на какое-то могущественное кольцо, и он продал свои наручи. К сожалению, несколько лет спустя Кедл нелепо погиб во время одной из атак орков.
 
 STATISTICS:
 
@@ -330,49 +316,49 @@ Equipped abilities:
 
 Weight: 2~
 @49   = ~Бронзовый Ключ~
-@50   = ~An ornate key crafted in bronze.
+@50   = ~Весьма замысловатый бронзовый ключ.
 
 STATISTICS:
 
 Weight: 0~
 @51   = ~Медный Ключ~
-@52   = ~An ornate key crafted in copper.
+@52   = ~Весьма замысловатый медный ключ.
 
 STATISTICS:
 
 Weight: 0~
 @53   = ~Железный Ключ~
-@54   = ~A complex looking key made from cold iron.
+@54   = ~Довольно сложный ключ из холодного железа.
 
 STATISTICS:
 
 Weight: 0~
 @55   = ~Адамантиновый Ключ~
-@56   = ~An ornate key crafted in electrum.
+@56   = ~Весьма замысловатый адамантиновый ключ.
 
 STATISTICS:
 
 Weight: 0~
 @57   = ~Золотой Ключ~
-@58   = ~An ornate key crafted in gold.
+@58   = ~Весьма замысловатый золотой ключ.
 
 STATISTICS:
 
 Weight: 0~
 @59   = ~Платиновый Ключ~
-@60   = ~An ornate key crafted in platinum.
+@60   = ~Весьма замысловатый платиновый ключ.
 
 STATISTICS:
 
 Weight: 0~
 @61   = ~Серебряный Ключ~
-@62   = ~An ornate key crafted in silver.
+@62   = ~Весьма замысловатый серебряный ключ.~
 	
 STATISTICS:
 
 Weight: 0~
 @63   = ~Черный Рыцарь~
-@64   = ~This chess piece is a black knight, crafted from ebony. It is one of the many lost pieces from the fabled Chess Sets of Niri Alud. Niri Alud was a conjurer from Tethyr who loved playing chess. He frequently traveled with chess sets on his numerous voyages. He wanted the ability to summon allies at a moment's notice without giving away his intention. For that reason, he created a wide variety of chess sets of different colors that would summon constructed, golem-like automatons to aid him in battle. Almost all of Niri Alud's chess sets were lost when he was attacked by desert raiders in Calimshan. The raiders, ignorant of the ways of magic, let most of the chess sets sink into the desert sands. The chess sets that were taken were soon separated, pieces traveling through trade and theft over hundreds of miles. Treasure hunters search for the pieces still.
+@64   = ~Эта шахматная фигурка черного рыцаря была вырезана из эбонитового дерева много лет назад. По всей видимости, это часть шахматной коллекции знаменитого Нури Элада. Нури Элад был волшебником из Тетира, который очень любил играть в шахматы. В своих многочисленных путешествиях он всегда возил с собой шахматы и продвигал эту замечательную игру среди местных вельмож. Однажды ему пришла в голову мысль создать комплект шахматных фигур, которые подобно магическим големам могли бы при случае помочь своему хозяину отбиться от шайки разбойников. Так появилась знаменитая шахматная коллекция Нури Элада, состоящая из комплекта шахматных фигур обоих цветов. За годы путешествий большинство этих фигур были потеряны в стычках с налетчиками и бандитами. Фигурки терялись в густой траве, их засасывали ненасытные пески и поглощали беспощадные волны. Охотники за сокровищами до сих пор отчаянно ищут и готовы заплатить любые деньги даже за отдельные фигурки. Стоимость всего комплекта сравнима с ценой небольшого государства.
 
 STATISTICS:
 
@@ -382,9 +368,7 @@ Charge abilities:
 
 Weight: 1~
 @65   = ~Кольцо Ходжо, клана Наканиши~
-@66   = ~Hojo War Ring of Nakanishi
-
-Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, its powers may not be used by anyone else.
+@66   = ~Каждая женщина-самурай из Казакура, вовлеченная в Войну Ходжо, получала семейное кольцо защиты, дарованное одним из Восьми Миллионов Богов. Это кольцо досталось Качико в день совершеннолетия от ее матери. Магия кольца не позволяет снимать его с руки Качико, и силы этого кольца не могут быть использованы кем-то кроме нее.
 
 STATISTICS:
 
@@ -399,9 +383,7 @@ Equipped Abilities:
 
 Weight: 0~
 @67   = ~Hojo War Ring of Hashimoto~
-@68   = ~Hojo War Ring of Hashimoto
-
-Sanai Hashimoto was a famous samurai of Hashimoto clan and loyal supporter of the Emperor Tokugawa during the final days of the Hojo War. The Emperor granted this ring to him in a recogntion of his deeds and loyalty. After Sanai's death, the ring has been inherited by his son Aino who later granted this ring to his eldest son Yoshimo upon his ascension to adulthood. Bonded to his blood as it is, its powers may not be used by anyone else but Yoshimo.
+@68   = ~Sanai Hashimoto was a famous samurai of Hashimoto clan and loyal supporter of the Emperor Tokugawa during the final days of the Hojo War. The Emperor granted this ring to him in a recogntion of his deeds and loyalty. After Sanai's death, the ring has been inherited by his son Aino who later granted this ring to his eldest son Yoshimo upon his ascension to adulthood. Bonded to his blood as it is, its powers may not be used by anyone else but Yoshimo.
 
 Equipped Abilities:
 – Armor Class: +2
@@ -412,28 +394,28 @@ Equipped Abilities:
  
 Weight: 0~
 @69   = ~Медальон Лунного Полумесяца~
-@70   = ~A miniature crescent moon on a chain.
+@70   = ~Миниатюрный полумесяц на цепочке.
 
 STATISTICS:
 	
 Weight: 0~
-@71   = ~A miniature crescent moon on a chain.
+@71   = ~Миниатюрный полумесяц на цепочке.
 
 STATISTICS:
 
 Weight: 0~
 @72   = ~Волшебная веревка~
-@73   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.
+@73   = ~Эта зачарованная веревка позволяет своему владельцу спускаться или подниматься на любую высоту. Веревка никогда не заканчивается и выдерживает любой вес.
 	
 STATISTICS:
 	
 Weight: 5~
-@74   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.	
+@74   = ~Эта зачарованная веревка позволяет своему владельцу спускаться или подниматься на любую высоту. Веревка никогда не заканчивается и выдерживает любой вес.
 
 STATISTICS:
 
 Weight: 5~
-@75   = ~This weapon appears to be a huge staff with a ferrule causes the staff to assume the attributes of a mace. However, only the strongest of the people can wield it in one hand.
+@75   = ~Это оружие представляет собой огромный посох с большим набалдашником, который делает его похожим на булаву. Только очень сильные люди могут удержать его в руке.
 
 STATISTICS:
 
@@ -446,7 +428,7 @@ Requires: 19 Strength
 
 Weight: 4~
 @76   = ~Кольцо магии Эдиона~
-@77   = ~Edion, a dying necromancer from Sembia, was the recent owner of this powerful ring. He crafted the ring himself for his private use. In his later years, he became so accustomed to wearing it that he almost never removed it. He wore it on the same finger that he would wear a wedding ring on, to symbolize his marriage to the Art.
+@77   = ~Эдион, погибший некромант из Сембии, был владельцем этого мощного кольца. Он сам и создал его для своих собственных надобностей. В течение многих лет он носил это кольцо, не снимая ни на секунду. Эдион носил это кольцо на том пальце, где обычно носят обручальное кольцо, тем самым подчеркивая свою близость с Магическим Искусством.
 
 STATISTICS:
 
@@ -463,7 +445,7 @@ Charge abilities:
 
 Weight: 0~
 @78   = ~Защитный Плащ~
-@79   = ~There are a small number of these valuable gold and crimson robes floating around the Realms, and all of them are the creation of an abjurer named Delgam of the Many Hands - so called for his extensive use of the expression "on the other hand..." Delgam eschewed imbuing his items with offensive powers or other miscellaneous magic effects. Instead, he focused on what abjurers tend to focus on: defense. His robes were extremely popular, so much so that mages were coming to him from all over the world to demand that he make more for them. Delgam decided to fade into obscurity rather than cater to packs of power-hungry wizards. His robes are his most well known legacy.
+@79   = ~Таких таинственных, ценных, шитых золотом плащей немного на всем свете, и все они созданы магом по имени Делгам Всесторонний - названным так за выражение, которым он постоянно пользовался: "но с другой стороны..." Делгам старался не наделять свои вещи разрушительной мощью или другими магическими силами. Вместо этого он уделял существенное внимание защите. Его плащи были очень популярны, и маги отовсюду приходили к нему с просьбой сделать плащи и для них. Делгам предпочел исчезнуть в неизвестном направлении, чтобы избавиться от назойливого внимания толпы жаждущих могущества магов. После него осталось лишь несколько плащей, которые и принесли ему славу.
 
 STATISTICS:
 
@@ -478,7 +460,7 @@ Weight: 5~
 @80   = ~Шляпа~
 @81   = ~Капюшон Вора~
 @82   = ~Шляпы бываю самых разных фасонов и типов, порой весьма причудливые. Волшебные шляпы легко уменьшаются или увеличиваются, в зависимости от размера головы владельца. В наше время стили и фасоны шляп чаще всего зависят от моды и профессиональных требований владельцев.~
-@83   = ~This dark brown cowl is meant to be worn on the head and over the shoulders as a broad hood. It was crafted by the gnomish thief and illusionist Brein Chestnut. Brein used the cowl on his own adventures for several years before his childhood sweetheart convinced him to settle down. He gave the cowl to his nephew, Chirchet, who in turn sold the item for a large stretch of farmland.
+@83   = ~Этот темно-коричневый капюшон отлично укрывает голову и плечи владельца от холодного ветра и недобрых взглядов. Согласно легенде, капюшон был изготовлен гномом вором-иллюзионистом Брейном Шестнутом. Брейн пользовался им со времен далекой молодости для проворачивания своих не всегда законных делишек. После того, как Брейн остепенился и стал уважаемым горожанином, он подарил свой капюшон племяннику Чершету. 
 
 STATISTICS:
 
@@ -492,7 +474,7 @@ Charge abilities:
 
 Weight: 2~
 @84   = ~Скарабей Доброй Воли~
-@85   = ~This type of amulet takes the form of a sculpted beetle, and is typically only found in areas around Mulhorand. This particular scarab was crafted by a priest of Nepthys named Ani Haloua. She used it in negotiations with local businesses and the general populace. Similar scarabs are believed to be circulating in the Realms. Priests of Waukeen are particularly fond of them.
+@85   = ~Этот тип амулета выполнен в виде жука-скаробея и первоначально такие амулеты изготавливались в окрестностях Мулхоранда. Конкретно этот скарабей был изготовлен служительницей Нефуса по имени Ани Халуа. Она использовала его при деловых переговорах и при общении с простым народом. Можно предположить, что подобные амулеты хорошо известны в Королевствах. Особенно они полюбились служителям Вокин.
 
 STATISTICS:
 
@@ -507,10 +489,8 @@ Charge abilities:
 
 Weight: 2~
 @86   = ~Временной камень-ключ~
-@87   = ~Кольцо Колдовства II~
-@88   = ~Ring of Wizardry II: Reaching Ring
-
-This is the enchanted version of the famous Ring of Wizardry.
+@87   = ~Кольцо Колдовства II: Улучшенное Кольцо~
+@88   = ~Это весьма существенно улучшенная версия знаменитого Кольца Колдовства.
 
 STATISTICS:
 
@@ -533,10 +513,8 @@ STATISTICS:
 
 Weight: 1~
 @95   = ~Зелье Божественности~
-@96   = ~Katana +4~
-@97   = ~Katana +4: Wu Haltai
-
-The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one's luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
+@96   = ~Катана +4: Ву Халтай~
+@97   = ~Владелец этой благородной катаны должен свято чтить и неуклонно соблюдать традиции Кара-Тура и кодекс чести самурая. В противном случае удача непременно отвернется от него и гнев богов испепелит нарушителя. Эта катана, в отличие от катаны "Ву Джен", не только защищает своего владельца, но и помогает ему при атаках. Говорят, что тот, кто добудет обе эти катаны, станет практически неуязвим. 
 
 STATISTICS:
 
@@ -558,9 +536,9 @@ Requires:
  12 Intelligence
  
 Weight: 2~
-@98   = ~Katana +3: Wu Jen
+@98   = ~Катана +3 Ву Джен
 
-This katana is a defending counterpart of the Wu Haltai katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
+В отличие от катаны "Ву Халтай", эта катана по большей части защищает своего владельца, предоставляя ему различные бонусные иммунитеты. Говорят, что тот, кто добудет обе эти катаны, станет практически неуязвим.
 
 STATISTICS:
 
@@ -583,7 +561,7 @@ Requires:
 
 Weight: 2~
 @99   = ~Великая роба Оги-Люка~
-@100  = ~This robe was fashioned from strong fabric and dyed dark blue, the favorite color of its proud owner, the archmage Ogi-Luc. A Sembian by birth, Ogi-Luc was a powerful man, as strong in body as he was in mind. However, Ogi-Luc wasn't content to merely be strong. He wanted to be exceptionally strong. When he put on this robe, proud men stood aside and braggarts stilled their tongues. For all of Ogi-Luc's pride and prowess, he was unable to defeat the Red Wizard abjurer Nesk Vhaltim. Nesk took the robe as a prize. It were later stolen and sold by a daring rogue.
+@100  = ~Эта роба изготовлена из прочной ткани и раскрашена в любимый темно-синий цвет своего хозяина, гордого и могущественного архмага Оги-Люка. С самого рождения Оги-Люк был очень силен (и разумом, и телом), но тем не менее захотел быть еще сильнее. Он наложил на свою любимую робу особые заклятия, которые делали надевшего ее исключительно сильным и здоровым. Распираемый гордыней, Оги-Люк бросил вызов Красному Колдуну Неку Вайлту и был побежден им. Нек Вайлт забрал эту робу у Оги-Люка в качестве трофея, но сам никогда не носил ее. Позже роба была многократно перепродана и еще чаще ее попросту крали у владельцев, но это уже совсем другая история.
 
 STATISTICS:
 
@@ -636,9 +614,7 @@ Armor Class: 0
 	
 Weight: 20~
 @105  = ~Yoshimo's Katana +4~
-@106  = ~Yoshimo's Katana +4
-
-This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+@106  = ~This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
 
 STATISTICS:
 
