@@ -131,7 +131,7 @@ Equipped abilities:
 
 Weight: 4~
 @28   = ~Edventar's Gift~
-@29   = ~Composite Long Bow +4: Defender~
+@29   = ~Defender +4~
 @30   = ~The composite bow is similar to the long bow, except that the staff being made from more than one type of material is heavier, and about as high as the archer is, usually 6 to 6.5 feet. Even though the composite bow is slightly slower then the long bow, it has more range and is more accurate. This particular bow has been enhanced with magical properties, giving it an air of perfection. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
 
 STATISTICS:
@@ -415,24 +415,16 @@ Weight: 0~
 @70   = ~A miniature crescent moon on a chain.
 
 STATISTICS:
-	
-Weight: 0~
-@71   = ~A miniature crescent moon on a chain.
-
-STATISTICS:
 
 Weight: 0~
+
 @72   = ~Magical Rope~
 @73   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.
-	
-STATISTICS:
-	
-Weight: 5~
-@74   = ~This enchanted rope allows the user to descend or ascend any height. It will stretch to any length and still maintain its strength.	
 
 STATISTICS:
 
 Weight: 5~
+
 @75   = ~This weapon appears to be a huge staff with a ferrule causes the staff to assume the attributes of a mace. However, only the strongest of the people can wield it in one hand.
 
 STATISTICS:
@@ -533,7 +525,7 @@ STATISTICS:
 
 Weight: 1~
 @95   = ~Potion of Holy Transference~
-@96   = ~Katana +4~
+@96   = ~Wu Haltai +4~
 @97   = ~Katana +4: Wu Haltai
 
 The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one's luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
@@ -733,7 +725,7 @@ Weight: 5~
 @204  = ~What exactly are you trying to accomplish?~ [KACHIRA2]
 @205  = ~No! You will not have died in vain!~ [KACHIRD]
 @211  = ~Kachiko's dark almond-shaped eyes sparkle mysteriously when you ask her about her past. "I am Kachiko of House Nakanishi," she says in a soft voice, and proceeds to tell you about her far-away native land. She speaks of temples which roofs are shaped as mountains slopes, gardens set amongst stones, of brave warriors who obey a code as strict as it is honorable, of pearls brought from the sea depth, and of Emperors and millions of spirits populating her land until you interrupt her with: "But what about you, Kachiko?" She smiles and answers: "I am Kachiko of House Nakanishi. I am what you see in front of you, my friend. Look into my face and you can read my past, my present and my future."~
-@212  = ~Installing Soundset: Legacy Soundset~
+
 @213  = ~Well, we're not out of the woods yet... Oh, wait, we are! *laughs*~ [KACHIMC]
 @214  = ~I'll make you sorry you attacked me... Right before you die!~ [KACHIBC]
 @215  = ~Don't you mess with me!~ [KACHIHA]
@@ -776,7 +768,9 @@ Weight: 5~
 @253  = ~This exit is magically sealed. You have no means to unseal it.~
 @254  = ~These stairs have collapsed. You will have to find another route.~
 
-//Alternatives crossmod
+////Crossmod lines
+
+//Alternatives
 
 @300  = ~CHAPTER FOUR
 
@@ -788,3 +782,7 @@ Weight: 5~
     After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Maztica... or so you thought.
     
     Malficus was following the orders of Bodhi, a powerful vampire, and you were found at the shore of Brynnlaw, betrayed. Like it or not, you are here now, and the only way to get back is to go forward. The island might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side, and both Irenicus and Imoen are here.~ [vptheme2]
+
+////New version
+
+@400  = ~Wu Jen +3~
