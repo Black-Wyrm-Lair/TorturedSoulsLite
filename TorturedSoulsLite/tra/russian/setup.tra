@@ -166,7 +166,8 @@ THAC0: +4
  – Air elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Урон: 1d10+3 Slashing, +1d10 electrical damage
+Урон: 1d10+3, +1d10 electrical damage
+Damage Type: Slashing
 Speed: 1
 Навык: катана
 Тип: одноручное
@@ -191,7 +192,8 @@ Speed: 1
 – Earth elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Урон: 1d10+3 Slashing, +1d10 дробящий damage
+Урон: 1d10+3, +1d10 дробящий damage
+Damage Type: Slashing
 Speed: 1
 Навык: катана
 Тип: одноручное
@@ -217,7 +219,8 @@ Speed: 1
 – Fire elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Урон: 1d10+3 Slashing, +1d10 fire damage
+Урон: 1d10+3, +1d10 fire damage
+Damage Type: Slashing
 Speed: 1
 Навык: катана
 Тип: одноручное
@@ -244,7 +247,8 @@ Speed: 1
 – Vampiric creatures must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Урон: 1d10+3 Slashing, +1d10 cold damage
+Урон: 1d10+3, +1d10 cold damage
+Damage Type: Slashing
 Speed: 1
 Навык: катана
 Тип: одноручное
