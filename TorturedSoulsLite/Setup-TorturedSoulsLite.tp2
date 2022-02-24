@@ -402,12 +402,12 @@ COPY ~TorturedSoulsLite/itm/vpotakam.itm~ ~override~
  SAY NAME1 @69
  SAY NAME2 @69
  SAY UNIDENTIFIED_DESC @70
- SAY DESC @71
+ SAY DESC @70
   
 COPY ~TorturedSoulsLite/itm/vptsrope.itm~ ~override~
  SAY NAME2 @72
  SAY UNIDENTIFIED_DESC @73
- SAY DESC @74
+ SAY DESC @73
  
 COPY ~TorturedSoulsLite/itm/vppursta.itm~ ~override~
  SAY DESC @75
@@ -462,7 +462,8 @@ COPY ~TorturedSoulsLite/itm/vpwuhalt.itm~ ~override~
  SAY DESC @97
  
 COPY ~TorturedSoulsLite/itm/vpwujen.itm~ ~override~
- SAY DESC @98 
+ SAY NAME2 @400
+ SAY DESC @98
 
 COPY ~TorturedSoulsLite/itm/vpogi.itm~ ~override~
  SAY NAME2 @99
