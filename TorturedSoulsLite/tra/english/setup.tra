@@ -25,7 +25,7 @@ The Hashimoto family first doubled then tripled and all of their children grew u
 
 STATISTICS:
 
-Combat abilities:
+Combat Abilities:
 – 25% chance of each hit stunning the target for 4 rounds
 – 50% chance of an extra 1d3 electrical damage to hit target
 
@@ -108,7 +108,7 @@ Weight: 6~
 
 STATISTICS:
 
-Combat abilities:
+Combat Abilities:
 – 1 extra attack per round
 
 THACO: +4
@@ -136,7 +136,7 @@ Weight: 4~
 
 STATISTICS:
 
-Combat abilities:
+Combat Abilities:
 – 3 extra attacks per round
 
 THAC0: +4
@@ -162,12 +162,11 @@ Equipped abilities:
 – Immunity to poison
 – Immunity to any electricity and lighting effects, including wing buffet
 
- Combat abilities:
+Combat Abilities:
  – Air elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3, +1d10 electrical damage
-Damage Type: Slashing
+Damage: 1d10+3 (slashing), +1d10 (electrical)
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -192,8 +191,7 @@ Combat Abilities:
 – Earth elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3, +1d10 crushing damage
-Damage Type: Slashing
+Damage: 1d10+3 (slashing), +1d10 (crushing)
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -219,8 +217,7 @@ Combat Abilities:
 – Fire elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3, +1d10 fire damage
-Damage Type: Slashing
+Damage: 1d10+3 (slashing), +1d10 (fire)
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -247,8 +244,7 @@ Combat Abilities:
 – Vampiric creatures must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3, +1d10 cold damage
-Damage Type: Slashing
+Damage: 1d10+3 (slashing), +1d10 (cold)
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -277,7 +273,7 @@ Weight: 0~
 
 STATISTICS:
 
-Combat abilities:
+Combat Abilities:
 – Drains 2 points of target's Wisdom for 2 rounds on each hit (Save vs. Death to negate)
 
 THAC0: +3
@@ -299,7 +295,7 @@ Equipped Abilities:
 
 THACO: +4
 Damage: 1d8+4 (slashing)
-Proficiency type: Wakizashi
+Proficiency Type: Scimitar/Wakizashi/Ninja-To
 Speed Factor: 1
 Type: One-handed
 Requires:
@@ -514,7 +510,7 @@ Equipped Abilities:
 – Armor Class: +3
 – Regenerate 1 Hit Point per round
 
-Combat abilities:
+Combat Abilities:
 – Each hit lowers target's Magic Resistance by 10%
 
 THAC0: +4
@@ -580,7 +576,7 @@ Equipped Abilities:
 – Damage: +2
 – Immunity to +1 magical weapons
 
-Combat abilities:
+Combat Abilities:
 – 1 extra attack per round
 
 Weight: 1~
@@ -612,7 +608,7 @@ Equipped Abilities:
 – Armor Class: +2
 – Magice Resistance: +10%
 
-Combat abilities:
+Combat Abilities:
 – 1 extra attack per round
 
 THAC0: +4 bonus
