@@ -131,7 +131,7 @@ Equipped abilities:
 
 Weight: 4~
 @28   = ~Дар Эдвентара~
-@29   = ~Композитный Длинный Лук +4: Защитник~
+@29   = ~Защитник +4~
 @30   = ~Композитные луки - это длинные луки, которые состоят из более чем одного вида материалов.  Это дает им большую гибкость и придает выпущенным из них стрелам большую убойную силу. На этот лук были наложены специальные чары, которые защищают владельца лука и позволяют его рукам двигаться с необычайной скоростью. Moreover the heavy staff of this bow is made of magically enhanted cedar and cembra pine, which grants additional protection to its wielder.
 
 STATISTICS:
@@ -397,24 +397,16 @@ Weight: 0~
 @70   = ~Миниатюрный полумесяц на цепочке.
 
 STATISTICS:
-	
-Weight: 0~
-@71   = ~Миниатюрный полумесяц на цепочке.
-
-STATISTICS:
 
 Weight: 0~
+
 @72   = ~Волшебная веревка~
 @73   = ~Эта зачарованная веревка позволяет своему владельцу спускаться или подниматься на любую высоту. Веревка никогда не заканчивается и выдерживает любой вес.
-	
-STATISTICS:
-	
-Weight: 5~
-@74   = ~Эта зачарованная веревка позволяет своему владельцу спускаться или подниматься на любую высоту. Веревка никогда не заканчивается и выдерживает любой вес.
 
 STATISTICS:
 
 Weight: 5~
+
 @75   = ~Это оружие представляет собой огромный посох с большим набалдашником, который делает его похожим на булаву. Только очень сильные люди могут удержать его в руке.
 
 STATISTICS:
@@ -513,7 +505,7 @@ STATISTICS:
 
 Weight: 1~
 @95   = ~Зелье Божественности~
-@96   = ~Катана +4: Ву Халтай~
+@96   = ~Ву Халтай +4~
 @97   = ~Владелец этой благородной катаны должен свято чтить и неуклонно соблюдать традиции Кара-Тура и кодекс чести самурая. В противном случае удача непременно отвернется от него и гнев богов испепелит нарушителя. Эта катана, в отличие от катаны "Ву Джен", не только защищает своего владельца, но и помогает ему при атаках. Говорят, что тот, кто добудет обе эти катаны, станет практически неуязвим. 
 
 STATISTICS:
@@ -536,9 +528,7 @@ Requires:
  12 Intelligence
  
 Weight: 2~
-@98   = ~Катана +3 Ву Джен
-
-В отличие от катаны "Ву Халтай", эта катана по большей части защищает своего владельца, предоставляя ему различные бонусные иммунитеты. Говорят, что тот, кто добудет обе эти катаны, станет практически неуязвим.
+@98   = ~В отличие от катаны "Ву Халтай", эта катана по большей части защищает своего владельца, предоставляя ему различные бонусные иммунитеты. Говорят, что тот, кто добудет обе эти катаны, станет практически неуязвим.
 
 STATISTICS:
 
@@ -709,7 +699,7 @@ Weight: 5~
 @204  = ~What exactly are you trying to accomplish?~ [KACHIRA2]
 @205  = ~No! You will not have died in vain!~ [KACHIRD]
 @211  = ~Темные глаза Качико загадочно мерцают, когда вы спрашиваете ее о прошлом. "Я - Качико из рода Наканиши," говорит она мягким голосом и затем рассказывает о своей далекой родине. Она говорит о храмах, крыши которых как склоны гор, о садах, разбитых посреди камней, о храбрых воинах, которые подчиняются строгому кодексу чести, о жемчужинах, выловленных с глубин моря, об Императорах и их миллионах подданных, пока вы не прерываете ее вопросом: "А что насчет тебя, Качико?" Она улыбается и отвечает: "Я - Качико из рода Наканиши. Я та, кого ты видишь перед собой. Посмотри мне в глаза и ты увидишь мое прошлое, настоящее и будущее."~
-@212  = ~Installing Soundset: Legacy Soundset~
+
 @213  = ~Well, we're not out of the woods yet... Oh, wait, we are! *laughs*~ [KACHIMC]
 @214  = ~I'll make you sorry you attacked me... Right before you die!~ [KACHIBC]
 @215  = ~Don't you mess with me!~ [KACHIHA]
@@ -752,7 +742,9 @@ Weight: 5~
 @253  = ~Выход запечатан с помощью могучей магии. Вы не представляете, как можно снять эту печать.~
 @254  = ~Лестница разрушена. Вам придется найти другой путь.~
 
-//Alternatives crossmod
+////Crossmod lines
+
+//Alternatives
 
 @300  = ~CHAPTER FOUR
 
@@ -764,3 +756,7 @@ Weight: 5~
     After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Maztica... or so you thought.
     
     Malficus was following the orders of Bodhi, a powerful vampire, and you were found at the shore of Brynnlaw, betrayed. Like it or not, you are here now, and the only way to get back is to go forward. The island might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side, and both Irenicus and Imoen are here.~ [vptheme2]
+
+////New version
+
+@400  = ~Ву Джен +3~
