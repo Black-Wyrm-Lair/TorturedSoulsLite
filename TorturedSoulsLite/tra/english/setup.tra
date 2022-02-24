@@ -25,7 +25,7 @@ The Hashimoto family first doubled then tripled and all of their children grew u
 
 STATISTICS:
 
-Combat Abilities:
+Combat abilities:
 – 25% chance of each hit stunning the target for 4 rounds
 – 50% chance of an extra 1d3 electrical damage to hit target
 
@@ -108,7 +108,7 @@ Weight: 6~
 
 STATISTICS:
 
-Combat Abilities:
+Combat abilities:
 – 1 extra attack per round
 
 THACO: +4
@@ -136,7 +136,7 @@ Weight: 4~
 
 STATISTICS:
 
-Combat Abilities:
+Combat abilities:
 – 3 extra attacks per round
 
 THAC0: +4
@@ -150,7 +150,9 @@ Requires:
 
 Weight: 8~
 @31   = ~Katana +3: Air Element~
-@32   = ~One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@32   = ~Katana +3 Air Element
+
+One of the four elemental katanas, this katana bestows the power of Air upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
 
 STATISTICS:
 
@@ -162,11 +164,12 @@ Equipped abilities:
 – Immunity to poison
 – Immunity to any electricity and lighting effects, including wing buffet
 
-Combat Abilities:
+ Combat abilities:
  – Air elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3 (slashing), +1d10 (electrical)
+Damage: 1d10+3, +1d10 electrical damage
+Damage Type: Slashing
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -175,7 +178,9 @@ Requires:
 
 Weight: 2~
 @33   = ~Katana +3: Earth Element~
-@34   = ~One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@34   = ~Katana +3 Earth Element
+
+One of the four elemental katanas, this katana bestows the power of Earth upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
 
 STATISTICS:
 
@@ -191,7 +196,8 @@ Combat Abilities:
 – Earth elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3 (slashing), +1d10 (crushing)
+Damage: 1d10+3, +1d10 crushing damage
+Damage Type: Slashing
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -200,7 +206,9 @@ Requires:
 
 Weight: 2~
 @35   = ~Katana +3: Fire Element~
-@36   = ~One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
+@36   = ~Katana +3 Fire Element
+
+One of the four elemental katanas, probably the most formidable, but at the same time, the most difficult to handle, this katana bestows the power of Fire upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas. In addition, this particular katana requires its owner respects the natural ballance.
 
 STATISTICS:
 
@@ -217,7 +225,8 @@ Combat Abilities:
 – Fire elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3 (slashing), +1d10 (fire)
+Damage: 1d10+3, +1d10 fire damage
+Damage Type: Slashing
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -227,7 +236,9 @@ Requires:
 
 Weight: 2~
 @37   = ~Katana +3: Water Element~
-@38   = ~One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
+@38   = ~Katana +3 Water Element
+
+One of the four elemental katanas, this katana bestows the power of Water upon the wielder, who must respect the customs of Kara-Tur. Not doing so could drastically change one's luck for the worse. Only those of pure heart may use the elemental katanas.
 
 STATISTICS:
 
@@ -244,7 +255,8 @@ Combat Abilities:
 – Vampiric creatures must save vs. Spell or be utterly destroyed
 
 THAC0: +3
-Damage: 1d10+3 (slashing), +1d10 (cold)
+Damage: 1d10+3, +1d10 cold damage
+Damage Type: Slashing
 Speed: 1
 Proficiency Type: Katana
 Type: One-handed
@@ -259,8 +271,10 @@ Weight: 2~
 STATISTICS:
 
 Weight: 5~
-@41   = ~Ring of Holiness II: God Blessing~
-@42   = ~Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
+@41   = ~Ring of Holiness II~
+@42   = ~Ring of Holiness II: God Blessing
+
+Rings of this type were given to the most faithful priests of Sune who demonstrated actions of astounding integrity and kindness.
 
 STATISTICS:
 
@@ -269,11 +283,13 @@ Equipped abilities:
 
 Weight: 0~
 @43   = ~Kachiko's Wakizashi +3~
-@44   = ~This special sword was granted to Kachiko by her father upon her ascension to adulthood.
+@44   = ~Kachiko's Wakizashi +3
+
+This special sword was granted to Kachiko by her father upon her ascension to adulthood.
 
 STATISTICS:
 
-Combat Abilities:
+Combat abilities:
 – Drains 2 points of target's Wisdom for 2 rounds on each hit (Save vs. Death to negate)
 
 THAC0: +3
@@ -286,7 +302,9 @@ Requires:
 
 Weight: 2~
 @45   = ~Bamboo Spirit Wakizashi +4~
-@46   = ~This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
+@46   = ~Bamboo Spirit Wakizashi +4
+
+This fine wakizashi sword is of unusual construction. The blade is crafted from an unknown colourglow metal, but the edge appears to be of the finest silver. Shimmering runes have been etched the entire length of the blade. When examined closely, the runes writhe with a life of their own. Not much is known about origins of this sword. Kachiko said that this sword is her favoured weapon, and it had been granted to her by Bamboo Spirit folk who lives in southern forests of Kozakura.
 
 STATISTICS:
 
@@ -295,7 +313,7 @@ Equipped Abilities:
 
 THACO: +4
 Damage: 1d8+4 (slashing)
-Proficiency Type: Scimitar/Wakizashi/Ninja-To
+Proficiency type: Wakizashi
 Speed Factor: 1
 Type: One-handed
 Requires:
@@ -364,7 +382,9 @@ Charge abilities:
 
 Weight: 1~
 @65   = ~Hojo War Ring of Nakanishi~
-@66   = ~Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, its powers may not be used by anyone else.
+@66   = ~Hojo War Ring of Nakanishi
+
+Every female samurai of Kozakura clans participated in Hojo War has been given its own family ring of protection by one of Eight Million Gods. This ring was given to Kachiko by her mother upon her ascension to adulthood. Bonded to her blood as it is, its powers may not be used by anyone else.
 
 STATISTICS:
 
@@ -379,7 +399,9 @@ Equipped Abilities:
 
 Weight: 0~
 @67   = ~Hojo War Ring of Hashimoto~
-@68   = ~Sanai Hashimoto was a famous samurai of Hashimoto clan and loyal supporter of the Emperor Tokugawa during the final days of the Hojo War. The Emperor granted this ring to him in a recogntion of his deeds and loyalty. After Sanai's death, the ring has been inherited by his son Aino who later granted this ring to his eldest son Yoshimo upon his ascension to adulthood. Bonded to his blood as it is, its powers may not be used by anyone else but Yoshimo.
+@68   = ~Hojo War Ring of Hashimoto
+
+Sanai Hashimoto was a famous samurai of Hashimoto clan and loyal supporter of the Emperor Tokugawa during the final days of the Hojo War. The Emperor granted this ring to him in a recogntion of his deeds and loyalty. After Sanai's death, the ring has been inherited by his son Aino who later granted this ring to his eldest son Yoshimo upon his ascension to adulthood. Bonded to his blood as it is, its powers may not be used by anyone else but Yoshimo.
 
 Equipped Abilities:
 – Armor Class: +2
@@ -477,8 +499,10 @@ Charge abilities:
 
 Weight: 2~
 @86   = ~Temporal Wardstone~
-@87   = ~Ring of Wizardry II: Reaching Ring~
-@88   = ~This is the enchanted version of the famous Ring of Wizardry.
+@87   = ~Ring of Wizardry II~
+@88   = ~Ring of Wizardry II: Reaching Ring
+
+This is the enchanted version of the famous Ring of Wizardry.
 
 STATISTICS:
 
@@ -502,7 +526,9 @@ STATISTICS:
 Weight: 1~
 @95   = ~Potion of Holy Transference~
 @96   = ~Wu Haltai +4~
-@97   = ~The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one's luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
+@97   = ~Katana +4: Wu Haltai
+
+The wielder of the noble katana, such as this one, must respect the customs of Kara-Tur and of the samurai who once carried this blade into battle. Not doing so could drastically change one's luck for the worse. This particular katana has its counterpart, the "Wu Jen" katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable. 
 
 STATISTICS:
 
@@ -510,7 +536,7 @@ Equipped Abilities:
 – Armor Class: +3
 – Regenerate 1 Hit Point per round
 
-Combat Abilities:
+Combat abilities:
 – Each hit lowers target's Magic Resistance by 10%
 
 THAC0: +4
@@ -524,7 +550,9 @@ Requires:
  12 Intelligence
  
 Weight: 2~
-@98   = ~This katana is a defending counterpart of the Wu Haltai katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
+@98   = ~Katana +3: Wu Jen
+
+This katana is a defending counterpart of the Wu Haltai katana. It is said that when these two are wielded by the same person in battle, the wielder becomes invulnerable.
 
 STATISTICS:
 
@@ -576,7 +604,7 @@ Equipped Abilities:
 – Damage: +2
 – Immunity to +1 magical weapons
 
-Combat Abilities:
+Combat abilities:
 – 1 extra attack per round
 
 Weight: 1~
@@ -600,7 +628,9 @@ Armor Class: 0
 	
 Weight: 20~
 @105  = ~Yoshimo's Katana +4~
-@106  = ~This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+@106  = ~Yoshimo's Katana +4
+
+This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
 
 STATISTICS:
 
@@ -608,7 +638,7 @@ Equipped Abilities:
 – Armor Class: +2
 – Magice Resistance: +10%
 
-Combat Abilities:
+Combat abilities:
 – 1 extra attack per round
 
 THAC0: +4 bonus
