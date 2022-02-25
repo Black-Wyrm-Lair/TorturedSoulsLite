@@ -238,10 +238,10 @@ THAC0: +3
 - Телосложение: -2
 - Мудрость: +1
 - Харизма: +1
-- Иммунитет к слепоте и тишине;
+- иммунитет к слепоте и тишине;
 - иммунитет к дикой магии;
 - сопротивление холоду: 100%;
-- Сопротивление магическому холоду: 100%
+- сопротивление магическому холоду: 100%.
 
 Боевые возможности:
 - вампирические создания уничтожаются если не совершат успешный спабросок против заклинания.
@@ -532,12 +532,12 @@ THAC0: +4
 ПАРАМЕТРЫ:
 
 Свойства экипировки:
-– Телосложение: +3
-– Death Ward (Immunity to all forms of death magic)
+- Телосложение: +3;
+- защита от смерти (иммунитет ко всем формам магии смерти).
 
 Свойства зарядов:
-– Greater Restoration once per day
-– Heal once per day
+- "великое восстановление" раз в день;
+- "исцеление" раз в день.
 
 THAC0: +3
 Урон: 1d10+3 (рубящий)
@@ -555,47 +555,47 @@ THAC0: +3
 ПАРАМЕТРЫ:
 
 Свойства экипировки:
-– Класс защиты: -1
-– Сила: 23
-– Телосложение: 23
-– Fire Resistance: +50%
-– Acid Resistance: +50%
-– Magic Resistance: +15%
-– Immunity to backstab
-– Immunity to normal weapons
+- класс защиты: -1;
+- Сила: 23;
+- Телосложение: 23;
+- сопротивление огню: +50%;
+- сопротивление кислоте: +50%;
+- сопротивление магии : +15%;
+- иммунитет к ударам в спину;
+- иммунитет к обычному оружию.
 
 Вес: 5~
-@101  = ~Kensai Gloves~
-@102  = ~These special leather gloves are enchanted so as to any kensai can wear them, as well as any one else.
+@101  = ~Перчатки Кенсая~
+@102  = ~Эти кожаные перчатки зачарованы так, чтобы их мог носить любой кенсай, как, впрочем, и кто-угодно ещё.
 	
 ПАРАМЕТРЫ:
 
 Свойства экипировки:
-– Класс защиты: +2
-– Hit Points: +15
-– Magic Resistance: +10%
-– THAC0: +2
-– Off-hand THAC0: +2
-– Урон: +2
-– Immunity to +1 magical weapons
-– 1 extra attack per round
+- класс защиты: +2;
+- пункты здоровья: +15;
+- сопротивление магии: +10%;
+- THAC0: +2
+- THAC0 не основной руки: +2;
+- урон: +2;
+- иммунитет к магическому оружию +1;
+- 1 дополнительная атака в раунд.
 
 Вес: 1~
-@103  = ~Mourner's Armor~
-@104  = ~This unique suit of armor is of foreign design, created for a Kara-Turian samurai from the Baika Clan. The armor, crafted from thin, stiff leather, is dyed black, but features the insignia of the plum blossom, the mon of the Baika Clan. It was only worn into battle once, when Baika Himuro fought a hopeless battle against the enemy samurai that flooded into his ancestral estate. It is believed that the enemy clan captured the armor and later traded it for siege equipment.
+@103  = ~Доспехи скорбящего~
+@104  = ~Этот уникальный доспех заграничного дизайна был сделан для самурая Кара-Тура из клана Байка. Доспехи изготовлены из тонкой жесткой кожи, окрашены в чёрный цвет и украшены изображением цветка сливы - символом клана Байка. Они использовались в бою только один раз, когда Байка Химуро сражался с вражескими самураями, наводнившими его родовое поместье. Считается, что вражеский клан захватил доспехи падшего самурая и позже обменял их на осадное вооружение.
 
 ПАРАМЕТРЫ:
 
 Свойства экипировки:
-– Ловкость: -1
-– Hit Points: +15
-– Fire Resistance: +25%
-– Cold Resistance: +25%
-– Missile Resistance: +75%
-– Immunity to backstab
-– Immunity to normal weapons
-– Regenerate 1 Hit Point per round
-– May only be removed with a Remove Curse spell
+- Ловкость: -1;
+- пункты здоровья: +15;
+- сопротивление огню: +25%
+- сопротивление холоду: +25%
+- сопротивление магии: +75%
+- иммунитет к ударам в спину;
+- иммунитет к обычному оружию;
+- регенерирует 1 пункта здоровья в раунд;
+- May only be removed with a Remove Curse spell
 
 Класс защиты: 0
 	
@@ -607,8 +607,8 @@ THAC0: +3
 
 Свойства экипировки:
 – Класс защиты: +2
-– Magice Resistance: +10%
-– 1 extra attack per round
+– сопротивление магии: +10%
+- 1 дополнительная атака в раунд.
 
 THAC0: +4 bonus
 Урон: 1d10+4 (рубящий)
