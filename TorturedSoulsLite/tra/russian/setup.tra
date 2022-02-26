@@ -595,13 +595,13 @@ THAC0: +3
 - иммунитет к ударам в спину;
 - иммунитет к обычному оружию;
 - регенерирует 1 пункта здоровья в раунд;
-- May only be removed with a Remove Curse spell
+- можно снять только при помощи заклинания "Снять проклятие".
 
 Класс защиты: 0
 	
 Вес: 20~
-@105  = ~Yoshimo's Katana +4~
-@106  = ~This blade, being heavily enchanted by Kara-Turian arcane masters, has achieved a semblance of awareness, enough so that it allows only Yoshimo to wield it. Any other than he cannot use this unique katana. It not only grants physical and magical protection to Yoshimo, but also allows him time for an additional attack.
+@105  = ~Катана Йошимо +4~
+@106  = ~Этот клинок, буду сильно зачарованным мастерами-заклинателями Кара-Тура, проявляет некоторое подобие сознания. Этого достаточно для распознавания своего владельца, так что только Йошимо может владеть им. Он не только обеспечивает физическую и магическую защиту, но и позволяет Йошимо сделать одну дополнительную атаку.
 
 ПАРАМЕТРЫ:
 
@@ -628,13 +628,13 @@ THAC0: +4 bonus
 @125  = ~Яростный Воин~
 @126  = ~Потусторонний голос~
 @127  = ~Хроматический Дракон~
-@128  = ~Векликий Водный Элементаль~
+@128  = ~Великий Элементаль Воды~
 @129  = ~Великий Зомби~
 @130  = ~Хитоми Наканиши~
 @131  = ~Хитоми~
 @132  = ~Охранник Хашимото~
-@133  = ~Ronin~
-@134  = ~Ronin Wakashu~
+@133  = ~Ронин~
+@134  = ~Ронин Вакашу~
 @135  = ~Качико~
 @136  = ~Король~
 @137  = ~Киотсу~
@@ -667,59 +667,59 @@ THAC0: +4 bonus
 @164  = ~Хсианг~
 @165  = ~Куку~
 
-@174  = ~Uhm, I have to go now...~ [KACHIMO]
-@175  = ~I will try to fill this role as well as I can.~ [KACHIMC]
-@176  = ~My aim shall be true!~ [KACHIBC1]
-@177  = ~Onward, to glorious battle!~ [KACHIBC2]
-@178  = ~Into the fray!~ [KACHIBC3]
-@179  = ~Time to test my metal!~ [KACHIBC4]
-@180  = ~Taking it to them!~ [KACHIBC5]
-@181  = ~Let me find some place to set camp.~ [KACHITI]
-@182  = ~Am I to stay here all day long?~ [KACHIBO]
-@185  = ~Help me... I am in peril!~ [KACHIWO]
-@190  = ~I am prepared... I hope.~ [KACHISE1]
+@174  = ~Эмм, мне пора идти...~ [KACHIMO]
+@175  = ~Я постараюсь соответствовать этой роли настолько хорошо, насколько смогу.~ [KACHIMC]
+@176  = ~Моя цель должна быть правильной!~ [KACHIBC1]
+@177  = ~Вперед, к славной битве!~ [KACHIBC2]
+@178  = ~В бой!~ [KACHIBC3]
+@179  = ~Время проверить мой металл!~ [KACHIBC4]
+@180  = ~Отнесу это им!~ [KACHIBC5]
+@181  = ~Позвольте мне найти место, чтобы разбить лагерь.~ [KACHITI]
+@182  = ~Я должна стоять тут целый день?~ [KACHIBO]
+@185  = ~Помогите мне... Я в опасности!~ [KACHIWO]
+@190  = ~Я готова... Я надеюсь.~ [KACHISE1]
 @191  = ~Да?~ [KACHISE2]
-@192  = ~Let me know what you want.~ [KACHISE3]
-@193  = ~I await your orders.~ [KACHISE4]
-@194  = ~Go ahead.~ [KACHISE5]
-@195  = ~Your command?~ [KACHIAC6]
-@196  = ~I'm on it.~ [KACHIAC1]
-@197  = ~Understood.~ [KACHIAC2]
-@198  = ~That sounds reasonable.~ [KACHIAC3]
+@192  = ~Дай мне знать, что ты хочешь от меня.~ [KACHISE3]
+@193  = ~Я жду твоих приказов.~ [KACHISE4]
+@194  = ~Продолжай.~ [KACHISE5]
+@195  = ~Твои команды?~ [KACHIAC6]
+@196  = ~Я готова.~ [KACHIAC1]
+@197  = ~Понятно.~ [KACHIAC2]
+@198  = ~Звучит разумно.~ [KACHIAC3]
 @199  = ~Да.~ [KACHIAC4]
-@200  = ~Agreed.~ [KACHIAC5]
-@201  = ~My duty is clear.~ [KACHIAC6]
-@202  = ~Acknowledged.~ [KACHIAC7]
-@203  = ~Yeah, yeah... Tell me what you want.~ [KACHIRA1]
-@204  = ~What exactly are you trying to accomplish?~ [KACHIRA2]
-@205  = ~No! You will not have died in vain!~ [KACHIRD]
+@200  = ~Согласна.~ [KACHIAC5]
+@201  = ~Мои обязанности ясны.~ [KACHIAC6]
+@202  = ~Принято.~ [KACHIAC7]
+@203  = ~Да, да... скажи мне, что ты хочешь.~ [KACHIRA1]
+@204  = ~Чего именно ты пытаешься достичь?~ [KACHIRA2]
+@205  = ~Нет! Ты не умрёшь напрасно!~ [KACHIRD]
 @211  = ~Темные глаза Качико загадочно мерцают, когда вы спрашиваете ее о прошлом. "Я - Качико из рода Наканиши," говорит она мягким голосом и затем рассказывает о своей далекой родине. Она говорит о храмах, крыши которых как склоны гор, о садах, разбитых посреди камней, о храбрых воинах, которые подчиняются строгому кодексу чести, о жемчужинах, выловленных с глубин моря, об Императорах и их миллионах подданных, пока вы не прерываете ее вопросом: "А что насчет тебя, Качико?" Она улыбается и отвечает: "Я - Качико из рода Наканиши. Я та, кого ты видишь перед собой. Посмотри мне в глаза и ты увидишь мое прошлое, настоящее и будущее."~
 
-@213  = ~Well, we're not out of the woods yet... Oh, wait, we are! *laughs*~ [KACHIMC]
-@214  = ~I'll make you sorry you attacked me... Right before you die!~ [KACHIBC]
-@215  = ~Don't you mess with me!~ [KACHIHA]
-@217  = ~It's time for some action!~ [KACHIAT]
-@218  = ~I won't survive any more wounds...~ [KACHIWO]
-@219  = ~I hate closed spaces.~ [KACHIDU]
+@213  = ~Похоже мы ещё не вышли из леса... О, постой, уже вышли! *смеётся*~ [KACHIMC]
+@214  = ~Я заставлю тебя пожалеть, что ты напал на меня... Прямо перед твоей смертью!~ [KACHIBC]
+@215  = ~Не шути со мной!~ [KACHIHA]
+@217  = ~Время действовать!~ [KACHIAT]
+@218  = ~Я не переживу ещё больше ранений...~ [KACHIWO]
+@219  = ~Ненавижу закрытые пространства.~ [KACHIDU]
 @220  = ~Какой свежий воздух.~ [KACHIOU]
-@221  = ~Oh, what a lovely day!~ [KACHIDA]
-@222  = ~Look at all the stars!~ [KACHINI]
-@223  = ~M-hm.~ [KACHISE1]
+@221  = ~О, что за прелестный день!~ [KACHIDA]
+@222  = ~Посмотри на все эти звезды!~ [KACHINI]
+@223  = ~М-хм.~ [KACHISE1]
 @224  = ~Что я могу сделать?~ [KACHISE2]
 @225  = ~Да?~ [KACHISE3]
-@226  = ~You wanted me?~ [KACHISE4]
-@227  = ~I'm here.~ [KACHISE5]
-@228  = ~That's an idea.~ [KACHIAC6]
-@229  = ~Sure.~ [KACHIAC1]
-@230  = ~Sounds good.~ [KACHIAC2]
-@231  = ~Okay.~ [KACHIAC3]
-@232  = ~I'd love to!~ [KACHIAC4]
-@233  = ~Oh, I got it!~ [KACHIAC5]
-@234  = ~Wow, good strike!~ [KACHICR]
-@235  = ~Couldn't hurt.~ [KACHIIM]
-@236  = ~I can't hurt it!~ [KACHIBA]
-@237  = ~Oops! I'm carrying too much.~ [KACHICA]
-@238  = ~Oh, fiddlesticks!~ [KACHIFA]
+@226  = ~Ты что-то хотел?~ [KACHISE4]
+@227  = ~Я здесь.~ [KACHISE5]
+@228  = ~Это идея.~ [KACHIAC6]
+@229  = ~Конечно.~ [KACHIAC1]
+@230  = ~Звучит неплохо.~ [KACHIAC2]
+@231  = ~Окей.~ [KACHIAC3]
+@232  = ~С радостью!~ [KACHIAC4]
+@233  = ~О, я поняла!~ [KACHIAC5]
+@234  = ~Вау, отличный удар!~ [KACHICR]
+@235  = ~Не наношу вреда.~ [KACHIIM]
+@236  = ~Я не могу это повредить!~ [KACHIBA]
+@237  = ~Упс! Я несу слишком много.~ [KACHICA]
+@238  = ~О, глупости!~ [KACHIFA]
 @239  = ~Kachiko Legacy Voiceover~
 @240  = ~Качико, держись! Я помогу тебе!~
 @241  = ~Качико! Неееееет!!!~
@@ -729,8 +729,8 @@ THAC0: +4 bonus
 @245  = ~Двери в подземное укрытие Наканиши запечатаны. Невидимая стена не позволяет вам войти на их территорию. Все Наканиши настроены враждебно.~
 @246  = ~Вы не можете вернуться обратно в пещеры. Двери в подземное укрытие запечатаны навеки.~
 @247  = ~Йошимо! Неееееет!!!~
-@248  = ~I'll find this bastard Yoshimo! I promise I'll find him!~
-@249  = ~Bring me Yoshimo!~
+@248  = ~Я найду этого ублюдка Йошимо! Клянусь, я найду его!~
+@249  = ~Приведи ко мне Йошимо!~
 
 @251  = ~Имейте в виду, эти могущественные катаны нельзя выносить с бойцовой арены. Их мощь, без сомнения, уничтожит вас.~
 @252  = ~Вы понятия не имеете, каким образом можно спуститься в эту яму. Возможно, какая-нибудь веревка могла бы помочь.~
@@ -741,16 +741,16 @@ THAC0: +4 bonus
 
 //Alternatives
 
-@300  = ~CHAPTER FOUR
+@300  = ~ЧЕТВЕРТАЯ ГЛАВА
 
-    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Brinnlaw.
-    
-    Aster and Sime have proven trustworthy. The journey is uneventful, and if there were other ships on the same course they must have kept a discreet distance. You make good time, and soon there is a sizable island on the horizon. It might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side.~ [vptheme2]
-@301  = ~CHAPTER FOUR
+  После нескольких часов спокойного плавания вы увидели сияющий круг на горизонте. Это портал! Саймон замедлил "Галанту". Ваш наемный капитан немного нервничал, когда судно входило во временной портал. "Аткатла" быстро произнес он... и знакомый причал появился перед вами... Но вы не стали задерживаться в порту, а сразу же направились прямиком в Бринлоу.
 
-    After few hours of uninterrupted sail you see a shiny circlet on the horizon. It is the portal! Saemon slows "Gallante" down. Your seasoned captain looks nervous as the ship enters the time gate. "Athkatla" says he steadily... and the familiar harbor appears in view... You do not stop in the port however, but lay your course straight for Maztica... or so you thought.
-    
-    Malficus was following the orders of Bodhi, a powerful vampire, and you were found at the shore of Brynnlaw, betrayed. Like it or not, you are here now, and the only way to get back is to go forward. The island might have been considered a pleasant place, but a grim shadow extends the length of it. The asylum, Spellhold, looms from a cliff side, and both Irenicus and Imoen are here.~ [vptheme2]
+  Астер и Сайм показали, что им можно доверять. Путешествие прошло спокойно, если и появлялись корабли, идущие с вами одним курсом, то они держались от вас подальше. Вы хорошо провели время, и вскоре очертания острова появились на горизонте. Может, это было и приятное место, но мрачная тень покрывала его склоны. Лечебница, Спеллхолд, возвышалась на вершине утеса.~ [vptheme2]
+@301  = ~ЧЕТВЕРТАЯ ГЛАВА
+
+  После нескольких часов спокойного плавания вы увидели сияющий круг на горизонте. Это портал! Саймон замедлил "Галанту". Ваш наемный капитан немного нервничал, когда судно входило во временной портал. "Аткатла" быстро произнес он... и знакомый причал появился перед вами... Но вы не стали задерживаться в порту, а сразу же направились прямиком в Бринлоу.
+
+  Малфикус, выполняя приказы Бодхи, могущественного вампира, предал вас - вы были найдены на берегу Бринлоу. Нравится вам это или нет, но вы сейчас здесь, и единственный способ вернуться - это идти вперед. Может, этот остров был бы и приятным местом, но мрачная тень покрывала его склоны. Лечебница, Спеллхолд, возвышалась на вершине утеса, и оба: и Имоен и Айреникус были там внутри.~ [vptheme2]
 
 ////New version
 
