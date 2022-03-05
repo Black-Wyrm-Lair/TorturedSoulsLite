@@ -13,7 +13,7 @@ IF ~InParty("vpkachi") InMyArea("vpkachi") StateCheck("vpkachi",CD_STATE_NOTVALI
 END
 
 CHAIN PPSAEM TSL_Aster_1
-@12 
+@12
 = #43921 /* ~Hold fast, the journey begins.~ */
 EXTERN VPKACHIJ sailoff1_alt
 

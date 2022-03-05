@@ -1,22 +1,6 @@
-@0    = ~And here is your ship, as promised. Your gold purchased your passage, as well as the silence of the crew.~ [B!AST_25]
-@1    = ~Though a silence more symbolic than anything, as you may well find my men a boisterous lot at all hours. I encourage general revelry.~ [PPSAEM07]
-@2    = ~I have no interest in the personal habits of your crew, Captain, so long as my people reach their destination safely and speedily.~ [B!AST_26]
-@3    = ~Never a fear nor worry should cross your thoughts this eve, m'Lord. I have traveled this sea a good many times, and I foresee no troubles.~ [PPSAEM08]
-@4    = ~"M'Lord"? Oh, never mind. The "sir" always confuses people. <CHARNAME>, this is Captain Saemon Havarian. He and his ship will... Mr. Havarian, what is your ship called?~ [b!ast_18]
-@5    = ~Ahh, the name changes as do the winds, mainly as I never seem to affix the plate with the proper resin. She is the Galante for now, until whim takes me elsewhere.~
-@6    = ~As for the voyage, heed my words, <CHARNAME>, as there are dangers to the sea you may not be aware of.~
-@7    = ~Are you entrusting my safety to this foppish oaf? I do not trust his smile.~
-@8    = ~Do not anger the captain, <CHARNAME>, unless you feel like swimming to Spellhold.  No other ship would dare the crossing.~
-@9    = ~A sudden squall or hidden reef could prove deadly to the unwary, though we are more likely to encounter pirates of ill repute.~
-@10   = ~That is why my associates and I have included some protection for this voyage.~
-@11   = ~You may consider yourself consulted. We deemed it advisable to supply you with another crew member... for your own protection, of course.~
+
 @12   = ~Then we are fully staffed and ready to sail. Best that we get underway as soon as possible. Once you're all aboard, we shall away.~
-@13   = ~And here is your ship, as promised. Your gold purchased your passage, as well as the silence of the crew.~ [b!mal_09]
-@14   = ~I have no interest in the personal habits of your crew, Captain, so long as my people reach their destination safely and speedily.~ [B!MAL_08]
-@15   = ~<CHARNAME>, this is Captain Saemon Havarian. He and his ship will... Mr. Havarian, I seem to recall that your ship was called the Pearl.~
-@16   = ~Please, <CHARNAME>, let's not antagonize the good captain.  Not many captains are willing to make the long voyage to Maztica.~
-@17   = ~As clear as clear could be, m'lord, though I am not sure I approve of your tone. I assure you, nothing untoward will happen during our crossing.~
-@18   = ~Sime shall also advise you, <CHARNAME>. She is acquainted with a few of the inhabitants.~
+
 @19   = ~Wait a minute! The ship is ours to take anywhere, am I right? <CHARNAME>, can we go to Kara-Tur now?~
 @20   = ~Saemon, I have little knowledge of the sea travel. Can you tell me how long will it take us to get to Kara-Tur by sea?~
 @21   = ~Good luck to you, <CHARNAME>. Farewell.~

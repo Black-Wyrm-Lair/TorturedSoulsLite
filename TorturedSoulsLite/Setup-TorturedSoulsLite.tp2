@@ -108,6 +108,7 @@ COMPILE ~TorturedSoulsLite/dlg/vpppireni.d~
 ~TorturedSoulsLite/dlg/vpnpcrem.d~
 
 COMPILE EVAL ~TorturedSoulsLite/dlg/vpyoshimo.d~
+COMPILE EVAL ~TorturedSoulsLite/dlg/vpkachip.d~
 
 //Scripts
 COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
@@ -188,11 +189,14 @@ COMPILE ~TorturedSoulsLite/scripts/TSCutK01.baf~
 ~TorturedSoulsLite/scripts/vpseexit.baf~
 ~TorturedSoulsLite/scripts/vpsepass.baf~
 ~TorturedSoulsLite/scripts/vptalk01.baf~
+~TorturedSoulsLite/scripts/vpthend.baf~
+~TorturedSoulsLite/scripts/vpthends.baf~
 ~TorturedSoulsLite/scripts/vptrapai.baf~
 ~TorturedSoulsLite/scripts/vptrapea.baf~
 ~TorturedSoulsLite/scripts/vptrapfi.baf~
 ~TorturedSoulsLite/scripts/vptrapwa.baf~
 ~TorturedSoulsLite/scripts/vpundken.baf~
+~TorturedSoulsLite/scripts/vpvaend.baf~
 ~TorturedSoulsLite/scripts/vpyoshex.baf~
 
 COMPILE EVAL ~TorturedSoulsLite/scripts/vpkachi.baf~
