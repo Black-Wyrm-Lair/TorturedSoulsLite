@@ -2,7 +2,7 @@ BEGIN VPKACHJ2
 
 CHAIN IF ~Global("VP_Yoshimo_Dies","GLOBAL",2)
 See(Player1)
-!StateCheck(Player1,STATE_SLEEPING)~ THEN VPKACHJ2 0
+!StateCheck(Player1,CD_STATE_NOTVALID)~ THEN VPKACHJ2 0
 @0 DO ~LeaveParty()
 EscapeArea()~ 
 EXIT

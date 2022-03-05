@@ -46,7 +46,7 @@ Enemy()~ EXIT
 CHAIN IF ~OR(2)
 Global("Kachiko_Saved","GLOBAL",3)
 Global("TT_Evil_Path","GLOBAL",2)~ THEN VPAINO 11
-@25 DO ~GiveItem("vpwartti",Player1)~
+@25 DO ~GiveItem("vpwardti",Player1)~
 == YOSHJ @26
 == VPAINO @27 DO ~SetGlobal("End_Island","GLOBAL",1)~
 == YOSHJ @28
@@ -56,4 +56,5 @@ END
 CHAIN YOSHJ TS204
 @30 DO ~SetGlobal("TT_Evil_Path","GLOBAL",3)
 ChangeAlignment(Myself,CHAOTIC_EVIL)
-StartCutScene("TTcutFi2")~ EXIT
+StartCutScene("TTcutFi2")~
+EXIT

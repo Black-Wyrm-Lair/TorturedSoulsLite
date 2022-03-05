@@ -185,8 +185,8 @@ EXIT
 
 //Imoen Return Dialogue
 
-INTERJECT IMOEN2 21 THEN VPKACHIJ N32
-== VPKACHIJ IF ~Global("VP_YoshimoExcuse","GLOBAL",1)~ @29 
+INTERJECT IMOEN2 21 TSL_Imoen_Join1
+== VPKACHIJ IF ~Global("VP_YoshimoExcuse","GLOBAL",1)~ THEN @29 
 END
   IF ~~ THEN REPLY @30 EXTERN VPKACHIJ N33
   IF ~~ THEN REPLY @31 EXTERN VPKACHIJ N34
@@ -207,7 +207,7 @@ CHAIN VPKACHIJ N35
 @38 DO ~SetGlobal("VP_YoshimoExcuse","GLOBAL",2)~
 == IMOEN2 @39
 END
-COPY_TRANS IMOEN 21
+COPY_TRANS IMOEN2 21
 
 CHAIN YOSHJ TS218
 @40 DO ~SetGlobal("Kicked_Out","LOCALS",1)~
@@ -217,7 +217,7 @@ ActionOverride("Yoshimo",EscapeArea())
 ActionOverride("vpkachi",LeaveParty())
 ActionOverride("vpkachi",EscapeArea())~
 END
-COPY_TRANS IMOEN 21
+COPY_TRANS IMOEN2 21
 
 // Tree of Life
 

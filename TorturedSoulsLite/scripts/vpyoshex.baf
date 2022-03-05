@@ -6,7 +6,7 @@ IF
 	!Dead("Yoshimo")
 	InParty("vpkachi")
 	!Dead("vpkachi")
-	!StateCheck(Player1,STATE_SLEEPING)
+	!StateCheck(Player1,CD_STATE_NOTVALID)
 THEN
 	RESPONSE #100
 		SetGlobal("VP_YoshimoExcuse","GLOBAL",1)

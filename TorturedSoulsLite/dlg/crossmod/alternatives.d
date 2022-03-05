@@ -2,75 +2,20 @@
 
 /* Aster, Saemon, and Sime */ 
 
-CHAIN 
-IF WEIGHT #-1 ~InParty("vpkachi")~ THEN ~B!ASTER2~ a6.0TS
-@0  
-DO ~SetGlobal("B!Alternatives","GLOBAL",10)~ 
-== PPSAEM @1  
-== ~B!ASTER2~ @2  
-== PPSAEM @3  
-== ~B!ASTER2~ @4  
-== PPSAEM @5 
-= @6 
+EXTEND_BOTTOM ~B!ASTER2~ %TSL_Aster_Interject%
+IF ~InParty("vpkachi") InMyArea("vpkachi") StateCheck("vpkachi",CD_STATE_NOTVALID)~ THEN EXTERN PPSAEM TSL_Aster_1
 END
-  IF ~~ THEN REPLY #43905 /* ~I am all ears, captain. Yours is the voice of experience and I will listen.~ */ EXTERN PPSAEM a6.2TS
-  IF ~~ THEN REPLY #43906 /* ~Speak if you must but keep it brief! We should sat sail as soon as possible!~ */ EXTERN ~B!ASTER2~ a6.1TS
-  IF ~~ THEN REPLY @7 EXTERN ~B!ASTER2~ a6.1TS
-
-CHAIN ~B!ASTER2~ a6.1TS
-@8 
-EXTERN ~PPSAEM~ a6.2TS
-
-CHAIN PPSAEM a6.2TS
-@9
-== ~B!ASTER2~ @10
-== PPSAEM #43913 /* ~Protection? I was not aware of any such plans. The captain should be consulted on all such matters.~ */
-== ~B!ASTER2~ @11 
-== ~B!ASTER2~ #43915 /* ~This is Sime, and she will be staying very close to you, Saemon Havarian. For your safety, of course.~ */
-== PPSAEM #43916 /* ~Of course.~ */
-== PPSIME #43917 /* ~I shall make certain that, should we be surprised at sea, death will not come from a surprise source. Do I make myself clear?~ */
-== PPSAEM #43918 /* ~As clear as clear could be, m'lady, though I am not sure I approve of your tone. I assure you, nothing untoward will happen during our crossing.~ */
-== ~B!ASTER2~ #43919 /* ~Sime shall also advise you, <CHARNAME>. She is acquainted with a few of the inhabitants of the island.~ */
-== PPSAEM @12 
-= #43921 /* ~Hold fast, the journey begins.~ */
-END
-IF ~~ THEN EXTERN VPKACHIJ sailoff1_alt
 
 /* Malficus, Saemon, and Sime */ 
 
-CHAIN
-IF WEIGHT #-1 ~InParty("vpkachi") GlobalLT("B!Tourist","GLOBAL",10)~ THEN ~B!MAL2~ M0.0TS
-@13
-DO ~SetGlobal("B!Tourist","GLOBAL",10)~
-== PPSAEM @1
-== ~B!MAL2~ @14
-== PPSAEM @3
-== ~B!MAL2~ @15
-== PPSAEM @5
-= @6
+EXTEND_BOTTOM ~B!MAL2~ %TSL_Mal_Interject%
+IF ~InParty("vpkachi") InMyArea("vpkachi") StateCheck("vpkachi",CD_STATE_NOTVALID)~ THEN EXTERN PPSAEM TSL_Aster_1
 END
-IF ~~ THEN REPLY #43905 /* ~I am all ears, captain. Yours is the voice of experience and I will listen.~ */ EXTERN PPSAEM m0.2TS
-IF ~~ THEN REPLY #43906 /* ~Speak if you must but keep it brief! We should sat sail as soon as possible!~ */ EXTERN ~B!MAL2~ m0.1TS
-IF ~~ THEN REPLY @7 EXTERN ~B!MAL2~ m0.1TS
 
-CHAIN ~B!MAL2~ m0.1TS 
-@16 
-EXTERN ~PPSAEM~ m0.2TS 
-
-CHAIN PPSAEM m0.2TS
-@9
-== ~B!MAL2~ @10
-== PPSAEM #43913 /* ~Protection? I was not aware of any such plans. The captain should be consulted on all such matters.~ */
-== ~B!MAL2~ @11 
-== ~B!MAL2~ #43915 /* ~This is Sime, and she will be staying very close to you, Saemon Havarian. For your safety, of course.~ */
-== PPSAEM #43916 /* ~Of course.~ */
-== PPSIME #43917 /* ~I shall make certain that, should we be surprised at sea, death will not come from a surprise source. Do I make myself clear?~ */
-== PPSAEM @17 
-== ~B!MAL2~ @18 
-== PPSAEM @12 
+CHAIN PPSAEM TSL_Aster_1
+@12 
 = #43921 /* ~Hold fast, the journey begins.~ */
-END
-IF ~~ THEN EXTERN VPKACHIJ sailoff1_alt
+EXTERN VPKACHIJ sailoff1_alt
 
 ////////////////
 //New lines

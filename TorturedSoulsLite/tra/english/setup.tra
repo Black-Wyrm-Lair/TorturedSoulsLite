@@ -54,13 +54,13 @@ Unfortunately, Redani was done in when she trusted the wrong man to kill her old
 
 STATISTICS:
 
-Combat Abilities:
+Combat abilities:
 – 10% of all hits cause the target to lose 4 points of luck and run in panic for 16 rounds
 
 THAC0: +4
 Damage: 2d6+5 (crushing)
 Speed Factor: 4
-Proficiency Type: Morningstar
+Proficiency Type: Flail/Morning Star
 Type: One-handed
 Requires:
  11 Strength
@@ -91,7 +91,7 @@ Equipped abilities:
 – Immunity to poison
 – Negative Plane Protection
 
-Combat Abilities:
+Combat abilities:
 – 10% chance of each hit to level drain the target (Save vs. Spell negates)
 
 THAC0 +4
@@ -111,10 +111,10 @@ STATISTICS:
 Combat abilities:
 – 1 extra attack per round
 
-THACO: +4
+THAC0: +4
 Damage: +3 (missile)
 Speed Factor: 4
-Proficiency Type: Bow
+Proficiency Type: Longbow
 Type: Two-handed
 Requires:
  12 Strength
@@ -126,7 +126,7 @@ Weight: 3~
 STATISTICS:
 
 Equipped abilities:
-– The wearer can memorize 2 extra 1st-level spells, 2 extra 2nd-level spells, and 1 extra 3rd-level spell
+– Can memorize 2 extra 1st-, 2 extra 2nd-, and 1 extra 3rd-level divine spell
 – Doubles movement rate
 
 Weight: 4~
@@ -142,7 +142,7 @@ Combat abilities:
 THAC0: +4
 Damage: +4 (missile)
 Speed Factor: 7
-Proficiency Type: Bow
+Proficiency Type: Longbow
 Type: Two-handed
 Requires:
  17 Strength
@@ -170,7 +170,7 @@ Equipped abilities:
 THAC0: +3
 Damage: 1d10+3, +1d10 electrical damage
 Damage Type: Slashing
-Speed: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -191,14 +191,14 @@ Equipped abilities:
 – Immunity to pertrification, polymorph, panic and disease
 – Immunity to crushing weapons and backstab
 
-Combat Abilities:
+Combat abilities:
 – 10% chance of each hit to petrify the target (Save vs. Petrify/Polymorph negates)
 – Earth elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
 Damage: 1d10+3, +1d10 crushing damage
 Damage Type: Slashing
-Speed: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -221,13 +221,13 @@ Equipped abilities:
 – Fire Resistance: 100%
 – Magic Fire Resistance: 100%
 
-Combat Abilities:
+Combat abilities:
 – Fire elementals must save vs. Spell or be utterly destroyed
 
 THAC0: +3
 Damage: 1d10+3, +1d10 fire damage
 Damage Type: Slashing
-Speed: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -251,13 +251,13 @@ Equipped abilities:
 – Cold Resistance: 100%
 – Magic Cold Resistance: 100%
 
-Combat Abilities:
+Combat abilities:
 – Vampiric creatures must save vs. Spell or be utterly destroyed
 
 THAC0: +3
 Damage: 1d10+3, +1d10 cold damage
 Damage Type: Slashing
-Speed: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -311,9 +311,9 @@ STATISTICS:
 Equipped Abilities:
 – Regenerate 1 Hit Point per round
 
-THACO: +4
+THAC0: +4
 Damage: 1d8+4 (slashing)
-Proficiency type: Wakizashi
+Proficiency type: Scimitar/Wakizashi/Ninja-To
 Speed Factor: 1
 Type: One-handed
 Requires:
@@ -429,7 +429,7 @@ Weight: 5~
 
 STATISTICS:
 
-THACO: +2
+THAC0: +2
 Damage: 2d4+2 (crushing)
 Speed Factor: 2
 Proficiency Type: Quarterstaff
@@ -541,7 +541,7 @@ Combat abilities:
 
 THAC0: +4
 Damage: 1d10+4 (slashing)
-Speed factor: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -566,7 +566,7 @@ Charge Abilities:
 
 THAC0: +3
 Damage: 1d10+3 (slashing)
-Speed factor: 1
+Speed Factor: 1
 Proficiency Type: Katana
 Type: One-handed
 Requires:
@@ -636,12 +636,12 @@ STATISTICS:
 
 Equipped Abilities:
 – Armor Class: +2
-– Magice Resistance: +10%
+– Magic Resistance: +10%
 
 Combat abilities:
 – 1 extra attack per round
 
-THAC0: +4 bonus
+THAC0: +4
 Damage: 1d10+4 (slashing)
 Speed Factor: 3
 Proficiency Type: Katana
@@ -751,7 +751,7 @@ Weight: 5~
 @236  = ~I can't hurt it!~ [KACHIBA]
 @237  = ~Oops! I'm carrying too much.~ [KACHICA]
 @238  = ~Oh, fiddlesticks!~ [KACHIFA]
-@239  = ~Kachiko Legacy Voiceover~
+//@239  = ~Kachiko Legacy Voiceover~
 @240  = ~Kachiko, don't give up, I will help you!~
 @241  = ~Kachiko! Nooooo!!!~
 @242  = ~This altar requires a key of some sort.~

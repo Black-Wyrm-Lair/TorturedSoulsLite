@@ -90,7 +90,7 @@ IF
   InParty(Myself)
   CombatCounter(0)
   See(Player1)
-  !StateCheck(Player1,STATE_SLEEPING)
+  !StateCheck(Player1,CD_STATE_NOTVALID)
   Global("VP_Kachiko_Dies","GLOBAL",2)
 THEN
   RESPONSE #100

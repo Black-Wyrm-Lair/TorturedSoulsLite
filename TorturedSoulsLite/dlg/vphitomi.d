@@ -12,44 +12,44 @@ CHAIN VPHITOMI 1
 == VPHITOMI @5
 == YOSHJ @6
 END
-IF ~InParty(Player2) See(Player2) !StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
-IF ~InParty(Player3) See(Player3) !StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
-IF ~InParty(Player4) See(Player4) !StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
-IF ~InParty(Player5) See(Player5) !StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
-IF ~See(Player1) !StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
-IF ~InParty(Player6) See(Player6) !StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
+IF ~InParty(Player2) See(Player2) !StateCheck(Player2,CD_STATE_NOTVALID)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
+IF ~InParty(Player3) See(Player3) !StateCheck(Player3,CD_STATE_NOTVALID)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
+IF ~InParty(Player4) See(Player4) !StateCheck(Player4,CD_STATE_NOTVALID)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
+IF ~InParty(Player5) See(Player5) !StateCheck(Player5,CD_STATE_NOTVALID)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
+IF ~See(Player1) !StateCheck(Player1,CD_STATE_NOTVALID)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
+IF ~InParty(Player6) See(Player6) !StateCheck(Player6,CD_STATE_NOTVALID)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
 
 CHAIN VPHITOMI 3
 @5
 == YOSHJ @6
 END
-IF ~InParty(Player2) See(Player2) !StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
-IF ~InParty(Player3) See(Player3) !StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
-IF ~InParty(Player4) See(Player4) !StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
-IF ~InParty(Player5) See(Player5) !StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
-IF ~See(Player1) !StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
-IF ~InParty(Player6) See(Player6) !StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
+IF ~InParty(Player2) See(Player2) !StateCheck(Player2,CD_STATE_NOTVALID)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
+IF ~InParty(Player3) See(Player3) !StateCheck(Player3,CD_STATE_NOTVALID)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
+IF ~InParty(Player4) See(Player4) !StateCheck(Player4,CD_STATE_NOTVALID)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
+IF ~InParty(Player5) See(Player5) !StateCheck(Player5,CD_STATE_NOTVALID)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
+IF ~See(Player1) !StateCheck(Player1,CD_STATE_NOTVALID)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
+IF ~InParty(Player6) See(Player6) !StateCheck(Player6,CD_STATE_NOTVALID)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
 
 CHAIN IF ~Global("Player_Against_Michio","GLOBAL",0) Global("Player_Against_Momoko","GLOBAL",3) Global("Nakanishi_Duel","GLOBAL",0)~ THEN VPHITOMI 4
 @13
 END
-IF ~!StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut11")~ EXIT
-IF ~InParty(Player2) !StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut12")~ EXIT
-IF ~InParty(Player3) !StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut13")~ EXIT
-IF ~InParty(Player4) !StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut14")~ EXIT
-IF ~InParty(Player5) !StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut15")~ EXIT
-IF ~InParty(Player6) !StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut16")~ EXIT
+IF ~!StateCheck(Player1,CD_STATE_NOTVALID)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut11")~ EXIT
+IF ~InParty(Player2) !StateCheck(Player2,CD_STATE_NOTVALID)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut12")~ EXIT
+IF ~InParty(Player3) !StateCheck(Player3,CD_STATE_NOTVALID)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut13")~ EXIT
+IF ~InParty(Player4) !StateCheck(Player4,CD_STATE_NOTVALID)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut14")~ EXIT
+IF ~InParty(Player5) !StateCheck(Player5,CD_STATE_NOTVALID)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut15")~ EXIT
+IF ~InParty(Player6) !StateCheck(Player6,CD_STATE_NOTVALID)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut16")~ EXIT
 IF ~~ THEN REPLY @14 EXIT
 
 CHAIN IF ~Global("Player_Against_Michio","GLOBAL",0) Global("Player_Against_Momoko","GLOBAL",2) Global("Nakanishi_Duel","GLOBAL",0)~ THEN VPHITOMI 5
 @15
 END
-IF ~InParty(Player2) See(Player2) !StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
-IF ~InParty(Player3) See(Player3) !StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
-IF ~InParty(Player4) See(Player4) !StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
-IF ~InParty(Player5) See(Player5) !StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
-IF ~See(Player1) !StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
-IF ~InParty(Player6) See(Player6) !StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
+IF ~InParty(Player2) See(Player2) !StateCheck(Player2,CD_STATE_NOTVALID)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut02")~ EXIT
+IF ~InParty(Player3) See(Player3) !StateCheck(Player3,CD_STATE_NOTVALID)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut03")~ EXIT
+IF ~InParty(Player4) See(Player4) !StateCheck(Player4,CD_STATE_NOTVALID)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut04")~ EXIT
+IF ~InParty(Player5) See(Player5) !StateCheck(Player5,CD_STATE_NOTVALID)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut05")~ EXIT
+IF ~See(Player1) !StateCheck(Player1,CD_STATE_NOTVALID)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut01")~ EXIT
+IF ~InParty(Player6) See(Player6) !StateCheck(Player6,CD_STATE_NOTVALID)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut06")~ EXIT
 IF ~~ THEN REPLY @16 EXTERN VPHITOMI 9
 IF ~~ THEN REPLY @14 EXIT
 
@@ -63,12 +63,12 @@ IF ~~ THEN REPLY @20 EXTERN VPHITOMI 13
 CHAIN IF ~Global("Player_Against_Michio","GLOBAL",2) Global("Player_Against_Momoko","GLOBAL",3) Global("Nakanishi_Duel","GLOBAL",0)~ THEN VPHITOMI 7
 @21
 END
-IF ~!StateCheck(Player1,STATE_SLEEPING)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut11")~ EXIT
-IF ~InParty(Player2) !StateCheck(Player2,STATE_SLEEPING)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut12")~ EXIT
-IF ~InParty(Player3) !StateCheck(Player3,STATE_SLEEPING)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut13")~ EXIT
-IF ~InParty(Player4) !StateCheck(Player4,STATE_SLEEPING)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut14")~ EXIT
-IF ~InParty(Player5) !StateCheck(Player5,STATE_SLEEPING)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut15")~ EXIT
-IF ~InParty(Player6) !StateCheck(Player6,STATE_SLEEPING)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut16")~ EXIT
+IF ~!StateCheck(Player1,CD_STATE_NOTVALID)~ THEN REPLY @11 DO ~StartCutSceneMode() StartCutScene("TTcut11")~ EXIT
+IF ~InParty(Player2) !StateCheck(Player2,CD_STATE_NOTVALID)~ THEN REPLY @7 DO ~StartCutSceneMode() StartCutScene("TTcut12")~ EXIT
+IF ~InParty(Player3) !StateCheck(Player3,CD_STATE_NOTVALID)~ THEN REPLY @8 DO ~StartCutSceneMode() StartCutScene("TTcut13")~ EXIT
+IF ~InParty(Player4) !StateCheck(Player4,CD_STATE_NOTVALID)~ THEN REPLY @9 DO ~StartCutSceneMode() StartCutScene("TTcut14")~ EXIT
+IF ~InParty(Player5) !StateCheck(Player5,CD_STATE_NOTVALID)~ THEN REPLY @10 DO ~StartCutSceneMode() StartCutScene("TTcut15")~ EXIT
+IF ~InParty(Player6) !StateCheck(Player6,CD_STATE_NOTVALID)~ THEN REPLY @12 DO ~StartCutSceneMode() StartCutScene("TTcut16")~ EXIT
 IF ~~ THEN REPLY @22 EXIT
 IF ~~ THEN REPLY @16 EXTERN VPHITOMI 9
 
