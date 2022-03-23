@@ -5,6 +5,7 @@ IF
     CombatCounter(0)
 THEN
 	RESPONSE #100
+		SetGlobal("VP_CreateKachiko","GLOBAL",1)
 		CreateCreatureObjectOffScreen("vpkachi",Player1,0,0,0)
 		ActionOverride("vpkachi",Dialog([PC]))
 END
